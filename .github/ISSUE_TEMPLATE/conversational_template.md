@@ -1,31 +1,31 @@
-##----------------------- Conversasional Template ----------------------
+## ----------------------- Conversasional Template ----------------------
 
-* **I'm sending a ...**
+* **Estou enviando um ...**
   - [ ] Bug
-  - [ ] Request for new functionality
-  - [ ] Needing support
+  - [ ] Requisição de nova funcionalidade
+  - [ ] Necessitando suporte
 
 
-* **Do you want to request a * feature * or report a * bug *?**
-
-
-
-* **What is the current behavior?**
+* **Você quer requisitar uma *feature* ou reportar um *bug*?**
 
 
 
-* **What is the expected behavior?**
+* **Qual o comportamento atual?**
 
 
 
-* **What is the case of motivation / use to change behavior?**
+* **Qual o comportamento esperado?**
 
 
 
-* **Please tell us about your environment:**
+* **Qual é o caso de motivação / uso para mudar o comportamento?**
+
+
+
+* **Por favor, conte-nos sobre o seu ambiente:**
 
     Python: x.w.z </br>
-    Version: y x.y.z </br>
-    Something important: Model W </br>
+    Versão: y x.y.z </br>
+    Alguma coisa importante: Modelo W </br>
 
-* **Other informations**
+* **Outras Informações**

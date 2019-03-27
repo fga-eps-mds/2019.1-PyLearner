@@ -1,20 +1,18 @@
-US X - Issue Title
+## Descrição - _<O que esta solicitação pull faz?>_
+Breve descrição de quais arquivos foram alterados e por que cada alteração.
+Esta seção pode ser escrita usando alterações de arquivo.
 
-## Description - _<What does this Pull Request do?>_
-Short description of what files were changed and why each change.
-This section can be written using file changes.
+[Referência para US/UC] (#)
 
-[Reference for US/UC](#)
+## Por que este pedido de Pull Request é necessário?
+Explique por que o PR é necessário, por exemplo:
+_fixar uma funcionalidade crucial_
 
-## Why is this Pull Request necessary?
-Explain why PR is needed, for example:
-_fix a crucial functionality_
-
-## Criteria
+## Critério
 
 Ex:
-- [x] Tests created.
-- [x] Tests passing.
-- [x] Build passing
+- [x] Testes criados.
+- [x] testes passando.
+- [x] build passando.
 
-Solve #Number_of_Issue.
+Resolva #Numero_da_Issue.
