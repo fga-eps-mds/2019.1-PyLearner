@@ -6,7 +6,7 @@ Esses serviços são construídos em torno de capacidades de negócios e funcion
 
 * Uma imagem bastante explicativa relacionando sistemas monoliticos com sistemas microserviços:
 
-![Imagem](!https://insights-images.thoughtworks.com/microservicos_nutshell_126263a3524c13ca2476c08a14af4943.jpg)
+![Imagem](https://insights-images.thoughtworks.com/microservicos_nutshell_126263a3524c13ca2476c08a14af4943.jpg)
 
 
 ### Imagem adaptada de um post do blog do [Martin Fowler](https://martinfowler.com/articles/microservices.html)
