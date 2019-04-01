@@ -1,7 +1,7 @@
-Please switch to **Preview** and select one of the following links:
+Por favor, mude para ** Preview ** e selecione um dos links a seguir:
 
-* [Conversational](?template=conversational_template.md)
-* [User Story](?template=user_story_template.md)
+* [Conversional](?template=conversational_template.md)
+* [Historia de Usuario](?template=user_story_template.md)
 
-Once switched to the correct template, you can save the link as a bookmark. Keep in mind that switching templates will remove all already entered data within this issue.
+Depois de mudar para o modelo correto, você pode salvar o link como um marcador. Lembre-se de que os modelos de mudança removerão todos os dados inseridos neste problema.
 

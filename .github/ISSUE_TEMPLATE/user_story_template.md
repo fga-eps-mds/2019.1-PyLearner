@@ -1,19 +1,20 @@
-##----------------------- User Story Template ----------------------
+## ----------------------- User Story Template ----------------------
 
-# US X - Issue Title
+# US X - Título da Issue
 ---
-### Description:
-A small and helpful description of the Issue.
+### Descrição:
+Pequena e útil descrção a respeito da Issue.
 
-### Acceptance Criteria
-Acceptance criteria for Issue to be accepted.
-- [ ] Testing going on.
-- [ ] No conflict
+### Critérios de Aceitação
+Critérios de aceitação para a Issue ser aceita.
+- [ ] Testes passando.
+- [ ] Alguma coisa
 - [ ] etc...
 
 
-### Tasks
-Section for more complex Issues tasks. Tasks should ensure the proper functioning of the Issue.
-- [ ] Login and password properly logging in
-- [ ] Login page contains: "I forgot my password!"
+### Tarefas
+Seção para tarefas de Issues mais complexas. As tarefas devem garantir o perfeito funcionamento da Issue.
+- [ ] Login redirecionando para a última página
+- [ ] Desenvolvedores tomando café constantemente
+- [ ] Página de login contém: "Esqueci minha senha!"
 - [ ] etc...
