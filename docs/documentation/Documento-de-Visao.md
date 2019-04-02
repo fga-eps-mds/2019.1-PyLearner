@@ -112,6 +112,7 @@ O Pylearner consiste em uma integração ao Jupyter Notebook, cujo acesso depend
 ## **4. Visão Geral do Produto**
 
 ### 4.1 Perspectiva do Produto
+O ChatBot tem como objetivo tornar o aprendizado de Machine Learning mais fácil,podendo tanto tirar dúvidas quanto orientar a direção em que se deve seguir no assunto.O PyLearner é recomendado para pessoas em diversos estágios de conhecimento de Machine Learning,desde quem nao sabe absolutamente nada sobre até quem ja possui um conhecimento intermediário
 
 ### 4.2 Resumo dos Recursos
 
