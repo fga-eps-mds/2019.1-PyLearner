@@ -12,6 +12,7 @@
   - [Commits](/docs/policies/Commits.md)
   - [Style Guide](/docs/policies/Style-Guide.md)
   - [Git Workflow](/docs/policies/Git-Workflow.md)
+  - [Definição de done](/docs/policies/Definicao-Done.md)
 
 - **Sprint 0**
   - [Resultados Sprint 0](/docs/sprints/Sprint-0-review.md)
