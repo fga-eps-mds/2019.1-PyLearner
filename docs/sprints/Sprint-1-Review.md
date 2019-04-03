@@ -3,6 +3,7 @@
 |Date|Version|Update|Author|
 |:--:|:----:|:-------:|:---:|
 |29/03/2019|0.1|Sprint Review preparation|Thiago Ferreira|
+|02/03/2019|0.2|Changes to SM avaliation|Thiago Ferreira|
 
 # Fechamento da Sprint
 
@@ -28,11 +29,11 @@
 ___
 
 # Burndown
-<img src="./images/BurndownSprint1.png">
+<img src="../images/BurndownSprint1.png">
 # Velocity
-<img src="./images/velocitySprint1.png">
+<img src="../images/velocitySprint1.png">
 # Retrospectiva
-<img src="./images/reviewsprint1.png">
+<img src="../images/reviewsprint1.png">
 
 ## Presença Dailies Presenciais
 
@@ -52,3 +53,5 @@ O membro da equipe Alex Porto apresentou para terça-feira e quarta-feira um ate
 
 ## Avaliação do Scrum Master
 Tivemos uma sprint razoavelmente produtiva, entretanto a equipe acabou por não ser ágil, entregamos uma quantidade considerável de pontos mesmo assim. Na próxima sprint buscaremos atacar esse problema enfrentado com algumas táticas que serão implementadas e detalhadas durante a próxima sprint. Houve entretanto uma evolução considerável na comunicação e também outros tópicos por parte dos membros.
+
+Apesar da sprint produtiva, houve caso do PO Carlos Aragon que não entregou nenhuma issue/documento individual e que acaba por afetar o andamento do projeto em alguns casos. Para a próxima sprint, esse risco que já foi levantado na documentação de riscos, será acompanhado de perto e terá uma cobrança mais rígida em sentido da finalização das pendências e progressão das issues planejadas.
