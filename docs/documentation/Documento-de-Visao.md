@@ -15,6 +15,12 @@ title: Documento de Visão
 | 30/03/2019 | 0.4 | Ambiente do Usuário | Eugênio Sales |
 | 02/04/2019 | 0.5 | Posição | João Victor |
 | 02/04/2019 | 0.6 | Resumo dos Recursos  | Ernando |
+| 02/04/2019 | 0.7 | Recursos do Produto  | Eugênio Sales |
+| 02/04/2019 | 0.8 | Restrições  | Bruno |
+| 02/04/2019 | 0.9 | Perspectiva do Produto | Álex Porto |
+| 03/04/2019 | 0.9.1 | Revisão do tópico 2 | João Victor, Eugênio Sales | 
+
+
 
 
 ## **1. Introdução**
@@ -40,29 +46,30 @@ Este documento visa detalhar os processos de desenvolvimento, planejamento e a c
 
 ### 2.1 Oportunidade de Negócio
 
-Aprender Machine Learning pode ser bastante complicado, ainda mais se não tiver conhecimento algum do assunto. Além dos diversos tutoriais espalhados pela internet, não existe um local para tirar dúvidas rápidas ou mais expecíficas sobre ML.
+Aprender Machine Learning pode ser bastante complicado, ainda mais se não tiver conhecimento do assunto. Às vezes, para achar tutoriais ou tirar dúvidas, necessita-se acessar diversos sites ou fóruns diferentes e, em alguns casos esperar um longo tempo até se obter uma resposta.
 
 O PyLearner auxiliará novatos em Machine Learning ou até mesmo os que tenham alguma experiência, que desejam aprender ou tirar suas dúvidas a respeito de ML. Dessa forma concentrando a area de busca por informação a um único lugar, agilizando o aprendizado.
+
 
 ### 2.2 Descrição do Problema
 
 | | |
 | :---: | :---: |
-| **O problema de** | falta de um local expecífico para tirar dúvidas |
-| **Afeta** | programadores interessados em ML |
-| **Cujo impacto é** | perca do interesse |
-| **Uma boa solução seria** | unir turoriais e um FAQ num único lugar |
+| **O problema de** | Tempo de resposta de dúvidas em fóruns e necessitar de ajuda de outras pessoas |
+| **Afeta** | Programadores interessados em ML |
+| **Cujo impacto é** | Eficiência no aprendizado |
+| **Uma boa solução seria** | Solucionar dúvidas de maneira mais ágil |
 
 ### 2.3 Descrição de Posição do Produto
 
 | | |
 | :---: | :---: |
-| **Para** | programadores |
-| **Que** | buscam por informações sobre ML |
+| **Para** | Programadores |
+| **Que** | Desejam retirar dúvidas sobre ML |
 | **O PyLearner** | é um ChatBot |
 | **Que** | visa agilizar o aprendizado |
-| **Diferente de** | tutoriais e foruns |
-| **Nosso produto** | concentra tudo em uma única aplicação |
+| **Diferente de** | tutoriais e fóruns |
+| **Nosso produto** | Ensina e retira dúvidas de uma forma mais dinâmica |
 
 ## **3. Descrição das Partes Interessadas**
 
@@ -70,7 +77,7 @@ O PyLearner auxiliará novatos em Machine Learning ou até mesmo os que tenham a
 	 	 	
 Usuários: O público-alvo é constituído por pessoas que possuem um certo grau de conhecimento em programação e visam aprender ou aperfeiçoar suas técnicas em Machine Learning.
 
-Equipe de Desenvolvimento: Composta por discentes de Engenharia de Software da Universidade de Brasília - Campus Gama, integrada por alunos das disciplinas de Engenharia de Produto de Software e Método de Desenvolvimento de Software.
+Equipe: Composta por discentes de Engenharia de Software da Universidade de Brasília - Campus Gama, integrada por alunos das disciplinas de Engenharia de Produto de Software e Métodos de Desenvolvimento de Software.
 
 ### 3.2 Resumo do Usuário
 
@@ -122,6 +129,17 @@ O ChatBot tem como objetivo tornar o aprendizado de Machine Learning mais fácil
 | Fornece orientação em tempo real | O <i>ChatBot</i> é capaz de interagir com o usuário de acordo com a necessidade do próprio, podendo servir como fonte de dúvidas a respeito do exercício, podendo tanto guiar como dar dicas. |
 
 ## **5. Recursos do Produto**
+O Pylearner tem como recursos um tutorial interativo, o qual o usuário pode retirar suas dúvidas com o Bot durante o processo. Promovendo assim, um aprendizado dinâmico e um suporte em tempo real. Dentre outras especificações:
+
+* O usuário não necesita de Login para acesso
+* Chat para solução de dúvidas
+* Interface com o Jupyter Notebook
+* Templates de respostas
 
 ## **6. Restrições**
+
+* PyLearnner é uma aplicação WEB direcionada a aprendizagem e consolidação de conhecimentos em Machine Learning;
+* O produto deve estar acessível até Julho de 2019;
+* É necessário utilizar a ferramenta Jupyter Notebook para desenvolvimento do produto;
+* Torna-se indispensável o conhecimento prévio em programação.
 
