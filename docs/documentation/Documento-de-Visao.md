@@ -15,6 +15,8 @@ title: Documento de Visão
 | 30/03/2019 | 0.4 | Ambiente do Usuário | Eugênio Sales |
 | 02/04/2019 | 0.5 | Posição | João Victor |
 | 02/04/2019 | 0.6 | Resumo dos Recursos  | Ernando |
+| 02/04/2019 | 0.7 | Recursos do Produto  | Eugênio Sales |
+
 
 
 ## **1. Introdução**
@@ -122,6 +124,12 @@ O ChatBot tem como objetivo tornar o aprendizado de Machine Learning mais fácil
 | Fornece orientação em tempo real | O <i>ChatBot</i> é capaz de interagir com o usuário de acordo com a necessidade do próprio, podendo servir como fonte de dúvidas a respeito do exercício, podendo tanto guiar como dar dicas. |
 
 ## **5. Recursos do Produto**
+O Pylearner tem como recursos um tutorial interativo, o qual o usuário pode retirar suas dúvidas com o Bot durante o processo. Promovendo assim, um aprendizado dinâmico e um suporte em tempo real. Dentre outras especificações:
+
+* O usuário não necesita de Login para acesso
+* Chat para solução de dúvidas
+* Interface com o Jupyter Notebook
+* Templates de respostas
 
 ## **6. Restrições**
 
