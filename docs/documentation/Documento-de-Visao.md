@@ -17,6 +17,8 @@ title: Documento de Visão
 | 02/04/2019 | 0.6 | Resumo dos Recursos  | Ernando |
 | 02/04/2019 | 0.7 | Recursos do Produto  | Eugênio Sales |
 | 02/04/2019 | 0.8 | Restrições  | Bruno |
+| 02/04/2019 | 0.9 | Perspectiva do Produto | Álex Porto |
+
 
 
 
