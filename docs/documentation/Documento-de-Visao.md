@@ -14,7 +14,7 @@ title: Documento de Visão
 | 29/03/2019 | 0.3 | Finalidade e Visão Geral | Ernando |
 | 30/03/2019 | 0.4 | Ambiente do Usuário | Eugênio Sales |
 | 02/04/2019 | 0.5 | Posição | João Victor |
-| 02/04/2019 | 0.6 | Resumo dos Recursos e  | Ernando |
+| 02/04/2019 | 0.6 | Resumo dos Recursos  | Ernando |
 
 
 ## **1. Introdução**
