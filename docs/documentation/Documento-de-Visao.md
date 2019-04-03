@@ -11,9 +11,10 @@ title: Documento de Visão
 | :------: | :--------: | :-------------: | :-------: |
 | 29/03/2019 | 0.1 | Perfis dos Envolvidos | João Victor |
 | 29/03/2019 | 0.2 | Resumo da parte interessada | Bruno |
-| 29/03/2019 | 0.3 | Finalidade e Versão Geral | Ernando |
+| 29/03/2019 | 0.3 | Finalidade e Visão Geral | Ernando |
 | 30/03/2019 | 0.4 | Ambiente do Usuário | Eugênio Sales |
 | 02/04/2019 | 0.5 | Posição | João Victor |
+| 02/04/2019 | 0.6 | Resumo dos Recursos e  | Ernando |
 
 
 ## **1. Introdução**
@@ -115,6 +116,10 @@ O Pylearner consiste em uma integração ao Jupyter Notebook, cujo acesso depend
 O ChatBot tem como objetivo tornar o aprendizado de Machine Learning mais fácil,podendo tanto tirar dúvidas quanto orientar a direção em que se deve seguir no assunto.O PyLearner é recomendado para pessoas em diversos estágios de conhecimento de Machine Learning,desde quem nao sabe absolutamente nada sobre até quem ja possui um conhecimento intermediário
 
 ### 4.2 Resumo dos Recursos
+| **Benefício para o Cliente** | **Recursos de suporte** |
+|:---:|:---:|
+| Aprendizado de Machine Learning | O PyLearner oferece apoio desde o básico, para quem é iniciante em Machine Learning na linguagem Python, quanto para quem já possui conhecimento avançado. |
+| Fornece orientação em tempo real | O <i>ChatBot</i> é capaz de interagir com o usuário de acordo com a necessidade do próprio, podendo servir como fonte de dúvidas a respeito do exercício, podendo tanto guiar como dar dicas. |
 
 ## **5. Recursos do Produto**
 
