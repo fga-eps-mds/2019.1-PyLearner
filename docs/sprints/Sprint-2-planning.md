@@ -3,6 +3,7 @@
 |Date|Version|Update|Author|
 |:--:|:----:|:-------:|:---:|
 |29/03/2019|0.1|Sprint Planning|Thiago Ferreira|
+|02/03/2019|0.2|Adding linkage to team member profiles|Thiago Ferreira|
 
 # Duração da Sprint
 
@@ -24,8 +25,16 @@ Essa sprint será focada nas definições de papéis e entendimento dos estrutur
 |Levantar questões para o questionário do produto|1|
 |Aplicar o questionário do produto para o público|2|
 |Processar informações obtidas através da aplicação do questionário|2|
-|Iniciar documento de Arquitetura FAZER BREAKDOWN|5|
-|Finalizar Documento de Visão FAZER BREAKDOWN|3|
+|Documento de Arquitetura|0|
+|Documento de Arquitetura tópico 1: Introdução|1|
+|Documento de Arquitetura tópico 2: Representação da Arquitetura|1|
+|Documento de Arquitetura tópico 3: Metas e Restrições de Arquitetura|1|
+|Documento de Arquitetura tópico 4: Visão Lógica|1|
+|Finalizar Documento de Visão|0|
+|Finalizar Documento de Visão tópico 2: Posição |1|
+|Documento de Visão tópico 4: Visão Geral do Produto |1|
+|Documento de Visão tópico 5: Recursos do Produto|1|
+|Documento de Visão tópico 6: Restrições|1|
 |Criar documento de definição de done|2|
 |Protótipo de Baixa Fidelidade|3|
 |Documento de Metodologia|3|

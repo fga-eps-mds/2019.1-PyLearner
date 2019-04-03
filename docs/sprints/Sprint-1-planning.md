@@ -29,13 +29,15 @@ Essa sprint será focada na continuação do preparo da equipe de desenvolviment
 ___
 
 ## Equipe
-**Arquiteto:** Davi Alves <br>   
-**DevOps:** Gabriel Ziegler <br>
-**Product Owner:** Carlos Aragon <br>
-**Tech Leader:** Thiago Ferreira  <br>
+**Equipe de Gerência:**
+* **Arquiteto:** [Davi Alves](https://github.com/davialvb)  
+* **DevOps:** [Gabriel Ziegler](https://github.com/gabrielziegler3) <br>
+* **Product Owner:** [Carlos Aragon](https://github.com/carlosaragon) <br>
+* **Tech Leader:** [Thiago Ferreira](https://github.com/thiagoiferreira)
+
 **Equipe de Desenvolvimento:** 
-- Alex Porto
-- Bruno Duarte
-- Ernando Braga
-- Eugenio Sales
-- João Victor
+- [Alex Porto](https://github.com/alexportof)
+- [Bruno Duarte](https://github.com/Mexazonic)
+- [Ernando Braga](https://github.com/ZarathosDeath)
+- [Eugenio Sales](https://github.com/Eugeniosales)
+- [João Victor](https://github.com/joao15victor08)
