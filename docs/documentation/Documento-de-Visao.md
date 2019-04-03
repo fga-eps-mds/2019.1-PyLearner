@@ -16,6 +16,7 @@ title: Documento de Visão
 | 02/04/2019 | 0.5 | Posição | João Victor |
 | 02/04/2019 | 0.6 | Resumo dos Recursos  | Ernando |
 | 02/04/2019 | 0.7 | Recursos do Produto  | Eugênio Sales |
+| 02/04/2019 | 0.8 | Restrições  | Bruno |
 
 
 
@@ -72,7 +73,7 @@ O PyLearner auxiliará novatos em Machine Learning ou até mesmo os que tenham a
 	 	 	
 Usuários: O público-alvo é constituído por pessoas que possuem um certo grau de conhecimento em programação e visam aprender ou aperfeiçoar suas técnicas em Machine Learning.
 
-Equipe de Desenvolvimento: Composta por discentes de Engenharia de Software da Universidade de Brasília - Campus Gama, integrada por alunos das disciplinas de Engenharia de Produto de Software e Método de Desenvolvimento de Software.
+Equipe: Composta por discentes de Engenharia de Software da Universidade de Brasília - Campus Gama, integrada por alunos das disciplinas de Engenharia de Produto de Software e Métodos de Desenvolvimento de Software.
 
 ### 3.2 Resumo do Usuário
 
@@ -132,4 +133,9 @@ O Pylearner tem como recursos um tutorial interativo, o qual o usuário pode ret
 * Templates de respostas
 
 ## **6. Restrições**
+
+* PyLearnner é uma aplicação WEB direcionada a aprendizagem e consolidação de conhecimentos em Machine Learning;
+* O produto deve estar acessível até Julho de 2019;
+* É necessário utilizar a ferramenta Jupyter Notebook para desenvolvimento do produto;
+* Torna-se indispensável o conhecimento prévio em programação.
 
