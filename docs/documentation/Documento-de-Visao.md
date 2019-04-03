@@ -18,6 +18,7 @@ title: Documento de Visão
 | 02/04/2019 | 0.7 | Recursos do Produto  | Eugênio Sales |
 | 02/04/2019 | 0.8 | Restrições  | Bruno |
 | 02/04/2019 | 0.9 | Perspectiva do Produto | Álex Porto |
+| 03/04/2019 | 0.9.1 | Revisão do tópico 2 | João Victor, Eugênio Sales | 
 
 
 
@@ -45,29 +46,30 @@ Este documento visa detalhar os processos de desenvolvimento, planejamento e a c
 
 ### 2.1 Oportunidade de Negócio
 
-Aprender Machine Learning pode ser bastante complicado, ainda mais se não tiver conhecimento algum do assunto. Além dos diversos tutoriais espalhados pela internet, não existe um local para tirar dúvidas rápidas ou mais expecíficas sobre ML.
+Aprender Machine Learning pode ser bastante complicado, ainda mais se não tiver conhecimento do assunto. Às vezes, para achar tutoriais ou tirar dúvidas, necessita-se acessar diversos sites ou fóruns diferentes e, em alguns casos esperar um longo tempo até se obter uma resposta.
 
 O PyLearner auxiliará novatos em Machine Learning ou até mesmo os que tenham alguma experiência, que desejam aprender ou tirar suas dúvidas a respeito de ML. Dessa forma concentrando a area de busca por informação a um único lugar, agilizando o aprendizado.
+
 
 ### 2.2 Descrição do Problema
 
 | | |
 | :---: | :---: |
-| **O problema de** | falta de um local expecífico para tirar dúvidas |
-| **Afeta** | programadores interessados em ML |
-| **Cujo impacto é** | perca do interesse |
-| **Uma boa solução seria** | unir turoriais e um FAQ num único lugar |
+| **O problema de** | Tempo de resposta de dúvidas em fóruns e necessitar de ajuda de outras pessoas |
+| **Afeta** | Programadores interessados em ML |
+| **Cujo impacto é** | Eficiência no aprendizado |
+| **Uma boa solução seria** | Solucionar dúvidas de maneira mais ágil |
 
 ### 2.3 Descrição de Posição do Produto
 
 | | |
 | :---: | :---: |
-| **Para** | programadores |
-| **Que** | buscam por informações sobre ML |
+| **Para** | Programadores |
+| **Que** | Desejam retirar dúvidas sobre ML |
 | **O PyLearner** | é um ChatBot |
 | **Que** | visa agilizar o aprendizado |
-| **Diferente de** | tutoriais e foruns |
-| **Nosso produto** | concentra tudo em uma única aplicação |
+| **Diferente de** | tutoriais e fóruns |
+| **Nosso produto** | Ensina e retira dúvidas de uma forma mais dinâmica |
 
 ## **3. Descrição das Partes Interessadas**
 
