@@ -19,6 +19,8 @@ title: Documento de Visão
 | 02/04/2019 | 0.8 | Restrições  | Bruno |
 | 02/04/2019 | 0.9 | Perspectiva do Produto | Álex Porto |
 | 03/04/2019 | 0.9.1 | Revisão do tópico 2 | João Victor, Eugênio Sales | 
+| 04/04/2019 | 0.9.2 | Revisão dos tópicos 3 e 6 | Bruno |
+
 
 
 
@@ -71,17 +73,15 @@ O PyLearner auxiliará novatos em Machine Learning ou até mesmo os que tenham a
 | **Diferente de** | tutoriais e fóruns |
 | **Nosso produto** | Ensina e retira dúvidas de uma forma mais dinâmica |
 
-## **3. Descrição das Partes Interessadas**
+## **3. Descrição dos Envolvidos e dos Usuários**
 
-### 3.1 Resumo da Parte Interessada
+### 3.1 Resumo dos Envolvidos
 	 	 	
-Usuários: O público-alvo é constituído por pessoas que possuem um certo grau de conhecimento em programação e visam aprender ou aperfeiçoar suas técnicas em Machine Learning.
-
-Equipe: Composta por discentes de Engenharia de Software da Universidade de Brasília - Campus Gama, integrada por alunos das disciplinas de Engenharia de Produto de Software e Métodos de Desenvolvimento de Software.
+Equipe composta por discentes de Engenharia de Software da Universidade de Brasília - Campus Gama, integrada por alunos das disciplinas de Engenharia de Produto de Software e Métodos de Desenvolvimento de Software.
 
 ### 3.2 Resumo do Usuário
 
-
+O público-alvo é constituído por pessoas que possuem um certo grau de conhecimento em programação e visam aprender ou aperfeiçoar suas técnicas em Machine Learning.
 ### 3.3 Ambiente do Usuário
 O Pylearner consiste em uma integração ao Jupyter Notebook, cujo acesso depende da instalação do app na máquina do usuário para acesso em um Web Browser.
 
@@ -138,8 +138,15 @@ O Pylearner tem como recursos um tutorial interativo, o qual o usuário pode ret
 
 ## **6. Restrições**
 
-* PyLearnner é uma aplicação WEB direcionada a aprendizagem e consolidação de conhecimentos em Machine Learning;
-* O produto deve estar acessível até Julho de 2019;
-* É necessário utilizar a ferramenta Jupyter Notebook para desenvolvimento do produto;
-* Torna-se indispensável o conhecimento prévio em programação.
+ #### 6.1 Restrições de Design
+    
+ O design terá como base plataformas de ensino cujo modo organizacional corroborará a aprendizagem dos usuários.
+ 
+#### 6.2 Restrições de Implementação
+  O produto será desenvolvido com o auxílio da ferramenta Jupyter Notebook utilizando a linguagem Python junto a uma arquitetura de microsserviços.
+
+ 
+#### 6.3 Restrições de Uso
+  * Necessário acesso a Internet;
+  * Torna-se indispensável o conhecimento prévio em programação.
 
