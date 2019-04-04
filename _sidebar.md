@@ -16,9 +16,13 @@
 
 - **Roadmaps**
   - [Roadmap Arquiteto]()
-  - [Roadmap DevOps](Roadmap-DevOps.md)
+  - [Roadmap DevOps](/docs/roadmap/Roadmap-DevOps.md)
   - [Roadmap Product Owner]()
-  - [Roadmap Tech Lead](/Docs/Roadmap-TechLead.md)
+  - [Roadmap Tech Lead](/docs/roadmap/Roadmap-TechLead.md)
+
+- **EAP & TAP**
+  - [EAP](/docs/Eap.md)
+  - [TAP](/docs/Tap.md)
 
 - **Sprint 0**
   - [Resultados Sprint 0](/docs/sprints/Sprint-0-review.md)
