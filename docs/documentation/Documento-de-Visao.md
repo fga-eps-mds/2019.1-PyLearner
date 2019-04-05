@@ -1,4 +1,4 @@
----
+  ---
 id: doc_visao
 title: Documento de Visão
 ---
@@ -20,7 +20,7 @@ title: Documento de Visão
 | 02/04/2019 | 0.9 | Perspectiva do Produto | Álex Porto |
 | 03/04/2019 | 0.9.1 | Revisão do tópico 2 | João Victor, Eugênio Sales | 
 | 04/04/2019 | 0.9.2 | Revisão dos tópicos 3 e 6 | Bruno |
-
+| 05/04/2019 | 1.0 | Escopo, Perfil dos usuários e Alternativas e Concorrência | João Victor, Eugênio Sales |
 
 
 
@@ -31,6 +31,9 @@ title: Documento de Visão
 Este documento tem por finalidade mostrar o desenvolvimento do PyLearner e seu embasamento, além dos problemas que visa resolver dentro de seu escopo. 
 
 ### 1.2 Escopo
+Machine Learning é subcampo de Data Science que evoluiu do estudo de reconhecimento de padrões e da teoria do aprendizado computacional em inteligência artificial. Esse ramo de estudo está em alta e tem atraído muitos profissionais da área da computação.
+
+Disso, o Pylearner propõe-se a ajudar programadores a aprender de uma maneira mais interativa e dinâmica, através de uma plataforma que integra tutoriais e chatbot.  
 
 ### 1.3 Definições, Acrônimos e Abreviações
 
@@ -39,7 +42,11 @@ Este documento tem por finalidade mostrar o desenvolvimento do PyLearner e seu e
 
 ### 1.4 Referências
 
+>Documento de Visão: A estrutura de tópicos do documento de visão. IBM. Disponível em: <a href='https://goo.gl/BNAJtT'><https://goo.gl/BNAJtT></a>. Acesso em: 27 de março de 2019;
 
+>2018.2-Lino: Documento de Visão. 2018. Disponível em: <a href='https://botlino.github.io/docs/doc-visao'><https://botlino.github.io/docs/doc-visao></a>. Acesso em: 30 de março de 2019;
+
+>2018.2-Kalkuli: Documento de Visão. 2018. Disponível em : <a href='https://fga-eps-mds.github.io/2018.2-Kalkuli/docs/docVisao'><https://fga-eps-mds.github.io/2018.2-Kalkuli/docs/docVisao></a>. Acesso em: 30 de março de 2019;
 
 ### 1.5 Visão Geral
 Este documento visa detalhar os processos de desenvolvimento, planejamento e a construção do PyLearner, a gestão em um todo. Assim como sua visão de negócio, as partes a que se destina o uso do software, contendo as limitações, funcionalidades, interfaces e requisitos.
@@ -82,7 +89,9 @@ Equipe composta por discentes de Engenharia de Software da Universidade de Bras�
 ### 3.2 Resumo do Usuário
 
 O público-alvo é constituído por pessoas que possuem um certo grau de conhecimento em programação e visam aprender ou aperfeiçoar suas técnicas em Machine Learning.
+
 ### 3.3 Ambiente do Usuário
+
 O Pylearner consiste em uma integração ao Jupyter Notebook, cujo acesso depende da instalação do app na máquina do usuário para acesso em um Web Browser.
 
 
@@ -113,9 +122,20 @@ O Pylearner consiste em uma integração ao Jupyter Notebook, cujo acesso depend
 
 ### 3.5 Perfis dos Usuários
 
-### 3.6 Principais Necessidades dos Usuários ou dos Envolvidos
+#### 3.5.1 Programadores
 
-### 3.7 Alternativas e Concorrências
+|  |  |
+| --------------- | --------------- |
+| **Representante** | Usuário |
+| **Descrição** | Programadores que desejam aprender Machine Learning ou tirar dúvidas |
+| **Tipo** | Usuário com conhecimento em programação |
+| **Responsabilidades** | Saber programar e seguir os tutoriais|
+| **Critérios de Sucesso** | Aprender ML de uma forma mais dinâmica e sanar dúvidas|
+| **Envolvimento** | Alto |
+
+### 3.6 Alternativas e Concorrências  
+
+Atualmente não existem alternativas que seguem o modelo de ensino proposto pelo Pylearner. Embora, existam plataformas de ensino como a Udemy e o DataCamp, nenhum dispõe um sistema de respostas automatizado.
 
 ## **4. Visão Geral do Produto**
 
