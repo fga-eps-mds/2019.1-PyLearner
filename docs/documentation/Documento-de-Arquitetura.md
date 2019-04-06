@@ -11,6 +11,8 @@ title: Documento de Arquitetura
 | :------: | :--------: | :-------------: | :-------: |
 | 03/04/2019 | 0.1 | Criação do documento e Metas e Restrições de Arquitetura | Ernando |
 | 04/04/2019 | 0.2 | Tópico 2 | Davi Alves |
+| 05/04/2019 | 0.3 | Tópico 3 | Ernando |
+| 06/04/2019 | 0.3.1 | Finalização topico 2, revisão topico 3 | Davi Alves |
 
 ### 1. Introdução
 
@@ -42,16 +44,41 @@ Ele é dividido em duas principais ferramentas:
 
 <p style="text-align:justify">&emsp;&emsp;<i>Docker</i> é um projeto de código aberto que automatiza a implantação de aplicativos dentro de recipientes de software, fornecendo uma camada adicional de abstração e automação de virtualização de sistema de nível operacional em Linux, Mac OS e Windows.</p>
 
+* **Microserviços**
+
+<p style="text-align:justify">&emsp;&emsp;A arquitetura de microserviços representa um estilo de arquitetura que é uma abordagem desenvolvida com a finalidade de criar um aplicativo único como uma suite de pequenos serviços, cada um executando seu próprio processo e se comunicando através de mecanismos leves, muitas vezes em uma API com recursos HTTP.</p>
+
+<p style="text-align:justify">&emsp;&emsp;No software descrito neste documento a arquitetura de microsserviços será bastante utilizada. Os módulos serão:</p>
+
+* **Busca no StackOverflow**:
+Módulo responsável por efetuar uma busca de uma mensagem de erro gerado na output da celula executada no jupyter.
+
+* **Sugestões para exercicios**: 
+Módulo responsável por propor exercicios de plataforma externa.
+
+* **Busca de Datasets**:
+Módulo responsavel por efetuar busca de datasets especificos na area de machine learning.
+
+* **Gateway**: Módulo responsável por intermediar a comunicação entre o Back-end e o Front-end.
+
+* **Comunicação entre os serviços**
+
+<p style="text-align:justify">&emsp;&emsp;Comunicação entre os serviços será feita por meio de uma API Gateway, a qual será responsável por fazer o intermédio entre os microsserviços por meio de métodos do protocolo HTTP.</p>
+
+* **Amazon API Gateway**: O Amazon API Gateway é um serviço totalmente gerenciado que facilita para os desenvolvedores criar, publicar, manter, monitorar e proteger APIs em qualquer escala.
+
+
+
 ### 3. Metas e Restrições de Arquitetura
 <p>&emsp;Restrições de arquitetura do projeto:</p>
 
 <ul>
 
-<li>Utilização da ferramenta <i>Jupyter Notebook</i> para computar os códigos gerados pelo usuário e tornar o ambiente mais propício a aprendizagem de forma mais interativa</li>
-<li>Utilização da ferramenta <i>Docker</i> para a virtualização de ambientes, voltado para o desenvolvimento da arquitetura de microserviços do projeto</li>
-<li>Utilização do <i>Mongo DB</i> para criação de um banco de dados relacional</li>
-<li>utilização do <i>Rasa</i> para auxiliar na criaçaõ e na contextualização do <i>Chatbot</i></li>
-<li>Necessário conexão com a internet por se tratar de uma aplicação web</li>
+<li>Utilização da ferramenta <i>Jupyter Notebook</i> para computar os códigos gerados pelo usuário e tornar o ambiente mais propício a aprendizagem de forma mais interativa.</li>
+<li>Utilização da ferramenta <i>Docker</i> para a virtualização de ambientes, voltado para o desenvolvimento da arquitetura de microserviços do projeto.</li>
+<li>Utilização do <i>Mongo DB</i> para criação de um banco de dados relacional.</li>
+<li>Utilização do <i>Rasa</i> para a criação e contextualização do <i>Chatbot.</i></li>
+<li>Necessário conexão com a internet por se tratar de uma aplicação web.</li>
 
 
 </ul>
@@ -60,7 +87,7 @@ Ele é dividido em duas principais ferramentas:
 
 <ul>
 
-<li>Ensinar Machine Learning e aprimorar conhecimento nessa área</li>
+<li>Retirar duvidas de Machine Learning com o intuito de  aprimorar conhecimento nessa área e auxiliar o usuario com tutoriais.</li>
 
 </ul>
 
