@@ -49,13 +49,18 @@ Ele é dividido em duas principais ferramentas:
 
 <li>Utilização da ferramenta <i>Jupyter Notebook</i> para computar os códigos gerados pelo usuário e tornar o ambiente mais propício a aprendizagem de forma mais interativa</li>
 <li>Utilização da ferramenta <i>Docker</i> para a virtualização de ambientes, voltado para o desenvolvimento da arquitetura de microserviços do projeto</li>
+<li>Utilização do <i>Mongo DB</i> para criação de um banco de dados relacional</li>
+<li>utilização do <i>Rasa</i> para auxiliar na criaçaõ e na contextualização do <i>Chatbot</i></li>
 <li>Necessário conexão com a internet por se tratar de uma aplicação web</li>
+
 
 </ul>
 
 <p>&emsp;Metas do projeto:</p>
 
 <ul>
+
+<li>Ensinar Machine Learning e aprimorar conhecimento nessa área</li>
 
 </ul>
 
