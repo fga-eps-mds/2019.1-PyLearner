@@ -13,8 +13,24 @@ title: Documento de Arquitetura
 | 04/04/2019 | 0.2 | Tópico 2 | Davi Alves |
 | 05/04/2019 | 0.3 | Tópico 3 | Ernando |
 | 06/04/2019 | 0.3.1 | Finalização topico 2, revisão topico 3 | Davi Alves |
+|06/04/2019| 0.4 | Tópico 1 | Álex Porto 
 
 ### 1. Introdução
+Este documento apresenta a arquitetura de software usada no desenvolvimento do ChatBot Pylearn, visando uma visualização dos requisitos e da estrutura com os desenvolvedores.
+#### 1.1 Finalidade
+Este documento tem como objetivo esboçar uma visao ampla da arquitetura do Pylearn e porque cada decisão arquitetural foi tomada 
+### 1.2 Escopo
+o Pylearner propõe-se a ajudar programadores a aprender de uma maneira mais interativa e dinâmica, através de uma plataforma que integra tutoriais e chatbot,sobre Machine Learning,podendo tirar dúvidas e orientar a direção em que se deve seguir no assunto .  
+
+### 1.3 Referências
+>2018.2-Lino: Documento de Arquitetura. 2018. Disponível em: <a href='https://github.com/fga-eps-mds/2018.2-Lino/blob/master/docs/documento-de-arquitetura.md'><https://github.com/fga-eps-mds/2018.2-Lino/blob/master/docs/documento-de-arquitetura.md></a>. Acesso em: 6 de abril de 2019;
+
+>2018.2-IncluCare_API: Documento de Arquitetura. 2018. Disponível em: <a href='https://github.com/fga-eps-mds/2018.1-IncluCare_API/blob/master/docs/ARCHITECTURE_DOCUMENT.md'><https://github.com/fga-eps-mds/2018.1-IncluCare_API/blob/master/docs/ARCHITECTURE_DOCUMENT.md></a>. Acesso em: 6 de abril de 2019;
+### 1.4  Definições, Acrônimos e Abreviações
+<li> API: Application Programming Interface </li>
+<li> DB: Banco de Dados, <i>DataBase</i> </li>
+<li> Front-end: Trabalha com a parte da aplicação que interage diretamente com o usuário </li>
+<li> Back-end:  Trabalha na parte de “trás” da aplicação. Ele é o responsável, em termos gerais, pela implementação da regra de negócio. </li>
 
 ### 2. Representação da Arquitetura
 
