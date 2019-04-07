@@ -13,7 +13,8 @@ title: Documento de Arquitetura
 | 04/04/2019 | 0.2 | Tópico 2 | Davi Alves |
 | 05/04/2019 | 0.3 | Tópico 3 | Ernando |
 | 06/04/2019 | 0.3.1 | Finalização topico 2, revisão topico 3 | Davi Alves |
-|06/04/2019| 0.4 | Tópico 1 | Álex Porto 
+| 06/04/2019 | 0.4 | Tópico 1 | Álex Porto 
+| 07/04/2019 | 0.5 | Tópico 4 | Eugênio Sales
 
 ### 1. Introdução
 Este documento apresenta a arquitetura de software usada no desenvolvimento do ChatBot Pylearn, visando uma visualização dos requisitos e da estrutura com os desenvolvedores.
@@ -109,3 +110,7 @@ Módulo responsavel por efetuar busca de datasets especificos na area de machine
 
 
 ### 4. Visão Lógica 
+
+<p>&emsp;Arquitetura do Backend</p>
+
+<img src="./images/diagrama de pacates do Backend.png" alt="some text" width=400 height=280>
