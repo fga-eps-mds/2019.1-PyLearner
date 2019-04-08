@@ -33,8 +33,8 @@
 
 - **Sprint 2**
   - [Planejamento Sprint 2](/docs/sprints/Sprint-2-planning.md)
-  - [Resultados Sprint 2]()
+  - [Resultados Sprint 2](/docs/sprints/Sprint-2-review.md)
 
   **Sprint 3**
-  - [Planejamento Sprint 3]()
-  - [Resultados Sprint 3]()
+  - [Planejamento Sprint 3](/docs/sprints/Sprint-3-planning.md)
+  - [Resultados Sprint 3](/docs/sprints/Sprint-3-review.md)
