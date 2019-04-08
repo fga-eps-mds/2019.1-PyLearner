@@ -21,6 +21,8 @@
 |Treinamento de Git 2|2|Entregue|
 |Dockerize the Application|5|Descontinuada|
 #### Débitos
+|Issue|Pontos|Status|
+|:--:|:-------:|:--:|
 |Learn about Microservices Arquitecture|Entregue*|5|
 |Learn about chatbot|Entregue*|5|
 

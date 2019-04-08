@@ -38,6 +38,11 @@ Essa sprint será focada nas definições de papéis e entendimento dos estrutur
 |Criar documento de definição de done|2|
 |Protótipo de Baixa Fidelidade|3|
 |Documento de Metodologia|3|
+
+### Issues adicionados durante a sprint
+|Issue|Pontos|
+|:--:|:-------:|
+|Backlog do Produto|8|
 ___
 
 ## Débitos
@@ -47,6 +52,7 @@ ___
 |Elaborar TAP|5|
 |Roadmap do Projeto|5|
 |Levantar Requisitos|3|
+
 
 **Pontos Planejados:** 44
 
