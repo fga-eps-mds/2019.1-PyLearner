@@ -16,7 +16,7 @@ title: Documento de Arquitetura
 | 06/04/2019 | 0.4 | Tópico 1 | Álex Porto 
 | 07/04/2019 | 0.5 | Tópico 4 | Eugênio Sales
 
-### 1. Introdução
+## 1. Introdução
 Este documento apresenta a arquitetura de software usada no desenvolvimento do ChatBot Pylearn, visando uma visualização dos requisitos e da estrutura com os desenvolvedores.
 #### 1.1 Finalidade
 Este documento tem como objetivo esboçar uma visao ampla da arquitetura do Pylearn e porque cada decisão arquitetural foi tomada 
@@ -33,7 +33,7 @@ o Pylearner propõe-se a ajudar programadores a aprender de uma maneira mais int
 <li> Front-end: Trabalha com a parte da aplicação que interage diretamente com o usuário </li>
 <li> Back-end:  Trabalha na parte de “trás” da aplicação. Ele é o responsável, em termos gerais, pela implementação da regra de negócio. </li>
 
-### 2. Representação da Arquitetura
+## 2. Representação da Arquitetura
 
 * **Jupyter Notebook**      
 
@@ -86,7 +86,7 @@ Módulo responsavel por efetuar busca de datasets especificos na area de machine
 
 
 
-### 3. Metas e Restrições de Arquitetura
+## 3. Metas e Restrições de Arquitetura
 <p>&emsp;Restrições de arquitetura do projeto:</p>
 
 <ul>
@@ -109,8 +109,8 @@ Módulo responsavel por efetuar busca de datasets especificos na area de machine
 </ul>
 
 
-### 4. Visão Lógica 
+## 4. Visão Lógica 
 
-<p>&emsp;Arquitetura do Backend</p>
+### Arquitetura do Backend
 
-<img src="./images/diagrama de pacates do Backend.png" alt="some text" width=400 height=280>
+<img src="../images/diagramaPacotesBackend.png">
