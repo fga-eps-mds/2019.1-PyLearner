@@ -76,6 +76,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "carlosaragon",
+      "name": "Carlos Aragon",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/18129918?v=4",
+      "profile": "https://www.linkedin.com/in/carlos-enrique-rodrigues-aragon-084b47b5",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 10,
