@@ -1,0 +1,41 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "gabrielziegler3",
+      "name": "Gabriel Ziegler",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/18370133?v=4",
+      "profile": "https://www.linkedin.com/in/gabriel-ziegler-323121106/",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "davialvb",
+      "name": "Davi Alves",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/34287081?v=4",
+      "profile": "https://github.com/davialvb",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "Mexazonic",
+      "name": "Bruno Duarte",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/48650663?v=4",
+      "profile": "https://github.com/Mexazonic",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ]
+  "contributorsPerLine": 7,
+  "projectName": "2019.1-PyLearner",
+  "projectOwner": "fga-eps-mds",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
