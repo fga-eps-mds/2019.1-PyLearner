@@ -40,8 +40,8 @@
       "contributions": [
         "doc"
       ]
-    },
-  ]
+    }
+  ],
   "contributorsPerLine": 10,
   "projectName": "2019.1-PyLearner",
   "projectOwner": "fga-eps-mds",
