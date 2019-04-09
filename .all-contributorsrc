@@ -31,9 +31,18 @@
       "contributions": [
         "doc"
       ]
-    }
+    },
+    {
+      "login": "Eugeniosales",
+      "name": "Eugenio Sales Siqueira",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/42457772?v=4",
+      "profile": "https://www.linkedin.com/in/eug%C3%AAnio-sales-siqueira-19533213b/",
+      "contributions": [
+        "doc"
+      ]
+    },
   ],
-  "contributorsPerLine": 7,
+  "contributorsPerLine": 10,
   "projectName": "2019.1-PyLearner",
   "projectOwner": "fga-eps-mds",
   "repoType": "github",
