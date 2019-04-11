@@ -15,7 +15,7 @@
   - [Definição de done](/docs/policies/Definicao-Done.md)
 
 - **Roadmaps**
-  - [Roadmap Arquiteto]()
+  - [Roadmap Arquiteto](docs/roadmap/Roadmap-Arquiteto.md)
   - [Roadmap DevOps](/docs/roadmap/Roadmap-DevOps.md)
   - [Roadmap Product Owner]()
   - [Roadmap Tech Lead](/docs/roadmap/Roadmap-TechLead.md)
