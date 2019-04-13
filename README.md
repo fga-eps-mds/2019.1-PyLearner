@@ -1,5 +1,24 @@
-# 2019.1-Grupo-10
-[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors)
+<p align="center">
+    <img src="./docs/images/Logo_text.jpg" alt="Logo" height=300 width=400>
+</p>
+
+<h1 align="center">Machine Learning Chatbot Assistant</h1>
+
+<p align="center">
+    <a href="https://fga-eps-mds.github.io/2019.1-PyLearner"><strong>Read the Docs &raquo;</strong></a>
+    <br>
+</p>
+
+[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors) [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
+![GitHub watchers](https://img.shields.io/github/watchers/fga-eps-mds/2019.1-PyLearner.svg?style=social)
+
+## Docs
+
+Repositório para armazenar documentação do desenvolvimento do **PyLearner**, o chatbot que ensina Machine Learning.
+
+* [Docs](https://fga-eps-mds.github.io/2019.1-PyLearner/#/)
+* [Código fonte](https://github.com/pylearner-bot/pylearner-rasa)
+
 ## Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
