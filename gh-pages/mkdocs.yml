@@ -1,7 +1,0 @@
-site_name: Pylearner 
-nav:
-    - Home: README.md
-    - Documento de Arquitetura: Documento-de-Arquitetura.md
-    - Documento de Visão: Documento-de-Visao.md
-theme:
-  name: 'rtd-dropdown'
