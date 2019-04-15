@@ -5,3 +5,5 @@ nav:
     - Documento de Visão: Documento-de-Visao.md
 theme:
   name: 'rtd-dropdown'
+extra_css:
+    - css/extra.css
