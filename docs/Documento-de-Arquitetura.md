@@ -15,11 +15,12 @@ title: Documento de Arquitetura
 | 06/04/2019 | 0.3.1 | Finalização topico 2, revisão topico 3 | Davi Alves |
 | 06/04/2019 | 0.4 | Tópico 1 | Álex Porto 
 | 07/04/2019 | 0.5 | Tópico 4 | Eugênio Sales
+| 14/04/2019 | 0.5.1 | Revisão de ortografia e correção do diretório da imagem | Álex Porto 
 
 ## 1. Introdução
-Este documento apresenta a arquitetura de software usada no desenvolvimento do ChatBot Pylearn, visando uma visualização dos requisitos e da estrutura com os desenvolvedores.
+Este documento apresenta a arquitetura de software utilizada no desenvolvimento do ChatBot PyLearner, visando uma visualização dos requisitos e da estrutura com os desenvolvedores.
 #### 1.1 Finalidade
-Este documento tem como objetivo esboçar uma visao ampla da arquitetura do Pylearn e porque cada decisão arquitetural foi tomada 
+Este documento tem como objetivo esboçar uma visão ampla da arquitetura do PyLearner e porque cada decisão arquitetural foi tomada 
 ### 1.2 Escopo
 o Pylearner propõe-se a ajudar programadores a aprender de uma maneira mais interativa e dinâmica, através de uma plataforma que integra tutoriais e chatbot,sobre Machine Learning,podendo tirar dúvidas e orientar a direção em que se deve seguir no assunto .  
 
@@ -50,7 +51,7 @@ Ele é dividido em duas principais ferramentas:
 
 ><i>Rasa NLU</i> que é uma ferramenta open source para processamento de linguagem natural, sendo focada em classificação de intenções e extração de identidades.
 
-><i>Rasa Core</i> que é uma              ferramenta livre para construção de sistemas de conversação, como messengers e chat bots.</p>
+><i>Rasa Core</i> que é uma ferramenta livre para construção de sistemas de conversação, como messengers e chat bots.</p>
 
 * **Mongo DB**        
 
@@ -104,7 +105,7 @@ Módulo responsavel por efetuar busca de datasets especificos na area de machine
 
 <ul>
 
-<li>Retirar duvidas de Machine Learning com o intuito de  aprimorar conhecimento nessa área e auxiliar o usuario com tutoriais.</li>
+<li>Tirar duvidas de Machine Learning com o intuito de  aprimorar conhecimento nessa área e auxiliar o usuario com tutoriais.</li>
 
 </ul>
 
@@ -113,4 +114,6 @@ Módulo responsavel por efetuar busca de datasets especificos na area de machine
 
 ### Arquitetura do Backend
 
-<img src="../images/diagramaPacotesBackend.png">
+![](/img/diagramaPacotesBackend.png)
+
+
