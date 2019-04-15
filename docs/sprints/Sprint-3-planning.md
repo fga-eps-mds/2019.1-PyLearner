@@ -43,7 +43,7 @@ Nessa sprint a equipe dará foco a finalização da documentação preparatória
 |Criar uma identidade visual para a aplicação|1|Eugênio|Entregue|
 
 
-## Issues Removidas
+## Issues Descontinuadas
 |Issue|Pontos|Responsável|
 |:--:|:-------:|:--:|
 |Ambientes de Desenvolvimento RASA|5|DevOps|

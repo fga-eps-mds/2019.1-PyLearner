@@ -3,6 +3,7 @@
 |Date|Version|Update|Author|
 |:--:|:----:|:-------:|:---:|
 |05/04/2019|0.1|Sprint Review preparation|Thiago Ferreira|
+|14/04/2019|0.2|Adição Presentes na Reunião|Thiago Ferreira|
 
 # Fechamento da Sprint
 
@@ -52,6 +53,22 @@ ___
 
 # Retrospectiva
 <img src="../images/reviewsprint2.png">
+
+## Presença na Reunião
+**EPS:** 
+* [Davi Alves](https://github.com/davialvb)  
+* [Thiago Ferreira](https://github.com/thiagoiferreira)
+* [Carlos Aragon](https://github.com/carlosaragon)
+
+**MDS:** 
+- [Alex Porto](https://github.com/alexportof)
+- [Bruno Duarte](https://github.com/Mexazonic)
+- [Ernando Braga](https://github.com/ZarathosDeath)
+- [Eugenio Sales](https://github.com/Eugeniosales)
+- [João Victor](https://github.com/joao15victor08)
+
+## Observações
+* O membro Gabriel Ziegler tinha viagem marcada, esta que havia sido avisada com antecedência e não pode comparecer a reunião.
 
 ## Presença Dailies Presenciais
 
