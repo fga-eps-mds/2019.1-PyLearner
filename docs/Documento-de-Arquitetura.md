@@ -114,6 +114,10 @@ Módulo responsavel por efetuar busca de datasets especificos na area de machine
 
 ### Arquitetura do Backend
 
+<<<<<<< HEAD
 ![](/img/diagramaPacotesBackend.png)
 
 
+=======
+<img src="/img/diagramaPacotesBackend.png">
+>>>>>>> c4cd4ee620224a58fe168ad21bacf0be4e7d6cf7
