@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Documento de Metodologia - Pylearner</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  <link href="../../css/extra.css" rel="stylesheet">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Documento de Metodologia";
+    var mkdocs_page_input_path = "documentation/Documento-de-Metodologia.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Pylearner</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="tocbase current">
+    
+    
+      
+
+
+  <li class="navtree toctree-l1 inactive">
+    <a class="" href="../..">Home</a>
+  </li>
+    
+      
+
+
+  <li class="navtree toctree-l1 inactive">
+    <a class="" href="../Documento-de-Arquitetura/">Documento de Arquitetura</a>
+  </li>
+    
+      
+
+
+  <li class="navtree toctree-l1 inactive">
+    <a class="" href="../Documento-de-Visao/">Documento de Visão</a>
+  </li>
+    
+      
+
+
+  
+    
+    <li class="navtree toctree-l1 page current">
+      <a class="current" href="./">
+        Documento de Metodologia
+      </a>
+    </li>
+    
+      
+
+  <li class="toctree-l1 current with-children">
+    <a href="#version-control">
+      Version control
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+      
+
+  <li class="toctree-l1">
+    <a href="#introducao">
+      Introdução
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+      
+
+  <li class="toctree-l1">
+    <a href="#metodologias-utilizadas">
+      Metodologias Utilizadas
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l1">
+    <ul class="subnav-l1 toc-hidden">
+    
+      
+          
+
+  <li class="toctree-l2 current with-children">
+    <a href="#scrum">
+      Scrum
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l2 current">
+    <ul class="subnav-l2 current">
+    
+      
+        <li class="toctree-l3">
+          <a class="toctree-l4" href="#descricao-da-metodologia">Descrição da Metodologia</a>
+        </li>
+    
+      
+        <li class="toctree-l3">
+          <a class="toctree-l4" href="#recursos-utilizados">Recursos Utilizados</a>
+        </li>
+    
+    </ul>
+  </li>
+
+      
+    
+      
+        <li class="toctree-l2">
+          <a class="toctree-l3" href="#kanban">Kanban</a>
+        </li>
+    
+      
+        <li class="toctree-l2">
+          <a class="toctree-l3" href="#xp">XP</a>
+        </li>
+    
+      
+        <li class="toctree-l2">
+          <a class="toctree-l3" href="#recursos-utilizados_1">Recursos Utilizados</a>
+        </li>
+    
+    </ul>
+  </li>
+
+      
+
+  <li class="toctree-l1">
+    <a href="#referencias">
+      Referências
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+
+  
+    
+      
+
+
+  <li class="navtree toctree-l1 inactive">
+    <a class="" href="../../Tap/">TAP</a>
+  </li>
+    
+      
+
+
+  <li class="navtree toctree-l1 inactive">
+    <a class="" href="../../Eap/">EAP</a>
+  </li>
+    
+      
+  <li class="navtree toctree-l1 label">
+    <p class="caption">Documentação das sprints</p>
+  </li>
+
+
+  
+
+  
+    <li class="navtree toctree-l1 group">
+      <ul class="navtree subnav-l1 current">
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../../sprints/Sprint-0-review/">Sprint 0 review</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../../sprints/Sprint-1-Review/">Sprint 1 Review</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../../sprints/Sprint-1-planning/">Sprint 1 planning</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../../sprints/Sprint-2-planning/">Sprint 2 planning</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../../sprints/Sprint-2-review/">Sprint 2 review</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../../sprints/Sprint-3-planning/">Sprint 3 planning</a>
+  </li>
+        
+      </ul>
+    </li>
+    
+      
+  <li class="navtree toctree-l1 label">
+    <p class="caption">Roadmaps Individuais</p>
+  </li>
+
+
+  
+
+  
+    <li class="navtree toctree-l1 group">
+      <ul class="navtree subnav-l1 current">
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../../roadmap/Roadmap-TechLead/">Roadmap TechLead</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../../roadmap/Roadmap-DevOps/">Roadmap DevOps</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../../roadmap/Roadmap-Arquiteto/">Roadmap Arquiteto</a>
+  </li>
+        
+      </ul>
+    </li>
+    
+  </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Pylearner</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Documento de Metodologia</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h2 id="version-control">Version control</h2>
+<table>
+<thead>
+<tr>
+<th align="center">Date</th>
+<th align="center">Version</th>
+<th align="center">Update</th>
+<th align="center">Author</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">12/04/2019</td>
+<td align="center">0.1</td>
+<td align="center">Criação do Documento</td>
+<td align="center">Thiago Ferreira</td>
+</tr>
+</tbody>
+</table>
+<h1 id="introducao">Introdução</h1>
+<p>Este documento visa a descrição das metodologias utilizadas ao decorrer do desenvolvimento do projeto, assim como, o que cada metodologia agrega ao desenvolvimento em geral.</p>
+<h1 id="metodologias-utilizadas">Metodologias Utilizadas</h1>
+<h2 id="scrum">Scrum</h2>
+<h3 id="descricao-da-metodologia">Descrição da Metodologia</h3>
+<p>O Scrum é uma metologia ágil para gestão e planejamento de projetos de software.
+Nesta faz-se uso de Sprints, que são espaços de tempo onde devem ser executadas determinadas atividades, das quais são distribuidas e organizadas pelo Scrum Master e o Product Owner. </p>
+<h3 id="recursos-utilizados">Recursos Utilizados</h3>
+<ul>
+<li>
+<p>Sprints</p>
+<ul>
+<li>Ciclos de produção a qual determinadas atividades, definidas durante as reuniões de planejamento, são desenvolvidas.</li>
+</ul>
+</li>
+<li>
+<p>Dailies</p>
+<ul>
+<li>Reuniões ou relatórios diários os quais a equipe relata individualmente, o que fez no dia anterior, o que pretende fazer nesse dia e se há algo impedindo a execução de determinada tarefa.</li>
+</ul>
+</li>
+<li>
+<p>Reuniões de Planejamento</p>
+<ul>
+<li>Reuniões onde são definidas as tarefas a serem executadas nas próximas sprints.</li>
+</ul>
+</li>
+<li>Reuniões de Retrospectiva de Sprint<ul>
+<li>Reunião realizada pela equipe juntamente às reuniões de planejamento onde a sprint anterior é revisada.</li>
+</ul>
+</li>
+<li>Product Backlog<ul>
+<li>Lista onde são mantidas as especificações das funcionalidades a serem implementadas no projeto.</li>
+</ul>
+</li>
+<li>Sprint Backlog<ul>
+<li>Lista onde são mantidas as funcionalidades a serem desenvolvidas durante a sprint</li>
+</ul>
+</li>
+</ul>
+<h2 id="kanban">Kanban</h2>
+<p>O kanban é um método de organização que visa melhorar o desempenho da equipe por meio de um sistema visual através do uso de cartões. Os cartões utilizados no projeto são compostos pelas issues designadas para produção.</p>
+<p>A ferramenta de Kanban escolhida para a equipe para o projeto foi a extensão Zenhub. Esta faz uso das issues do github, possibilitando a organização destas num pipeline interativo, onde é possível mover os cartões arrastando-os.</p>
+<h2 id="xp">XP</h2>
+<p>O XP é uma metodologia de desenvolvimento de software focada em boas práticas de programação e de produção de software em geral. Esta metodologia foca na manutenção da harmonia do trabalho em equipe no desenvolvimento.</p>
+<h2 id="recursos-utilizados_1">Recursos Utilizados</h2>
+<ul>
+<li>Programação em Pares<ul>
+<li>A programação em pares é adotado no projeto desde o início do desenvolvimento. Todas as sprints haverá uma divisão da equipe de desenvolvimento de forma a equilibrar os conhecimentos e nivelar a equipe.</li>
+</ul>
+</li>
+<li>Padronização de código<ul>
+<li>A equipe definirá uma folha de estilo para padronização do desenvolvimento </li>
+</ul>
+</li>
+<li>Refatoração de Código<ul>
+<li>Durante o desenvolvimento serão aplicadas refatorações que visam melhorar o código como um todo, tornando-o mais eficiente e mais legível para os desenvolvedores</li>
+</ul>
+</li>
+</ul>
+<h1 id="referencias">Referências</h1>
+<pre><code>https://www.desenvolvimentoagil.com.br/scrum/
+</code></pre>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../../Tap/" class="btn btn-neutral float-right" title="TAP">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../Documento-de-Visao/" class="btn btn-neutral" title="Documento de Visão"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../Documento-de-Visao/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../../Tap/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+
+</body>
+</html>
