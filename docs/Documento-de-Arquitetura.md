@@ -116,4 +116,3 @@ Módulo responsavel por efetuar busca de datasets especificos na area de machine
 
 ![](/img/diagramaPacotesBackend.png)
 
-
