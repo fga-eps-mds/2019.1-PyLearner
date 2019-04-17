@@ -40,4 +40,28 @@ with open('ficheiro_csv.csv', 'rb') as ficheiro:
     for linha in reader:
         print linha
 ```
-Por conta de tudo aqui escrito,considero que este trecho de código acima é suficiente para manipular arquivos .csv em Python e atenderá as demandas da US01.
+## Pandas e Python
+### O que é Pandas
+Outra forma de manipularmos arquivos em Python é utilizando o Pandas,uma biblioteca de software open-source escrita para a linguagem Python com a finalidade de manipulação e análise de dados.Pandas é muito utilizado em Deep Learning,Data Science e Machine Learning.
+
+## Pandas na Manipulação de Arquivo CSV
+Em pandas,é até mais simples,utilizamos basicamente apenas a função read_csv da biblioteca pandas.
+### Função read_csv()
+Essa função é muito poderosa e recebe como parametros:
+```python
+pandas.read_csv( filepath_or_buffer , sep = ' , ' , delimitador = Nenhum , cabeçalho = 'infer' , nomes = Nenhum , index_col = Nenhum , usecols = Nenhum , squeeze = False , prefixo = Nenhum , mangle_dupe_cols = True , dtype = Nenhum , engine = Nenhum , conversores = Nenhum , true_values ​​= Nenhum , false_values ​​= Nenhum , skipinitialspace = False , skiprows = Nenhum , skipfooter = 0 , nrows = Nenhum , na_values ​​= Nenhum, keep_default_na = Verdadeiro , na_filter = Verdadeiro , verbose = Falso , skip_blank_lines = Verdadeiro , parse_dates = Falso , infer_datetime_format = Falso , keep_date_col = Falso , date_parser = Nenhum , dayfirst = Falso , iterador = Falso , chunksize = Nenhum , compactação = 'inferir' , milhares = nenhum , decimal = b '.' , lineterminator = None , quotechar = '"' , citando = 0 , doublequote = True , escapechar = None ,comment = Nenhum , codificação = None , dialect = None , tupleize_cols = Nenhum , error_bad_lines = True , warn_bad_lines = Verdadeiro , delim_whitespace = Falso , low_memory = Verdadeiro , memory_map = Falso , float_precision = Nenhum )
+```
+Mas apenas o primeiro parâmetro é obrigatório,o filepath_or_buffer, que é objeto de caminho ou objeto semelhante a arquivo
+Qualquer caminho de string válido é aceitável. A string pode ser um URL. Esquemas de URL válidos incluem http, ftp, s3 e file. Para URLs de arquivos, um host é esperado.
+
+Por objeto tipo arquivo, nos referimos a objetos com um read() método, como um manipulador de arquivos (por exemplo, via openfunção interna ) ou StringIO.Como são muitos parâmetros e apenas um deles é obrigatório e atenderá a maioria dos casos da US01,não vou detalhar todos os parâmetros mas segue a documentação da função read_csv().
+[Documentação da função](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html)
+
+### Exemplo de código com Pandas
+O exemlo abaixo printa todos os nomes contidos no arquivo.csv
+```python
+import pand as pd
+ex = pd.read_csv('arquivo.csv')
+nome = df[['nome']].values
+print(nome)
+```
