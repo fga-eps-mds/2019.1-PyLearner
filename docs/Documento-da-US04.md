@@ -1,6 +1,6 @@
 # Documento de estudo da US04
 ## O que são dados faltantes?
-Consiste em espaços em valores vazios ou inersperados encontrados em um dataset antes da fase de préprocessamento. Dentro do tratamento de dados para pré-processamento, a correção de dados faltantes é uma das tarefas que demandam maior tempo para preparação do modelo. Depois de coletado o dataset, é necessário essa limpeza de dados para que as predições sejam corretas posteriormente.
+Consiste em valores vazios ou inesperados encontrados em um dataset antes da fase de pré processamento. Dentro do tratamento de dados para pré-processamento, a correção de dados faltantes é uma das tarefas que demandam maior tempo para preparação do modelo. Depois de coletado o dataset, é necessário essa limpeza de dados para que as predições sejam corretas posteriormente.
 ## Motivos para que haja valores faltantes
 1) Houve esquecimento no preenchimento de um campo por um usuário
 
@@ -18,7 +18,7 @@ Antes de limpar os dados, é recomendável agrupar os dados e responder pergunta
 
 3) Há dados faltantes facilmente detectáveis?
 
-### Checar o dataset rapidamente
+### Checar o dataset através da biblioteca Pandas
 
 ```python
 import pandas as pd
@@ -61,7 +61,7 @@ Então podemos ver o csv sendo importado para dentro do dataframe da biblioteca 
 
 ## Padrão de valores faltantes
 
-Estes são os valores que o Pandas pode detectar. O pandas quando imprime datasets com valores faltantes preenche com "NA" indicando que estes lugares estão vazios.
+Estes são os valores que o Pandas pode detectar. O Pandas quando imprime datasets com valores faltantes preenche com "NA" indicando que estes lugares estão vazios.
 
 Com a função isnull(), é retornado verdadeiro caso haja um valor faltante e falso caso esteja de acordo para o valor.
 
