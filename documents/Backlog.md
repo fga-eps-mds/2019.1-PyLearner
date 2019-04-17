@@ -6,6 +6,7 @@
 |13/04/2019|0.2|Definição da priorização|Gabriel Ziegler|
 |13/04/2019|0.3|Definição dos temas e épicos|Gabriel Ziegler|
 |13/04/2019|0.4|Adição das US com priorização|Gabriel Ziegler, Davi Alves|
+|16/04/2019|0.5|Adição das ferramentas para cada épico|Gabriel Ziegler|
 
 ## Técnica de priorização
 
@@ -23,23 +24,23 @@ A sigla MoSCoW significa:
 Os temas e épicos definidos para o PyLearner são:
 
 * T01 Pré-processamento de dados.
-    * EP - 1 Importação de dados
-    * EP - 2 Tratamento de dados
+    * EP - 1 Importação de dados [(Pandas)](https://pandas.pydata.org/)
+    * EP - 2 Tratamento de dados [(Pandas)](https://pandas.pydata.org/), [(SciKit Learn)](https://scikit-learn.org/stable/modules/preprocessing.html)
 * T02 Modelagem.
-    * EP - 3 Aprendizado supervisionado
-    * EP - 4 Aprendizado não-supervisionado
+    * EP - 3 Aprendizado supervisionado [(SciKit Learn)](https://scikit-learn.org/stable/modules/preprocessing.html)
+    * EP - 4 Aprendizado não-supervisionado [(SciKit Learn)](https://scikit-learn.org/stable/modules/preprocessing.html)
 * T03 Visualização.
-    * EP - 5 Visualização de dados
-    * EP - 6 Visualização de resultados
+    * EP - 5 Visualização de dados [(Matplotlib)](https://matplotlib.org/), [(Seaborn)](https://seaborn.pydata.org/)
+    * EP - 6 Visualização de resultados [(SciKit Learn)](https://scikit-learn.org/stable/modules/preprocessing.html)
 * T04 Interações do BOT.
-    * EP - 7 Criação de persona
+    * EP - 7 Criação de persona [(Rasa)](https://rasa.com/)
 * T05 Tutorial.
-    * EP - 8 Iris Flower
-    * EP - 9 MNIST
-    * EP - 10 Titanic
+    * EP - 8 Iris Flower [(SciKit Learn)](https://scikit-learn.org/stable/modules/preprocessing.html)
+    * EP - 9 MNIST [(SciKit Learn)](https://scikit-learn.org/stable/modules/preprocessing.html)
+    * EP - 10 Titanic [(SciKit Learn)](https://scikit-learn.org/stable/modules/preprocessing.html)
 * T06 Sugestões de conteúdo.
-    * EP - 11 Espaços de conteúdos
-    * EP - 12 Fórum
+    * EP - 11 Espaços de conteúdos [(Medium)](https://medium.com/), [(TowardsDataScience)](https://towardsdatascience.com/), [(Kaggle)](https://kaggle.com)
+    * EP - 12 Fórum [(Cross Validated)](https://stats.stackexchange.com/), [(Artificial Intelligence StackExchange)](https://ai.stackexchange.com/)
 
 ## Priorização
 
