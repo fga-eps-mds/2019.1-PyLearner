@@ -103,16 +103,16 @@ O produto busca atender a necessidade de estudantes que desejam obter ou aprimor
 ### Equipe
 
 |         Nome          |	Role		|               Email               | 
-|:---------------------:|:---------------------:|:---------------------------------:|:-------------------------------------------------------------------:|
-|  Gabriel Ziegler      |        DevOps         |  [gabrielziegler3@gmail.com]()    |   [@gabrielziegler3](https://github.com/gabrielziegler3)            |
-|  Davi Alves           |      Architecture     |  [davialvb@gmail.com]()  | [@davialvb](https://github.com/davialvb) |
-|  Thiago Ferreira      |       Tech Lead       | [thiagoiferreira@outlook.com]() | [@thiagoiferreira](https://github.com/thiagoiferreira) | 
-|  Carlos Aragon        |     Product Manager   | [carloseraragon@gmail.com]() | [@carlosaragon](https://github.com/carlosaragon) |
-|  Ernando 		|      Developer        | [ernando.silva.braga@gmail.com]() | [@ZarathosDeath](https://github.com/ZarathosDeath) |
-|  Bruno 		|      Developer        | [brunnohenriq697@gmail.com]() | [@Mexazonic](https://github.com/Mexazonic) |
-|  Eugenio Sales 	|      Developer        | [eugenio.sales@outlook.com]() | [@Eugeniosales](https://github.com/Eugeniosales) |
-|  Alex Porto 		|      Developer        | [alexportoferreira@hotmail.com]() | [@alexportof](https://github.com/alexportof) |
-|  Joao Victor 		|      Developer        | [joao15victor08@gmail.com]() | [@joao15victor08](https://github.com/joao15victor08) |
+|:---------------------:|:---------------------:|:---------------------------------:|
+|  Gabriel Ziegler      |        DevOps         |  [gabrielziegler3@gmail.com]()    |
+|  Davi Alves           |      Architecture     |  [davialvb@gmail.com]()  |
+|  Thiago Ferreira      |       Tech Lead       | [thiagoiferreira@outlook.com]() | 
+|  Carlos Aragon        |     Product Manager   | [carloseraragon@gmail.com]() |
+|  Ernando 		|      Developer        | [ernando.silva.braga@gmail.com]() |
+|  Bruno 		|      Developer        | [brunnohenriq697@gmail.com]() |
+|  Eugenio Sales 	|      Developer        | [eugenio.sales@outlook.com]() |
+|  Alex Porto 		|      Developer        | [alexportoferreira@hotmail.com]() |
+|  Joao Victor 		|      Developer        | [joao15victor08@gmail.com]() |
 
 ## Referências
 
