@@ -8,7 +8,7 @@
   
   
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>EAP - Pylearner</title>
+  <title>Estudo de Microserviços - Pylearner</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
   <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
 
@@ -19,8 +19,8 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "EAP";
-    var mkdocs_page_input_path = "Eap.md";
+    var mkdocs_page_name = "Estudo de Microservi\u00e7os";
+    var mkdocs_page_input_path = "Doc-Microservices.md";
     var mkdocs_page_url = null;
   </script>
   
@@ -88,38 +88,9 @@
       
 
 
-  
-    
-    <li class="navtree toctree-l1 page current">
-      <a class="current" href="./">
-        EAP
-      </a>
-    </li>
-    
-      
-
-  <li class="toctree-l1 current with-children">
-    <a href="#historico-de-revisao">
-      Histórico de Revisão
-      <span class="toctree-expand"></span>
-    </a>
+  <li class="navtree toctree-l1 inactive">
+    <a class="" href="../Eap/">EAP</a>
   </li>
-
-
-
-      
-
-  <li class="toctree-l1">
-    <a href="#eap-v10">
-      EAP V1.0
-      <span class="toctree-expand"></span>
-    </a>
-  </li>
-
-
-
-
-  
     
       
 
@@ -290,7 +261,7 @@
     
       
     
-    <li>EAP</li>
+    <li>Estudo de Microserviços</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -300,40 +271,40 @@
           <div role="main">
             <div class="section">
               
-                <h2 id="historico-de-revisao">Histórico de Revisão</h2>
-<table>
-<thead>
-<tr>
-<th align="center">Data</th>
-<th align="center">Versão</th>
-<th align="center">Alteração</th>
-<th align="center">Autor</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">30/03/2019</td>
-<td align="center">1.0</td>
-<td align="center">Criação do documento</td>
-<td align="center">Carlos Aragon</td>
-</tr>
-</tbody>
-</table>
-<h1 id="eap-v10">EAP V1.0</h1>
-<p><img alt="" src="../img/EAP.png" /></p>
+                <h1 id="estudo-de-microservicos">Estudo de Microserviços</h1>
+<h2 id="introducao">Introdução</h2>
+<blockquote>
+<p>"Microsserviços" essa nomenclatura representa um estilo de arquitetura que é uma abordagem desenvolvida com a finalidade de criar um aplicativo único como uma suite de pequenos serviços, cada um executando seu próprio processo e se comunicando através de mecanismos leves, muitas vezes em uma API com recursos HTTP.
+Esses serviços são construídos em torno de capacidades de negócios e funcionam através de mecanismos de deploy independentes totalmente automatizados. Há o mínimo possível de gerenciamento centralizado desses serviços, que podem ser escritos em diferentes linguagens de programação e utilizam diferentes tecnologias de armazenamento de dados.</p>
+</blockquote>
+<ul>
+<li>Uma imagem bastante explicativa relacionando sistemas monoliticos com sistemas microserviços:</li>
+</ul>
+<p><img alt="Imagem" src="https://insights-images.thoughtworks.com/microservicos_nutshell_126263a3524c13ca2476c08a14af4943.jpg" /></p>
+<h3 id="imagem-adaptada-de-um-post-do-blog-do-martin-fowler">Imagem adaptada de um post do blog do <a href="https://martinfowler.com/articles/microservices.html">Martin Fowler</a></h3>
+<h2 id="possiveis-problemas-no-uso-de-microservicos">Possiveis problemas no uso de microserviços</h2>
+<blockquote>
+<p>Já no inicio dos estudos dessa arquitetura é possivel notar algo que pode ser um grande problema, conhecida como performance. Por serviços dependerem de canais de comunicação como HTTP para conseguir tratar e responder as requisições. Exigem também uma coordenação entre os contratos de serviço para que os consumidores consigam “conversar” com os serviço da maneira que eles esperam, bem como receber as respostas que estão preparados.</p>
+<p>Esse problema é especialmente preocupante conforme você tenha muitas chamadas síncronas entre seus serviços, pois o tempo de espera total para seu sistema responder será igual à soma de todos os tempos de espera das chamadas síncronas. Neste momento você tem duas opções: mudar para uma abordagem assíncrona ou reduzir o máximo que puder o tempo de espera (e a quantidade) das requisições síncronas.</p>
+<p>A falha dos serviços também se torna algo com que deve-se preocupar, ou seja, a atenção para tolerancia de falhas terá de ser dobrada.</p>
+<p>"Qualquer chamado a um serviço pode <strong>falhar</strong> devido à indisponibilidade de um fornecedor e você tem de saber lidar com isso de maneira amigável com o restante do sistema". </p>
+</blockquote>
+<h2 id="possiveis-abordagens-para-iniciar-uma-arquitetura-de-microservicos">Possiveis abordagens para iniciar uma arquitetura de microserviços</h2>
+<blockquote>
+<p>A partir de uma ideia onde o serviço é monolitico, pode-se pensar em quebrar essa aplicação e assim montar serviços desacoplados. </p>
+<p>Começando com a concepção da ideia em si, tambem é possivel projetar a aplicação de modo geral e ir dividindo em menores unidades.</p>
+<p>Separação de alguns tipos de componentes. como:
+* Presentation layer – Componentes que lidam com requisições HTTP e implementam APIs ou UIs. Em uma aplicação que tenha uma interface de usuário muito sofisticada terá uma quantidade de código de front-end substancialmente grande.
+* Business logic layer – Componentes que são o core da aplicação e implementam as regras de negócio.
+* Data‑access layer – Componentes que acessam outros componentes de infraestrutura como bancos de dados e message brokers.</p>
+</blockquote>
+<h4 id="referencias"><strong><em>Referencias</em></strong>:</h4>
+<p><a href="https://martinfowler.com/articles/microservices.html">Microservices</a></p>
+<p><a href="https://www.luiztools.com.br/post/dicas-para-refatorar-um-monolito-em-micro-servicos/">Dicas para refatorar um monolito em micro serviços</a></p>
               
             </div>
           </div>
           <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="../Backlog/" class="btn btn-neutral float-right" title="Backlog">Next <span class="icon icon-circle-arrow-right"></span></a>
-      
-      
-        <a href="../Tap/" class="btn btn-neutral" title="TAP"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-      
-    </div>
   
 
   <hr/>
@@ -357,10 +328,6 @@
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../Tap/" style="color: #fcfcfc;">&laquo; Previous</a></span>
-      
-      
-        <span style="margin-left: 15px"><a href="../Backlog/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>

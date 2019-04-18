@@ -8,7 +8,7 @@
   
   
   <link rel="shortcut icon" href="../../img/favicon.ico">
-  <title>Sprint 0 review - Pylearner</title>
+  <title>Documento de Metodologia - Pylearner</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
   <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
 
@@ -19,8 +19,8 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Sprint 0 review";
-    var mkdocs_page_input_path = "sprints/Sprint-0-review.md";
+    var mkdocs_page_name = "Documento de Metodologia";
+    var mkdocs_page_input_path = "documentation-mds/Documento-de-Metodologia.md";
     var mkdocs_page_url = null;
   </script>
   
@@ -61,22 +61,124 @@
 
 
   <li class="navtree toctree-l1 inactive">
-    <a class="" href="../../documentation-mds/Documento-de-Arquitetura/">Documento de Arquitetura</a>
+    <a class="" href="../Documento-de-Arquitetura/">Documento de Arquitetura</a>
   </li>
     
       
 
 
   <li class="navtree toctree-l1 inactive">
-    <a class="" href="../../documentation-mds/Documento-de-Visao/">Documento de Visão</a>
+    <a class="" href="../Documento-de-Visao/">Documento de Visão</a>
   </li>
     
       
 
 
-  <li class="navtree toctree-l1 inactive">
-    <a class="" href="../../documentation-mds/Documento-de-Metodologia/">Documento de Metodologia</a>
+  
+    
+    <li class="navtree toctree-l1 page current">
+      <a class="current" href="./">
+        Documento de Metodologia
+      </a>
+    </li>
+    
+      
+
+  <li class="toctree-l1 current with-children">
+    <a href="#version-control">
+      Version control
+      <span class="toctree-expand"></span>
+    </a>
   </li>
+
+
+
+      
+
+  <li class="toctree-l1">
+    <a href="#introducao">
+      Introdução
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+      
+
+  <li class="toctree-l1">
+    <a href="#metodologias-utilizadas">
+      Metodologias Utilizadas
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l1">
+    <ul class="subnav-l1 toc-hidden">
+    
+      
+          
+
+  <li class="toctree-l2 current with-children">
+    <a href="#scrum">
+      Scrum
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l2 current">
+    <ul class="subnav-l2 current">
+    
+      
+        <li class="toctree-l3">
+          <a class="toctree-l4" href="#descricao-da-metodologia">Descrição da Metodologia</a>
+        </li>
+    
+      
+        <li class="toctree-l3">
+          <a class="toctree-l4" href="#recursos-utilizados">Recursos Utilizados</a>
+        </li>
+    
+    </ul>
+  </li>
+
+      
+    
+      
+        <li class="toctree-l2">
+          <a class="toctree-l3" href="#kanban">Kanban</a>
+        </li>
+    
+      
+        <li class="toctree-l2">
+          <a class="toctree-l3" href="#xp">XP</a>
+        </li>
+    
+      
+        <li class="toctree-l2">
+          <a class="toctree-l3" href="#recursos-utilizados_1">Recursos Utilizados</a>
+        </li>
+    
+    </ul>
+  </li>
+
+      
+
+  <li class="toctree-l1">
+    <a href="#referencias">
+      Referências
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+
+  
     
       
 
@@ -113,134 +215,43 @@
           
 
 
-  
-    
-    <li class="navtree toctree-l2 page current">
-      <a class="current" href="./">
-        Sprint 0 review
-          <span class="toctree-expand"></span>
-      </a>
-    </li>
-    
-      
-
-  <li class="toctree-l2 current with-children">
-    <a href="#version-control">
-      Version control
-      <span class="toctree-expand"></span>
-    </a>
-  </li>
-
-
-
-      
-
-  <li class="toctree-l2">
-    <a href="#sprint-0">
-      Sprint 0
-      <span class="toctree-expand"></span>
-    </a>
-  </li>
-
-
-
-  <li class="toctree-l2">
-    <ul class="subnav-l2 toc-hidden">
-    
-      
-        <li class="toctree-l3">
-          <a class="toctree-l4" href="#resumo-da-sprint">Resumo da Sprint</a>
-        </li>
-    
-      
-        <li class="toctree-l3">
-          <a class="toctree-l4" href="#fechamento-da-sprint">Fechamento da Sprint</a>
-        </li>
-    
-      
-        <li class="toctree-l3">
-          <a class="toctree-l4" href="#sprint-burndown">Sprint Burndown</a>
-        </li>
-    
-      
-        <li class="toctree-l3">
-          <a class="toctree-l4" href="#sprint-velocity">Sprint Velocity</a>
-        </li>
-    
-      
-          
-
-  <li class="toctree-l3">
-    <a href="#sprint-review">
-      Sprint Review
-      <span class="toctree-expand"></span>
-    </a>
-  </li>
-
-
-
-  <li class="toctree-l3">
-    <ul class="subnav-l3 toc-hidden">
-    
-      
-        <li class="toctree-l4">
-          <a class="toctree-l5" href="#positivo">Positivo</a>
-        </li>
-    
-      
-        <li class="toctree-l4">
-          <a class="toctree-l5" href="#negativo">Negativo</a>
-        </li>
-    
-      
-        <li class="toctree-l4">
-          <a class="toctree-l5" href="#a-melhorar">A Melhorar</a>
-        </li>
-    
-    </ul>
-  </li>
-
-      
-    
-    </ul>
-  </li>
-
-
-  
-        
-          
-
-
   <li class="navtree toctree-l2 inactive">
-    <a class="" href="../Sprint-1-Review/">Sprint 1 Review</a>
+    <a class="" href="../../sprints/Sprint-0-review/">Sprint 0 review</a>
   </li>
         
           
 
 
   <li class="navtree toctree-l2 inactive">
-    <a class="" href="../Sprint-1-planning/">Sprint 1 planning</a>
+    <a class="" href="../../sprints/Sprint-1-Review/">Sprint 1 Review</a>
   </li>
         
           
 
 
   <li class="navtree toctree-l2 inactive">
-    <a class="" href="../Sprint-2-planning/">Sprint 2 planning</a>
+    <a class="" href="../../sprints/Sprint-1-planning/">Sprint 1 planning</a>
   </li>
         
           
 
 
   <li class="navtree toctree-l2 inactive">
-    <a class="" href="../Sprint-2-review/">Sprint 2 review</a>
+    <a class="" href="../../sprints/Sprint-2-planning/">Sprint 2 planning</a>
   </li>
         
           
 
 
   <li class="navtree toctree-l2 inactive">
-    <a class="" href="../Sprint-3-planning/">Sprint 3 planning</a>
+    <a class="" href="../../sprints/Sprint-2-review/">Sprint 2 review</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../../sprints/Sprint-3-planning/">Sprint 3 planning</a>
   </li>
         
       </ul>
@@ -351,12 +362,8 @@
     <li><a href="../..">Docs</a> &raquo;</li>
     
       
-        
-          <li>Documentação das sprints &raquo;</li>
-        
-      
     
-    <li>Sprint 0 review</li>
+    <li>Documento de Metodologia</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -378,93 +385,75 @@
 </thead>
 <tbody>
 <tr>
-<td align="center">24/03/2019</td>
+<td align="center">12/04/2019</td>
 <td align="center">0.1</td>
-<td align="center">Sprint Review</td>
+<td align="center">Criação do Documento</td>
 <td align="center">Thiago Ferreira</td>
 </tr>
 </tbody>
 </table>
-<h1 id="sprint-0">Sprint 0</h1>
-<h2 id="resumo-da-sprint">Resumo da Sprint</h2>
-<p>Esta sprint teve como marco a definição da temática do projeto, criação de documentação de base e treinamentos de nivelamento para a equipe de desenvolvimento. Também foram fechadas issues focadas na adequação do repositório aos padrões de comunidade recomendados do github.<br>
-Quantos as pendências, ficaram pendentes duas issues de treinamentos relativas à tópicos mais avançados, estas issues correspondendo à 10 pontos em total e acabando por prejudicar o burndown dessa sprint inicial.</p>
-<hr />
-<h2 id="fechamento-da-sprint">Fechamento da Sprint</h2>
-<table>
-<thead>
-<tr>
-<th align="center">Issue</th>
-<th align="center">Status</th>
-<th align="center">Pontos</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">Come up with a name for the project</td>
-<td align="center">Concluída</td>
-<td align="center">0</td>
-</tr>
-<tr>
-<td align="center">Attend to SCRUM framework training</td>
-<td align="center">Concluída</td>
-<td align="center">2</td>
-</tr>
-<tr>
-<td align="center">Decide which topic the bot will help with</td>
-<td align="center">Concluída</td>
-<td align="center">1</td>
-</tr>
-<tr>
-<td align="center">Attend Git Training</td>
-<td align="center">Concluída</td>
-<td align="center">2</td>
-</tr>
-<tr>
-<td align="center">Create commit policy document</td>
-<td align="center">Concluída</td>
-<td align="center">1</td>
-</tr>
-<tr>
-<td align="center">Create branch policy document</td>
-<td align="center">Concluída</td>
-<td align="center">1</td>
-</tr>
-<tr>
-<td align="center">Learn about chatbot</td>
-<td align="center">Não Concluida</td>
-<td align="center">5</td>
-</tr>
-<tr>
-<td align="center">Learn about Microservices Arquitecture</td>
-<td align="center">Não Concluida</td>
-<td align="center">5</td>
-</tr>
-<tr>
-<td align="center">___</td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-</tbody>
-</table>
-<h2 id="sprint-burndown">Sprint Burndown</h2>
-<p><img src="../images/burndownSprint0.png"></p>
-<h2 id="sprint-velocity">Sprint Velocity</h2>
-<p><img src="../images/velocitysprint0.png"></p>
-<h2 id="sprint-review">Sprint Review</h2>
-<h3 id="positivo">Positivo</h3>
-<pre><code>* Bons Treinamentos
-</code></pre>
-<h3 id="negativo">Negativo</h3>
-<pre><code>* Comunicação entre o membros
-* Engajamento Github
-* Noção de Papéis
-</code></pre>
-<h3 id="a-melhorar">A Melhorar</h3>
-<pre><code>* Organização de reunião
-* Divulgar pauta reunião anteriormente
-* Preparação
-* Melhor entedimento dos papéis dos membros
+<h1 id="introducao">Introdução</h1>
+<p>Este documento visa a descrição das metodologias utilizadas ao decorrer do desenvolvimento do projeto, assim como, o que cada metodologia agrega ao desenvolvimento em geral.</p>
+<h1 id="metodologias-utilizadas">Metodologias Utilizadas</h1>
+<h2 id="scrum">Scrum</h2>
+<h3 id="descricao-da-metodologia">Descrição da Metodologia</h3>
+<p>O Scrum é uma metologia ágil para gestão e planejamento de projetos de software.
+Nesta faz-se uso de Sprints, que são espaços de tempo onde devem ser executadas determinadas atividades, das quais são distribuidas e organizadas pelo Scrum Master e o Product Owner. </p>
+<h3 id="recursos-utilizados">Recursos Utilizados</h3>
+<ul>
+<li>
+<p>Sprints</p>
+<ul>
+<li>Ciclos de produção a qual determinadas atividades, definidas durante as reuniões de planejamento, são desenvolvidas.</li>
+</ul>
+</li>
+<li>
+<p>Dailies</p>
+<ul>
+<li>Reuniões ou relatórios diários os quais a equipe relata individualmente, o que fez no dia anterior, o que pretende fazer nesse dia e se há algo impedindo a execução de determinada tarefa.</li>
+</ul>
+</li>
+<li>
+<p>Reuniões de Planejamento</p>
+<ul>
+<li>Reuniões onde são definidas as tarefas a serem executadas nas próximas sprints.</li>
+</ul>
+</li>
+<li>Reuniões de Retrospectiva de Sprint<ul>
+<li>Reunião realizada pela equipe juntamente às reuniões de planejamento onde a sprint anterior é revisada.</li>
+</ul>
+</li>
+<li>Product Backlog<ul>
+<li>Lista onde são mantidas as especificações das funcionalidades a serem implementadas no projeto.</li>
+</ul>
+</li>
+<li>Sprint Backlog<ul>
+<li>Lista onde são mantidas as funcionalidades a serem desenvolvidas durante a sprint</li>
+</ul>
+</li>
+</ul>
+<h2 id="kanban">Kanban</h2>
+<p>O kanban é um método de organização que visa melhorar o desempenho da equipe por meio de um sistema visual através do uso de cartões. Os cartões utilizados no projeto são compostos pelas issues designadas para produção.</p>
+<p>A ferramenta de Kanban escolhida para a equipe para o projeto foi a extensão Zenhub. Esta faz uso das issues do github, possibilitando a organização destas num pipeline interativo, onde é possível mover os cartões arrastando-os.</p>
+<h2 id="xp">XP</h2>
+<p>O XP é uma metodologia de desenvolvimento de software focada em boas práticas de programação e de produção de software em geral. Esta metodologia foca na manutenção da harmonia do trabalho em equipe no desenvolvimento.</p>
+<h2 id="recursos-utilizados_1">Recursos Utilizados</h2>
+<ul>
+<li>Programação em Pares<ul>
+<li>A programação em pares é adotado no projeto desde o início do desenvolvimento. Todas as sprints haverá uma divisão da equipe de desenvolvimento de forma a equilibrar os conhecimentos e nivelar a equipe.</li>
+</ul>
+</li>
+<li>Padronização de código<ul>
+<li>A equipe definirá uma folha de estilo para padronização do desenvolvimento </li>
+</ul>
+</li>
+<li>Refatoração de Código<ul>
+<li>Durante o desenvolvimento serão aplicadas refatorações que visam melhorar o código como um todo, tornando-o mais eficiente e mais legível para os desenvolvedores</li>
+</ul>
+</li>
+</ul>
+<h1 id="referencias">Referências</h1>
+<pre><code>https://www.desenvolvimentoagil.com.br/scrum/
 </code></pre>
               
             </div>
@@ -473,10 +462,10 @@ Quantos as pendências, ficaram pendentes duas issues de treinamentos relativas 
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../Sprint-1-Review/" class="btn btn-neutral float-right" title="Sprint 1 Review">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../../Tap/" class="btn btn-neutral float-right" title="TAP">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../../Backlog/" class="btn btn-neutral" title="Backlog"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../Documento-de-Visao/" class="btn btn-neutral" title="Documento de Visão"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -502,10 +491,10 @@ Quantos as pendências, ficaram pendentes duas issues de treinamentos relativas 
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../../Backlog/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../Documento-de-Visao/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../Sprint-1-Review/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../../Tap/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
