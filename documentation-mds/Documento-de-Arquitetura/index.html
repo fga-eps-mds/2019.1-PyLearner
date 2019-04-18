@@ -10,7 +10,6 @@
   <link rel="shortcut icon" href="../../img/favicon.ico">
   <title>Documento de Arquitetura - Pylearner</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
-  <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
@@ -47,296 +46,143 @@
       </div>
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-	<ul class="tocbase current">
-    
-    
-      
-
-
-  <li class="navtree toctree-l1 inactive">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
     <a class="" href="../..">Home</a>
-  </li>
-    
-      
-  <li class="navtree toctree-l1 label">
-    <p class="caption">Políticas</p>
-  </li>
-
-
-  
-
-  
-    <li class="navtree toctree-l1 group">
-      <ul class="navtree subnav-l1 current">
+	    </li>
           
-
-
-  <li class="navtree toctree-l2 inactive">
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Políticas</span>
+    <ul class="subnav">
+                <li class="">
+                    
     <a class="" href="../../policies/Branches/">Branches</a>
-  </li>
-        
-          
-
-
-  <li class="navtree toctree-l2 inactive">
+                </li>
+                <li class="">
+                    
     <a class="" href="../../policies/Commits/">Commits</a>
-  </li>
-        
-          
-
-
-  <li class="navtree toctree-l2 inactive">
+                </li>
+                <li class="">
+                    
     <a class="" href="../../policies/Definicao-Done/">Definicao Done</a>
-  </li>
-        
-          
-
-
-  <li class="navtree toctree-l2 inactive">
+                </li>
+                <li class="">
+                    
     <a class="" href="../../policies/Git-Workflow/">Git Workflow</a>
-  </li>
-        
-          
-
-
-  <li class="navtree toctree-l2 inactive">
+                </li>
+                <li class="">
+                    
     <a class="" href="../../policies/Style-Guide/">Style Guide</a>
-  </li>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Documentação</span>
+    <ul class="subnav">
+                <li class=" current">
+                    
+    <a class="current" href="./">Documento de Arquitetura</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#documento-de-arquitetura">Documento de Arquitetura</a></li>
+    
+        <ul>
         
-      </ul>
-    </li>
+            <li><a class="toctree-l4" href="#historico-de-revisao">Histórico de Revisão</a></li>
+        
+            <li><a class="toctree-l4" href="#1-introducao">1. Introdução</a></li>
+        
+            <li><a class="toctree-l4" href="#2-representacao-da-arquitetura">2. Representação da Arquitetura</a></li>
+        
+            <li><a class="toctree-l4" href="#3-metas-e-restricoes-de-arquitetura">3. Metas e Restrições de Arquitetura</a></li>
+        
+            <li><a class="toctree-l4" href="#4-visao-logica">4. Visão Lógica</a></li>
+        
+        </ul>
     
-      
 
-
-  
-    
-    <li class="navtree toctree-l1 page current">
-      <a class="current" href="./">
-        Documento de Arquitetura
-      </a>
-    </li>
-    
-      
-
-
-
-  <li class="toctree-l1 current">
-    <ul class="subnav-l1 current">
-    
-      
-        <li class="toctree-l2">
-          <a class="toctree-l3" href="#historico-de-revisao">Histórico de Revisão</a>
-        </li>
-    
-      
-          
-
-  <li class="toctree-l2">
-    <a href="#1-introducao">
-      1. Introdução
-      <span class="toctree-expand"></span>
-    </a>
-  </li>
-
-
-
-  <li class="toctree-l2">
-    <ul class="subnav-l2 toc-hidden">
-    
-      
-        <li class="toctree-l3">
-          <a class="toctree-l4" href="#11-finalidade">1.1 Finalidade</a>
-        </li>
-    
-      
-        <li class="toctree-l3">
-          <a class="toctree-l4" href="#12-escopo">1.2 Escopo</a>
-        </li>
-    
-      
-        <li class="toctree-l3">
-          <a class="toctree-l4" href="#13-referencias">1.3 Referências</a>
-        </li>
-    
-      
-        <li class="toctree-l3">
-          <a class="toctree-l4" href="#14-definicoes-acronimos-e-abreviacoes">1.4  Definições, Acrônimos e Abreviações</a>
-        </li>
-    
     </ul>
-  </li>
-
-      
-    
-      
-        <li class="toctree-l2">
-          <a class="toctree-l3" href="#2-representacao-da-arquitetura">2. Representação da Arquitetura</a>
-        </li>
-    
-      
-        <li class="toctree-l2">
-          <a class="toctree-l3" href="#3-metas-e-restricoes-de-arquitetura">3. Metas e Restrições de Arquitetura</a>
-        </li>
-    
-      
-          
-
-  <li class="toctree-l2">
-    <a href="#4-visao-logica">
-      4. Visão Lógica
-      <span class="toctree-expand"></span>
-    </a>
-  </li>
-
-
-
-  <li class="toctree-l2">
-    <ul class="subnav-l2 toc-hidden">
-    
-      
-        <li class="toctree-l3">
-          <a class="toctree-l4" href="#arquitetura-do-backend">Arquitetura do Backend</a>
-        </li>
-    
-    </ul>
-  </li>
-
-      
-    
-    </ul>
-  </li>
-
-
-  
-    
-      
-
-
-  <li class="navtree toctree-l1 inactive">
+                </li>
+                <li class="">
+                    
     <a class="" href="../Documento-de-Visao/">Documento de Visão</a>
-  </li>
-    
-      
-
-
-  <li class="navtree toctree-l1 inactive">
+                </li>
+                <li class="">
+                    
     <a class="" href="../Documento-de-Metodologia/">Documento de Metodologia</a>
-  </li>
-    
-      
-
-
-  <li class="navtree toctree-l1 inactive">
+                </li>
+                <li class="">
+                    
     <a class="" href="../../Tap/">TAP</a>
-  </li>
-    
-      
-
-
-  <li class="navtree toctree-l1 inactive">
+                </li>
+                <li class="">
+                    
     <a class="" href="../../Eap/">EAP</a>
-  </li>
-    
-      
-
-
-  <li class="navtree toctree-l1 inactive">
+                </li>
+                <li class="">
+                    
     <a class="" href="../../Backlog/">Backlog</a>
-  </li>
-    
-      
-  <li class="navtree toctree-l1 label">
-    <p class="caption">Documentação das sprints</p>
-  </li>
-
-
-  
-
-  
-    <li class="navtree toctree-l1 group">
-      <ul class="navtree subnav-l1 current">
+                </li>
+    </ul>
+	    </li>
           
-
-
-  <li class="navtree toctree-l2 inactive">
-    <a class="" href="../../sprints/Sprint-0-review/">Sprint 0 review</a>
-  </li>
-        
-          
-
-
-  <li class="navtree toctree-l2 inactive">
-    <a class="" href="../../sprints/Sprint-1-Review/">Sprint 1 Review</a>
-  </li>
-        
-          
-
-
-  <li class="navtree toctree-l2 inactive">
-    <a class="" href="../../sprints/Sprint-1-planning/">Sprint 1 planning</a>
-  </li>
-        
-          
-
-
-  <li class="navtree toctree-l2 inactive">
-    <a class="" href="../../sprints/Sprint-2-planning/">Sprint 2 planning</a>
-  </li>
-        
-          
-
-
-  <li class="navtree toctree-l2 inactive">
-    <a class="" href="../../sprints/Sprint-2-review/">Sprint 2 review</a>
-  </li>
-        
-          
-
-
-  <li class="navtree toctree-l2 inactive">
-    <a class="" href="../../sprints/Sprint-3-planning/">Sprint 3 planning</a>
-  </li>
-        
-      </ul>
-    </li>
-    
-      
-  <li class="navtree toctree-l1 label">
-    <p class="caption">Roadmaps Individuais</p>
-  </li>
-
-
-  
-
-  
-    <li class="navtree toctree-l1 group">
-      <ul class="navtree subnav-l1 current">
-          
-
-
-  <li class="navtree toctree-l2 inactive">
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Roadmaps Individuais</span>
+    <ul class="subnav">
+                <li class="">
+                    
     <a class="" href="../../roadmap/Roadmap-TechLead/">Roadmap TechLead</a>
-  </li>
-        
-          
-
-
-  <li class="navtree toctree-l2 inactive">
+                </li>
+                <li class="">
+                    
     <a class="" href="../../roadmap/Roadmap-DevOps/">Roadmap DevOps</a>
-  </li>
-        
-          
-
-
-  <li class="navtree toctree-l2 inactive">
+                </li>
+                <li class="">
+                    
     <a class="" href="../../roadmap/Roadmap-Arquiteto/">Roadmap Arquiteto</a>
-  </li>
-        
-      </ul>
-    </li>
-    
-  </ul>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Documentação das sprints</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../sprints/Sprint-0-review/">Sprint 0 review</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../sprints/Sprint-1-Review/">Sprint 1 Review</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../sprints/Sprint-1-planning/">Sprint 1 planning</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../sprints/Sprint-2-planning/">Sprint 2 planning</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../sprints/Sprint-2-review/">Sprint 2 review</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../sprints/Sprint-3-planning/">Sprint 3 planning</a>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
       </div>
       &nbsp;
     </nav>
@@ -356,6 +202,10 @@
   <ul class="wy-breadcrumbs">
     <li><a href="../..">Docs</a> &raquo;</li>
     
+      
+        
+          <li>Documentação &raquo;</li>
+        
       
     
     <li>Documento de Arquitetura</li>
