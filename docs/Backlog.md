@@ -46,27 +46,27 @@ Os temas e épicos definidos para o PyLearner são:
 
 ### Tema 1
 
-![tema 1](./images/tema1-preprocessamento.png)
+![tema 1](img/tema1-preprocessamento.png)
 
 ### Tema 2
 
-![tema 2](./images/tema2-modelagem.png)
+![tema 2](img/tema2-modelagem.png)
 
 ### Tema 3
 
-![tema 3](./images/tema3-visualizacao.png)
+![tema 3](img/tema3-visualizacao.png)
 
 ### Tema 4
 
-![tema 4](./images/tema4-interacao.png)
+![tema 4](img/tema4-interacao.png)
 
 ### Tema 5
 
-![tema 5](./images/tema5-tutorial.png)
+![tema 5](img/tema5-tutorial.png)
 
 ### Tema 6
 
-![tema 6](./images/tema6-sugestoes.png)
+![tema 6](img/tema6-sugestoes.png)
 
 ## Referencial
 
