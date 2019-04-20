@@ -15,24 +15,19 @@
 ## Novas Issues
 |Issue|Pontos|Responsável|
 |:--:|:-------:|:--:|
-|Revisão Formatação do Markdown|1|Equipe|
-|Refatorar o Backlog|5|Gabriel Ziegler|
-|Docker de RASA|3|Gabriel Ziegler - DevOps|
-|US01 - Eu como usuário desejo saber como importar dados de um CSV |5|Alex Porto|
-|US02 - Eu como usuário desejo saber como importar dados de um JSON|5|Bruno Duarte|
-|US04 - Eu como usuário desejo saber lidar com dados faltantes|8|Eugênio Sales|
-|US14 - Eu como usuário desejo saber como fazer a matriz de correlação entre as variáveis para descobrir a correlação entre minhas features|5|Ernando Braga|
-|US15 - Eu como usuário desejo saber como visualizar o histograma de features para descobrir o balanceamento das minhas features|5|João Victor Oliveira|
+|TS01 - Eu como desenvolvedor desejo treinar o bot com os cenarios propostos pra release 0.1 para conseguir seguir os fluxos das conversações prospostas para o bot|5|Eugênio e Davi e Bruno|
+|US19 - Eu como usuário	desejo ver um tutorial com várias técnicas para conseguir criar um classificador usando machine learning par aprender sobre machine learning mesmo sem saber exatamente quais perguntas fazer ao chatbot|5|Ernando e Alex e João Victor |
 
 
 ## Débitos
 |Issue|Pontos|Responsável|
 |:--:|:-------:|:--:|
-|Roadmap do Projeto|5|Tech Lead e Product Owner|
-|Processar informações obtidas através da aplicação do questionário|2|Product Owner|
-|Protótipo de Alta Fidelidade|8|Ernando e João Victor|
-|TS-23 - Visualizar Dados de Treino|5|Eugênio Sales|
-|Levantar Requisitos do Projeto|3|Equipe EPS|
+|Docker de RASA|5|DevOps e Arquiteto|
+|Docker de Actions|5|DevOps|
+|Roadmap do Projeto|3|Tech Lead|
+|Bug do docker de rocketchat|8|Product Owner e DevOps|
+|Protótipo de Alta Fidelidade|3|Ernando e João Victor|
+|Levantar Requisitos do Projeto|3|Tech Lead|
 
 ## Issues Adicionadas Durante a Sprint
 |Issue|Pontos|Responsável|
