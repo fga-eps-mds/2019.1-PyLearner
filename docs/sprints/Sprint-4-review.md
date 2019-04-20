@@ -10,39 +10,39 @@
 ## Issues
 |Issue|Pontos|Responsável|Status|
 |:--:|:-------:|:--:|:---:|
-|Revisão Formatação do Markdown|1|Equipe|
-|Refatorar o Backlog|5|Gabriel Ziegler|
-|Docker de RASA|3|Gabriel Ziegler - DevOps|
-|US01 - Eu como usuário desejo saber como importar dados de um CSV |0|Alex Porto||
+|Revisão Formatação do Markdown|1|Equipe| Entregue |
+|Refatorar o Backlog|5|Gabriel Ziegler| Entregue |
+|Docker de RASA|3|Gabriel Ziegler - DevOps| Não Entregue |
+|US01 - Eu como usuário desejo saber como importar dados de um CSV |0|Alex Porto|
 |Task US01 - Criação Documento de Estudo|1|Alex Porto|Entregue|
-|Task US01 - Criação dos Intents, actions e templates|2|Alex Porto||
-|Task US01 - Histórias|2|Alex Porto||
+|Task US01 - Criação dos Intents, actions e templates|2|Alex Porto| Entregue |
+|Task US01 - Histórias|2|Alex Porto| Entregue |
 |US02 - Eu como usuário desejo saber como importar dados de um JSON|0|Bruno Duarte||
 |Task US02 - Criação Documento de Estudo|1|Bruno Duarte|Entregue|
 |Task US02 - Criação dos Intents, actions e templates|2|Bruno Duarte|Entregue|
-|Task US02 - Histórias|2|Bruno Duarte||
+|Task US02 - Histórias|2|Bruno Duarte| Entregue |
 |US04 - Eu como usuário desejo saber lidar com dados faltantes|0|Eugênio Sales|
 |Task US04 - Criação Documento de Estudo|2|Eugênio Sales|Entregue|
 |Task US04 - Criação dos Intents, actions e templates|3|Eugênio Sales|Entregue|
-|Task US04 - Histórias|3|Eugênio Sales||
+|Task US04 - Histórias|3|Eugênio Sales| Entregue |
 |US14 - Eu como usuário desejo saber como fazer a matriz de correlação entre as variáveis para descobrir a correlação entre minhas features|0|Ernando Braga|
 |Task US14 - Criação Documento de Estudo|1|Ernando Braga|Entregue|
-|Task US14 - Criação dos Intents, actions e templates|2|Ernando Braga||
-|Task US14 - Histórias|2|Ernando Braga||
+|Task US14 - Criação dos Intents, actions e templates|2|Ernando Braga| Não Entregue |
+|Task US14 - Histórias|2|Ernando Braga| Não Entregue |
 |US15 - Eu como usuário desejo saber como visualizar o histograma de features para descobrir o balanceamento das minhas features|5|João Victor Oliveira|
 |Task US15 - Criação Documento de Estudo|1|João Victor Oliveira|Entregue|
 |Task US15 - Criação dos Intents, actions e templates|2|João Victor Oliveira|Entregue|
-|Task US15 - Histórias|2|João Victor Oliveira||
+|Task US15 - Histórias|2|João Victor Oliveira| Entregue |
 
 
 ### Débitos
 |Issue|Pontos|Responsável|Status|
 |:--:|:-------:|:--:|:---:|
-|Roadmap do Projeto|5|Tech Lead e Product Owner||
-|Processar informações obtidas através da aplicação do questionário|2|Product Owner|Descontinuada|
-|Protótipo de Alta Fidelidade|8|Ernando e João Victor||
+|Roadmap do Projeto|5|Tech Lead e Product Owner| Não Entregue |
+|Processar informações obtidas através da aplicação do questionário|2|Product Owner|Descontinuada| Entregue |
+|Protótipo de Alta Fidelidade|8|Ernando e João Victor| Não Entregue |
 |TS-23 - Visualizar Dados de Treino|5|Eugênio Sales|Descontinuada|
-|Levantar Requisitos do Projeto|3|Equipe EPS||
+|Levantar Requisitos do Projeto|3|Equipe EPS| Não Entregue |
 
 ___
 **Pontos Planejados:**  <br>
@@ -62,7 +62,7 @@ ___
 **EPS:** 
 * [Davi Alves](https://github.com/davialvb)  
 * [Gabriel Ziegler](https://github.com/gabrielziegler3)
-* [Thiago Ferreira](https://github.com/thiagoiferreira)
+* [Carlos Aragon](https://github.com/carlosaragon)
 
 **MDS:** 
 - [Alex Porto](https://github.com/alexportof)
@@ -72,6 +72,7 @@ ___
 - [João Victor](https://github.com/joao15victor08)
 
 ### Observações
+* O Scrum Master estava viajando e não compareceu a reunião, que foi conduzida pelo PO, DevOps e Arquiteto.
 
 ## Presença Dailies Presenciais
 
@@ -105,3 +106,21 @@ ___
 - [Ernando Braga](https://github.com/ZarathosDeath)
 - [Eugenio Sales](https://github.com/Eugeniosales)
 - [João Victor](https://github.com/joao15victor08)
+
+## Pontos Positivos
+* Fluxo de trabalho diario 
+* Comunicação melhor
+* Compromentimento da equipe
+* Proatividade dos membros
+* Troca de conhecimento
+* Melhora no planejamento
+
+## Pontos Negativos
+* Descrição das issues
+* Planejamento da Sprint
+* Objetividade na descrição da issues
+* Entregas de valor
+
+## A Melhorar
+* Planejamento da sprint
+* Aproveitamento do tempo
