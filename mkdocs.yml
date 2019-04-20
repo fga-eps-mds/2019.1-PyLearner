@@ -1,0 +1,31 @@
+site_name: Pylearner 
+nav:
+    - Home: README.md
+    - Políticas:
+        - policies/Branches.md
+        - policies/Commits.md
+        - policies/Definicao-Done.md
+        - policies/Git-Workflow.md
+        - policies/Style-Guide.md
+    - Documentação:
+        - Documento de Arquitetura: documentation-mds/Documento-de-Arquitetura.md
+        - Documento de Visão: documentation-mds/Documento-de-Visao.md
+        - Documento de Metodologia: documentation-mds/Documento-de-Metodologia.md
+        - TAP: Tap.md
+        - EAP: Eap.md
+        - Backlog: Backlog.md
+    - Roadmaps Individuais:
+        - roadmap/Roadmap-TechLead.md
+        - roadmap/Roadmap-DevOps.md
+        - roadmap/Roadmap-Arquiteto.md
+    - Documentação das sprints: 
+        - sprints/Sprint-0-review.md
+        - sprints/Sprint-1-Review.md
+        - sprints/Sprint-1-planning.md
+        - sprints/Sprint-2-planning.md
+        - sprints/Sprint-2-review.md
+        - sprints/Sprint-3-planning.md
+theme:
+  name: readthedocs
+extra_css:
+    - css/extra.css

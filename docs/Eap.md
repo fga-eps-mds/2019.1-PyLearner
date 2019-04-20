@@ -5,4 +5,4 @@
 | 30/03/2019 |  1.0   | Criação do documento |Carlos Aragon|
 
 # EAP V1.0
-<img src="images/EAP.png">
+![](img/EAP.png)
