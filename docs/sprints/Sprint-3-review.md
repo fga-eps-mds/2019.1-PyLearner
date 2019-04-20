@@ -35,13 +35,13 @@ ___
 ___
 
 # Burndown
-<img src="../images/burndownSprint3.png">
+![](../img/burndownSprint3.png)
 
 # Velocity
-<img src="../images/velocitySprint3.png">
+![](../img/velocitySprint3.png)
 
 # Retrospectiva
-<img src="../images/reviewsprint3.png">
+![](../img/reviewsprint3.png)
 
 ## Presença na Reunião
 **EPS:** 

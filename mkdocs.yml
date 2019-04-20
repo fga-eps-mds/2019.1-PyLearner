@@ -20,11 +20,15 @@ nav:
         - roadmap/Roadmap-Arquiteto.md
     - Documentação das sprints: 
         - sprints/Sprint-0-review.md
-        - sprints/Sprint-1-Review.md
         - sprints/Sprint-1-planning.md
+        - sprints/Sprint-1-Review.md  
         - sprints/Sprint-2-planning.md
         - sprints/Sprint-2-review.md
         - sprints/Sprint-3-planning.md
+        - sprints/Sprint-3-review.md
+        - sprints/Sprint-4-planning.md
+        - sprints/Sprint-4-review.md
+        - sprints/Sprint-5-planning.md
 theme:
   name: readthedocs
 extra_css:

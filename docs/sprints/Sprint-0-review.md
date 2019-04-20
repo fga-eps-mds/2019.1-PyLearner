@@ -25,10 +25,10 @@ ___
 ___
 
 ## Sprint Burndown
-<img src="../images/burndownSprint0.png">
+![](../img/burndownSprint0.png)
 
 ## Sprint Velocity
-<img src="../images/velocitysprint0.png">
+![](../img/velocitysprint0.png)
 
 ## Sprint Review
 

@@ -31,11 +31,11 @@
 ___
 
 # Burndown
-<img src="../images/BurndownSprint1.png">
+![](../img/BurndownSprint1.png)
 # Velocity
-<img src="../images/velocitySprint1.png">
+![](../img/velocitySprint1.png)
 # Retrospectiva
-<img src="../images/reviewsprint1.png">
+![](../img/reviewsprint1.png)
 
 ## Presença Dailies Presenciais
 
