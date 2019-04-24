@@ -82,6 +82,8 @@ Os custos estimados são referentes ao tempo de desenvolvimento do produto, quat
 | DevOps                                      |                1                |            R$ 20,00           |  R$ 6.000,00 |  R$ 23.700,00 |
 | Total                                       |                -                |               -               |       -      | R$ 175.800,00 |
 
+* Estimativa salarial baseada em pesquisa de mercado a partir da experiência e habilidades dos envolvidos no projeto.
+
 ### Aquisições
 | Produto            | Quantidade | Valor (unidade) |
 |--------------------|------------|-----------------|
@@ -119,3 +121,7 @@ O produto busca atender a necessidade de estudantes que desejam obter ou aprimor
 Documentação Kalkuli, 2018. Página do Termo de Abertura do Projeto no GitHub Pages. Disponível em: <https://github.com/fga-eps-mds/2018.2-Kalkuli/blob/master/docs/tap.md>.
 
 Documentação SIGS, 2017. Página do Termo de Abertura do Projeto no GitHub Pages. Disponível em: <https://github.com/fga-eps-mds/2017.1-SIGS/wiki/Termo-de-Abertura-do-Projeto>.
+
+Love Mondays: a glassdoor company, © 2018. Disponível em: https://www.lovemondays.com.br/.
+
+Coworking Brasil, © 2018. Disponível em https://coworkingbrasil.org/. 
