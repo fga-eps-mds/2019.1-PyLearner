@@ -4,6 +4,8 @@
 |:--:|:----:|:-------:|:---:|
 |13/04/2019|0.1|Planejamento da Srint prévio|Thiago Ferreira|
 |14/04/2019|0.2|Definição das US's da sprint e Objetivo|Thiago Ferreira|
+|20/04/2019|0.3|Alterações na sprint|Thiago Ferreira|
+
 # Duração da Sprint
 
 * <b>Início:</b> 14/04/2019
@@ -45,12 +47,46 @@ Nessa sprint serão apurados os requisitos e o roadmap, tarefas estas que deveri
 ## Issues Adicionadas Durante a Sprint
 |Issue|Pontos|Responsável|
 |:--:|:-------:|:--:|
+|Task US01 - Criação Documento de Estudo|1|Alex Porto|Entregue|
+|Task US01 - Criação dos Intents, actions e templates|2|Alex Porto| Entregue |
+|Task US01 - Histórias|2|Alex Porto| Entregue |
+|Task US02 - Criação Documento de Estudo|1|Bruno Duarte|Entregue|
+|Task US02 - Criação dos Intents, actions e templates|2|Bruno Duarte|Entregue|
+|Task US02 - Histórias|2|Bruno Duarte| Entregue |
+|Task US04 - Criação Documento de Estudo|2|Eugênio Sales|Entregue|
+|Task US04 - Criação dos Intents, actions e templates|3|Eugênio Sales|Entregue|
+|Task US04 - Histórias|3|Eugênio Sales| Entregue |
+|Task US14 - Criação Documento de Estudo|1|Ernando Braga|Entregue|
+|Task US14 - Criação dos Intents, actions e templates|2|Ernando Braga|Entregue |
+|Task US14 - Histórias|2|Ernando Braga| Entregue |
+|Task US15 - Criação Documento de Estudo|1|João Victor Oliveira|Entregue|
+|Task US15 - Criação dos Intents, actions e templates|2|João Victor Oliveira|Entregue|
+|Task US15 - Histórias|2|João Victor Oliveira| Entregue |
+
+## Issues Alteradas 
+|Issue|Pontos|
+|:--:|:-------:|
+|US01 - Eu como usuário desejo saber como importar dados de um CSV |0|
+|US02 - Eu como usuário desejo saber como importar dados de um JSON|0|
+|US04 - Eu como usuário desejo saber lidar com dados faltantes|0|
+|US14 - Eu como usuário desejo saber como fazer a matriz de correlação entre as variáveis para descobrir a correlação entre minhas features|0|
+|US15 - Eu como usuário desejo saber como visualizar o histograma de features para descobrir o balanceamento das minhas features|0|
+|Protótipo de Alta Fidelidade|3|
+
 
 ## Issues Descontinuadas
 |Issue|Pontos|Responsável|
 |:--:|:-------:|:--:|
+|Processar informações obtidas através da aplicação do questionário|2|Product Owner|
+|TS-23 - Visualizar Dados de Treino|5|Eugênio Sales|
 
 **Pontos Planejados:** 
+**Pontos após as alterações:**
+
+## Observações
+A issue do protótipo de alta fidelidade teve sua pontuação reduzida de 8 pontos para 3 pontos por solicitação dos designados para a tarefa, pois o impedimento que estava dificultando a tarefa foi resolvido.
+
+As histórias de usuário tiveram suas pontuações reduzidas para 0 no repositório e seus pontos se tornaram compostos pelas tasks que estas dependem. Entretanto, se somadas as pontuações das tasks, a pontuação das histórias foram mantidas, essa ação foi tomada em prol do burndown.
 
 ## Equipe
 **Equipe de Gerência:**
