@@ -3,6 +3,7 @@
 |Date|Version|Update|Author|
 |:--:|:----:|:-------:|:---:|
 |21/04/2019|0.1|Sprint Review structure|Thiago Ferreira|
+|23/04/2019|0.2|Detalhamento da sprint|Thiago Ferreira|
 
 
 # Fechamento da Sprint
@@ -12,24 +13,24 @@
 |:--:|:-------:|:--:|:---:|
 |Revisão Formatação do Markdown|1|Equipe| Entregue |
 |Refatorar o Backlog|5|Gabriel Ziegler| Entregue |
-|Docker de RASA|3|Gabriel Ziegler - DevOps| Não Entregue |
-|US01 - Eu como usuário desejo saber como importar dados de um CSV |0|Alex Porto|
+|Docker de RASA|3|Gabriel Ziegler - DevOps| Entregue |
+|US01 - Eu como usuário desejo saber como importar dados de um CSV |0|Alex Porto|Entregue|
 |Task US01 - Criação Documento de Estudo|1|Alex Porto|Entregue|
 |Task US01 - Criação dos Intents, actions e templates|2|Alex Porto| Entregue |
 |Task US01 - Histórias|2|Alex Porto| Entregue |
-|US02 - Eu como usuário desejo saber como importar dados de um JSON|0|Bruno Duarte||
+|US02 - Eu como usuário desejo saber como importar dados de um JSON|0|Bruno Duarte|Entregue|
 |Task US02 - Criação Documento de Estudo|1|Bruno Duarte|Entregue|
 |Task US02 - Criação dos Intents, actions e templates|2|Bruno Duarte|Entregue|
 |Task US02 - Histórias|2|Bruno Duarte| Entregue |
-|US04 - Eu como usuário desejo saber lidar com dados faltantes|0|Eugênio Sales|
+|US04 - Eu como usuário desejo saber lidar com dados faltantes|0|Eugênio Sales|Entregue|
 |Task US04 - Criação Documento de Estudo|2|Eugênio Sales|Entregue|
 |Task US04 - Criação dos Intents, actions e templates|3|Eugênio Sales|Entregue|
 |Task US04 - Histórias|3|Eugênio Sales| Entregue |
-|US14 - Eu como usuário desejo saber como fazer a matriz de correlação entre as variáveis para descobrir a correlação entre minhas features|0|Ernando Braga|
+|US14 - Eu como usuário desejo saber como fazer a matriz de correlação entre as variáveis para descobrir a correlação entre minhas features|0|Ernando Braga| Entregue|
 |Task US14 - Criação Documento de Estudo|1|Ernando Braga|Entregue|
-|Task US14 - Criação dos Intents, actions e templates|2|Ernando Braga| Não Entregue |
-|Task US14 - Histórias|2|Ernando Braga| Não Entregue |
-|US15 - Eu como usuário desejo saber como visualizar o histograma de features para descobrir o balanceamento das minhas features|5|João Victor Oliveira|
+|Task US14 - Criação dos Intents, actions e templates|2|Ernando Braga|Entregue |
+|Task US14 - Histórias|2|Ernando Braga| Entregue |
+|US15 - Eu como usuário desejo saber como visualizar o histograma de features para descobrir o balanceamento das minhas features|0|João Victor Oliveira|Entregue|
 |Task US15 - Criação Documento de Estudo|1|João Victor Oliveira|Entregue|
 |Task US15 - Criação dos Intents, actions e templates|2|João Victor Oliveira|Entregue|
 |Task US15 - Histórias|2|João Victor Oliveira| Entregue |
@@ -39,24 +40,22 @@
 |Issue|Pontos|Responsável|Status|
 |:--:|:-------:|:--:|:---:|
 |Roadmap do Projeto|5|Tech Lead e Product Owner| Não Entregue |
-|Processar informações obtidas através da aplicação do questionário|2|Product Owner|Descontinuada| Entregue |
-|Protótipo de Alta Fidelidade|8|Ernando e João Victor| Não Entregue |
-|TS-23 - Visualizar Dados de Treino|5|Eugênio Sales|Descontinuada|
+|Protótipo de Alta Fidelidade|3|Ernando e João Victor| Não Entregue |
 |Levantar Requisitos do Projeto|3|Equipe EPS| Não Entregue |
 
 ___
-**Pontos Planejados:**  <br>
-**Pontos Concluídos:** 
+**Pontos Planejados:**  48<br>
+**Pontos Concluídos:** 37
 ___
 
 # Burndown
-![](../img/burndownSprint5.png)
+![](../img/burndownSprint4.png)
 
 # Velocity
-![](../img/velocitySprint5.png)
+![](../img/velocitySprint4.png)
 
 # Retrospectiva
-![](../img/reviewsprint5.png)
+![](../img/reviewsprint4.png)
 
 ## Presença na Reunião
 **EPS:** 
@@ -78,22 +77,25 @@ ___
 
 | Nome    |Segunda Feira      | Terça Feira      | Quarta Feira     | Quinta Feira      | Sexta Feira      |     
 |:-----:  |:-----------------:|:----------------:|:----------------:|:-----------------:|:----------------:|
-|Alex     |         ✔         |         ✘        |         ✔        |         ✘         |         ✘        |
-|Bruno    |         ✔         |         ✔        |         ✔        |         ✔         |         ✘        |
-|Eugênio  |         ✔         |         ✔        |         ✘        |         ✔         |         ✘        |
-|Ernando  |         ✔         |         ✔        |         ✘        |         ✔         |         ✘        |
-|João Victor|         ✔         |         ✘        |         ✔        |         ✔         |         ✘        |
-|Carlos   |         ✘         |         ✔        |         ✔        |         ✘         |         ✘        |
-|Davi     |         ✔         |         ✔        |         ✔        |         ✔         |         ✘        |
-|Ziegler  |         ✔         |         ✘        |         ✔        |         ✔         |         ✘        |
-|Thiago   |         ✔         |         ✔        |         ✘        |         ✘         |         ✘        |
+|Alex     |         ✔         |         ✔        |         ✔        |         ✔         |         ✔        |
+|Bruno    |          ✘        |         ✔        |         ✔        |         ✔         |         ✔        |
+|Eugênio  |          ✘        |         ✔        |         ✔        |         ✔         |         ✔        |
+|Ernando  |         ✘         |         ✔        |         ✘        |         ✔         |         ✘        |
+|João Victor|       ✘         |         ✔        |         ✔        |        ✘          |         ✔        |
+|Carlos   |         ✔         |         ✔        |         ✔        |         ✔         |         ✘        |
+|Davi     |         ✔         |         ✔        |         ✔        |         ✔         |         ✔        |
+|Ziegler  |         ✘         |         ✔        |          ✔       |         ✘         |         ✘        |
+|Thiago   |         ✔         |         ✔        |         ✔        |         ✘         |         ✔        |
 
 
 
 ## Avaliação da Sprint
+Nessa sprint tivemos um desempenho ótimo por parte da equipe, entregando um total de 37 pontos dos 48 planejados, se desconsideradas as issues que foram descontinuadas, onde, todos os membros do desenvolvimento, mesmo com histórias de usuário individuais, conseguiram entregar suas tarefas, finalizando, no total, 5 histórias de usuário. Conseguimos fazer um detalhamento maior e mais claro das histórias de usuário com o refatoramento do backlog que também ajudou muito no desempenho da equipe.
+
+Entretanto, com relação aos débitos das sprints anteriores, não houve nenhum progresso claro nesse quesito, a necessidade dessas issues será reavaliada e estas serão descontinuadas caso visto necessário.
 
 
-## Equipe
+# Equipe
 **Equipe de Gerência:** 
 * **Arquiteto:** [Davi Alves](https://github.com/davialvb)  
 * **DevOps:** [Gabriel Ziegler](https://github.com/gabrielziegler3) <br>
@@ -106,24 +108,3 @@ ___
 - [Ernando Braga](https://github.com/ZarathosDeath)
 - [Eugenio Sales](https://github.com/Eugeniosales)
 - [João Victor](https://github.com/joao15victor08)
-<<<<<<< HEAD
-=======
-
-## Pontos Positivos
-* Fluxo de trabalho diario 
-* Comunicação melhor
-* Compromentimento da equipe
-* Proatividade dos membros
-* Troca de conhecimento
-* Melhora no planejamento
-
-## Pontos Negativos
-* Descrição das issues
-* Planejamento da Sprint
-* Objetividade na descrição da issues
-* Entregas de valor
-
-## A Melhorar
-* Planejamento da sprint
-* Aproveitamento do tempo
->>>>>>> b109129c1023ce3b626e739a6213c378bad66e59
