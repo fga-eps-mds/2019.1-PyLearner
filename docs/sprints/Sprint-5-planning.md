@@ -3,6 +3,8 @@
 |Date|Version|Update|Author|
 |:--:|:----:|:-------:|:---:|
 |13/04/2019|0.1|Planejamento da Sprint prévio|Thiago Ferreira|
+|20/04/2019|0.2|Planejamento da Sprint|Equipe|
+|23/04/2019|0.3|Sprint Objectives and other minor changes|Thiago Ferreira|
 
 # Duração da Sprint
 
@@ -10,6 +12,7 @@
 * <b>Encerramento:</b> 27/04/2019
 
 # Objetivos da Sprint
+Esta sprint é a última sprint antes da primeira release do projeto, visto isso, buscaremos deixar o que atualmente existe, funcional. Visto que na próxima semana a equipe será confrontada com a primeira release do projeto, esta sprint será focada no treinamento dos dados, otimizando o conteúdo já existente e desenvolvendo a parte correspondente ao tuturial, que até o momento, não foi tocado. Também focaremos na entregue dos débitos da equipe, prontificando-os até o término da r1.
 
 # Issues
 ## Novas Issues
@@ -22,22 +25,24 @@
 ## Débitos
 |Issue|Pontos|Responsável|
 |:--:|:-------:|:--:|
-|Docker de RASA|5|DevOps e Arquiteto|
 |Docker de Actions|5|DevOps|
 |Roadmap do Projeto|3|Tech Lead|
 |Bug do docker de rocketchat|8|Product Owner e DevOps|
 |Protótipo de Alta Fidelidade|3|Ernando e João Victor|
-|Levantar Requisitos do Projeto|3|Tech Lead|
+|Levantar Requisitos do Projeto|3|Equipe|
 
 ## Issues Adicionadas Durante a Sprint
 |Issue|Pontos|Responsável|
 |:--:|:-------:|:--:|
 
+
 ## Issues Descontinuadas
 |Issue|Pontos|Responsável|
 |:--:|:-------:|:--:|
+|Levantar Requisitos do Projeto|3|Equipe|
 
-**Pontos Planejados:** 
+**Pontos Planejados:** 32
+**Pontos após alterações:**29
 
 ## Equipe
 **Equipe de Gerência:**
