@@ -25,24 +25,26 @@ Esta sprint é a última sprint antes da primeira release do projeto, visto isso
 ## Débitos
 |Issue|Pontos|Responsável|
 |:--:|:-------:|:--:|
-|Docker de Actions|5|DevOps|
-|Roadmap do Projeto|3|Tech Lead|
-|Bug do docker de rocketchat|8|Product Owner e DevOps|
+|Roadmap do Projeto|5|Tech Lead|
 |Protótipo de Alta Fidelidade|3|Ernando e João Victor|
 |Levantar Requisitos do Projeto|3|Equipe|
 
 ## Issues Adicionadas Durante a Sprint
 |Issue|Pontos|Responsável|
 |:--:|:-------:|:--:|
-
+|Adição de dados para melhoria do bot|3|Eugênio e Bruno|Entregue|
+|Adicionar referências no TAP|1|Carlos|Entregue|
+|Adicionar informações no README|1|Ziegler|Entregue|
+|Reorganição EAP|1|Carlos|Entregue|
+|Integração Contínua do projeto com o docker|2|Ziegler|Entregue|
+|Refatoração dos dados para treinamento do bot|2|Eugênio e Bruno|Entregue|
 
 ## Issues Descontinuadas
 |Issue|Pontos|Responsável|
 |:--:|:-------:|:--:|
-|Levantar Requisitos do Projeto|3|Equipe|
 
-**Pontos Planejados:** 32
-**Pontos após alterações:**29
+**Pontos Planejados:** 21<br>
+**Pontos após alterações:** 31
 
 ## Equipe
 **Equipe de Gerência:**

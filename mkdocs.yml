@@ -14,10 +14,11 @@ nav:
         - TAP: Tap.md
         - EAP: Eap.md
         - Backlog: Backlog.md
-    - Roadmaps Individuais:
+    - Roadmaps:
         - roadmap/Roadmap-TechLead.md
         - roadmap/Roadmap-DevOps.md
         - roadmap/Roadmap-Arquiteto.md
+        - roadmap/Roadmap-Projeto.md
     - Documentação das sprints: 
         - sprints/Sprint-0-review.md
         - sprints/Sprint-1-planning.md
@@ -29,6 +30,13 @@ nav:
         - sprints/Sprint-4-planning.md
         - sprints/Sprint-4-review.md
         - sprints/Sprint-5-planning.md
+        - sprints/Sprint-5-review.md
+        - sprints/Sprint-6-planning.md
+        - sprints/Sprint-6-review.md
+        - sprints/Sprint-7-planning.md
+        - sprints/Sprint-7-review.md
+        - sprints/Sprint-8-planning.md
+        - sprints/Sprint-8-review.md
 theme:
   name: readthedocs
 extra_css:
