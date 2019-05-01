@@ -3,9 +3,7 @@
 ## Dados Categóricos 
 
 ### O que são Dados Categóricos
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dados Categóricos podem ser tipos de dados nominais ou ordinais decorrentes de determinada situação a ser tratada.<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Um exemplo de dados nominais seria a variável cor, que pode assumir os valores "azul" ou "vermelho".<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Já um exemplo de dados ordinais inferiria a variável escolaridade que pode assumir os valores "1º Grau" ou "2º Grau".<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dados Categóricos podem ser tipos de dados nominais ou ordinais decorrentes de determinadas situações a serem tratados. Um exemplo referente aos dados nominais seria a variável cor, que pode assumir os valores "azul" ou "vermelho". Já um exemplo de dados ordinais inferiria a variável escolaridade que pode assumir os valores "1º Grau" ou "2º Grau".<br/>
 ### Dados Categóricos No Contexto de Machine Learning
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Em Machine Learning geralmente os algoritmos não trabalham com esses tipos de dados por não expressarem valor numérico. Diante do exposto, a solução de tal problemática seria uma conversão destes dados para então realizar uma abordagem congruente aos algoritmos utilizados. <br/>
 ### Como Tratar os Dados Categóricos
