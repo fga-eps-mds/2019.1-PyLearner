@@ -1,5 +1,15 @@
 # Documento de Estudo da US03
 
+## Introdução
+
+Antes da criação das intents, actions e stories de cada tema selecionado são gerados documentos pela equipe de desenvolvimento que possuem abrangentemente do que aquele ele se trata. Selecionamos um breve conhecimento do tema, possíveis bibliotecas e até mesmo a forma de implementação. 
+
+## Objetivo
+
+Tendo em vista que os dados passados para o treinamento do bot devem ser bem claros e ter uma quantidade reduzida de informação para não poluir a caixa de mensagens do usuário, o desenvolvedor responsável pelo tema tem como objetivo extrair o máximo de informação e simplifica-la antes de passar para o usuário final. Isso torna a criação das intents, actions e stories mais rápidas e objetivas.
+
+# Excel
+
 ## O que é excel?
 
 Excel é um software de criação de planilhas eletrônicas.Foi criado pela Microsoft em 1987 para computadores que usam o sistema operacional da empresa.O Excel é a melhor plataforma eletrônica para criação de planilhas. Muitas empresas hoje sobrevivem com base em uso destas planilhas. Seus recursos incluem uma interface intuitiva e capacitadas ferramentas de cálculo e de construção de gráficos que, juntamente com marketing agressivo, tornaram o Excel um dos mais populares aplicativos de computador até hoje.E seus arquivos possuem formatos xlsx, xlsm, xltx, xltm.

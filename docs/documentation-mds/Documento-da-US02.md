@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Documento de estudo da US02
 
 ## Introdução
@@ -11,10 +10,6 @@ Tendo em vista que os dados passados para o treinamento do bot devem ser bem cla
 
 # **JSON**
 
-=======
-# Documento de Estudo da US02
-# **Um Breve resumo sobre o JSON**
->>>>>>> 6c03cc2558c529b0bc111ff1aec34ac034006991
 ## O que é um arquivo JSON
 &nbsp;&nbsp;&nbsp;&nbsp; Basicamente é um subconjunto da Linguagem JavaScript, cujo acrônimo remete a **J** *ava* **S** *cript* **O** *bject* **N** *otation*. É um padrão simples de comunicação de dados que possui uma facilidade de compreensão e criação tanto para humanos quanto para as máquinas.
 
