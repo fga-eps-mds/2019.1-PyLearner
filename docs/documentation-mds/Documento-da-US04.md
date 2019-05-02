@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Documento de estudo da US04
 
 ## Introdução
@@ -10,6 +11,9 @@ Tendo em vista que os dados passados para o treinamento do bot devem ser bem cla
 
 # Dados Faltantes
 
+=======
+# Documento de Estudo da US04
+>>>>>>> 6c03cc2558c529b0bc111ff1aec34ac034006991
 ## O que são dados faltantes?
 Consiste em valores vazios ou inesperados encontrados em um dataset antes da fase de pré processamento. Dentro do tratamento de dados para pré-processamento, a correção de dados faltantes é uma das tarefas que demandam maior tempo para preparação do modelo. Depois de coletado o dataset, é necessário essa limpeza de dados para que as predições sejam corretas posteriormente.
 ## Motivos para que haja valores faltantes

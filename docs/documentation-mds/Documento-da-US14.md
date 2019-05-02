@@ -1,4 +1,4 @@
-# Documento de estudo da US14
+# Documento de Estudo da US14
 
 ## Introdução
 
