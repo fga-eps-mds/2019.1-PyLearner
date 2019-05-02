@@ -8,7 +8,7 @@
   
   
   <link rel="shortcut icon" href="../../img/favicon.ico">
-  <title>Documento de estudo da US14 - Pylearner</title>
+  <title>Documento de Estudo da US16 - Pylearner</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
@@ -18,8 +18,8 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Documento de estudo da US14";
-    var mkdocs_page_input_path = "documentation-mds/Documento-da-US14.md";
+    var mkdocs_page_name = "Documento de Estudo da US16";
+    var mkdocs_page_input_path = "documentation-mds/Documento-da-US16.md";
     var mkdocs_page_url = null;
   </script>
   
@@ -214,31 +214,31 @@
                     
     <a class="" href="../Documento-da-US05/">Documento de Estudo da US05</a>
                 </li>
-                <li class=" current">
+                <li class="">
                     
-    <a class="current" href="./">Documento de estudo da US14</a>
-    <ul class="subnav">
-            
-    <li class="toctree-l3"><a href="#documento-de-estudo-da-us14">Documento de estudo da US14</a></li>
-    
-        <ul>
-        
-            <li><a class="toctree-l4" href="#o-que-e-uma-matriz-de-correlacao">O que é uma Matriz de Correlação?</a></li>
-        
-            <li><a class="toctree-l4" href="#matriz-de-correlacao-em-python">Matriz de Correlação em Python</a></li>
-        
-        </ul>
-    
-
-    </ul>
+    <a class="" href="../Documento-da-US14/">Documento de estudo da US14</a>
                 </li>
                 <li class="">
                     
     <a class="" href="../Documento-da-US15/">Documento de Estudo da US15</a>
                 </li>
-                <li class="">
+                <li class=" current">
                     
-    <a class="" href="../Documento-da-US16/">Documento de Estudo da US16</a>
+    <a class="current" href="./">Documento de Estudo da US16</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#documento-de-estudo-da-us16">Documento de Estudo da US16</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#relatorio-de-classificacao">Relatório de Classificação</a></li>
+        
+            <li><a class="toctree-l4" href="#como-checar-os-resultados-das-classificacoes">Como Checar os Resultados das Classificações</a></li>
+        
+        </ul>
+    
+
+    </ul>
                 </li>
     </ul>
 	    </li>
@@ -269,7 +269,7 @@
         
       
     
-    <li>Documento de estudo da US14</li>
+    <li>Documento de Estudo da US16</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -279,34 +279,23 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="documento-de-estudo-da-us14">Documento de estudo da US14</h1>
-<h2 id="o-que-e-uma-matriz-de-correlacao">O que é uma Matriz de Correlação?</h2>
-<p>Em Probabilidade e Estatística, correlação é qualquer relação estatística(causal ou não causal) entre um par de itens ou varíaveis dentro de uma ampla classe de relações estatísticas que envolva dependência entre esse par de itens ou variáveis. Existem diversas maneiras de definir correlação, sendo a <b>Correlação de Pearson</b> o mais clássico. Os valores de correlação podem variar de -1 a +1. Se os dois itens ou variáveis tendem a aumentar ou diminuir juntos, a correlação é positiva.
-<br>
-A matriz de correlação possibilita a análise simultânea entre os itens ou variavéis.</p>
-<h2 id="matriz-de-correlacao-em-python">Matriz de Correlação em Python</h2>
-<h3 id="uso-de-dados">Uso de dados</h3>
-<p>Pode ser feito a partir de leitura de arquivo(s) .csv, .xls ou dataset, por exemplo.</p>
-<h3 id="segmentacao-das-variaveis">Segmentação das variáveis</h3>
-<p>A segmentação serve como uma forma de organizar os dados em sub-grupos homogêneos, gerando grupos que se correlacionam.</p>
-<h3 id="calculo-da-correlacao">Cálculo da correlação</h3>
-<p>Será feito usando a biblioteca de manipulação e análise de dados <i>Pandas</i>, que possui o método <i>.corr()</i> que nos retorna a correlação daqueles valores.</p>
-<h3 id="estrutura-do-codigo">Estrutura do Código</h3>
-<p>Existem diversas maneiras de se calcular correlação em Python, e usando diversas bibliotecas e funcionalidades. Usaremos a biblioteca <i>Pandas</i> para manipulação dos dados, e a biblioteca <i>csv</i> para leitura de arquivos .csv.</p>
-<pre><code class="python">import csv
-import pandas as pd
-import pandas.io.data
-
-# importando o CSV para o dataframe
-headers = ['Key', 'Value']
-dataframe = pd.read_csv['test.csv', index_col='Key', parse_dates = True, names = headers]
-# carrega os valores
-value = dataframe['Value']
-# calcula a correlação na varíavel corr
-corr = dataframe.corr()
+                <h1 id="documento-de-estudo-da-us16">Documento de Estudo da US16</h1>
+<h2 id="relatorio-de-classificacao">Relatório de Classificação</h2>
+<h3 id="como-funciona-o-relatorio-de-classificacao">Como funciona o Relatório de Classificação</h3>
+<p>Após definir o que deseja que a máquina reconheça e passar os tipos de classificação,é necessário gerar o relatório de classificação,ou seja,como foi o desempenho da máquina.Por exemplo <a href="https://scikit-learn.org/stable/auto_examples/classification/plot_digits_classification.html#sphx-glr-auto-examples-classification-plot-digits-classification-py">Reconhecimento de digitos escritos à mão</a>, <a href="https://scikit-learn.org/stable/auto_examples/applications/plot_face_recognition.html#sphx-glr-auto-examples-applications-plot-face-recognition-py">Reconhecimento de faces</a> e etc.
+Após fazer esses reconhecimento,é necessário ver o relatório de classificação da máquina</p>
+<h2 id="como-checar-os-resultados-das-classificacoes">Como Checar os Resultados das Classificações</h2>
+<p>É necessário instalarmos o <strong>sklearn</strong>, e importaremos a biblioteca <strong>classification_report</strong></p>
+<pre><code class="python"> from sklearn.metrics  import  classification_report
 </code></pre>
 
-<p>Este trecho de código visa elucidar através de um exemplo simples o cálculo de uma Matriz de Correlação em Python.</p>
+<p>E após isso,podemos utilizar a função <strong>classification_report</strong> que é como visualizaremos as classificações</p>
+<pre><code class="python">classification_report(y_true, y_pred, labels=None, target_names=None, sample_weight=None, digits=2, output_dict=False)
+</code></pre>
+
+<p>Dentre todos esse paramêtros,existem paramêtros obrigatórios e opcionais,os obrigatórios sao:
+<strong>y_true</strong> : 1d array-like ou matriz de indicador de rótulo / matriz esparsa
+Realidade dos valores alvo.</p>
               
             </div>
           </div>
@@ -314,10 +303,8 @@ corr = dataframe.corr()
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../Documento-da-US15/" class="btn btn-neutral float-right" title="Documento de Estudo da US15">Next <span class="icon icon-circle-arrow-right"></span></a>
       
-      
-        <a href="../Documento-da-US05/" class="btn btn-neutral" title="Documento de Estudo da US05"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../Documento-da-US15/" class="btn btn-neutral" title="Documento de Estudo da US15"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -343,10 +330,8 @@ corr = dataframe.corr()
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../Documento-da-US05/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../Documento-da-US15/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
-      
-        <span style="margin-left: 15px"><a href="../Documento-da-US15/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
