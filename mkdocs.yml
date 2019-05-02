@@ -32,11 +32,31 @@ nav:
         - sprints/Sprint-5-planning.md
         - sprints/Sprint-5-review.md
         - sprints/Sprint-6-planning.md
-        - sprints/Sprint-6-review.md
-        - sprints/Sprint-7-planning.md
-        - sprints/Sprint-7-review.md
-        - sprints/Sprint-8-planning.md
-        - sprints/Sprint-8-review.md
+        # - sprints/Sprint-6-review.md
+        # - sprints/Sprint-7-planning.md
+        # - sprints/Sprint-7-review.md
+        # - sprints/Sprint-8-planning.md
+        # - sprints/Sprint-8-review.md
+        # - sprints/Sprint-9-planning.md
+        # - sprints/Sprint-9-review.md
+        # - sprints/Sprint-10-planning.md
+        # - sprints/Sprint-10-review.md
+        # - sprints/Sprint-11-planning.md
+        # - sprints/Sprint-11-review.md
+        # - sprints/Sprint-12-planning.md
+        # - sprints/Sprint-12-review.md
+        # - sprints/Sprint-13-planning.md
+        # - sprints/Sprint-13-review.md
+    - Documentação do Estudo: 
+        - documentation-mds/Documento-da-US01.md
+        - documentation-mds/Documento-da-US02.md
+        - documentation-mds/Documento-da-US03.md
+        - documentation-mds/Documento-da-US04.md
+        - documentation-mds/Documento-da-US05.md
+        - documentation-mds/Documento-da-US14.md
+        - documentation-mds/Documento-da-US15.md
+        - documentation-mds/Documento-da-US16.md
+            
 theme:
   name: readthedocs
 extra_css:

@@ -1,4 +1,4 @@
-# Documento de estudo da US14
+# Documento de Estudo da US14
 
 ## O que é uma Matriz de Correlação?
 Em Probabilidade e Estatística, correlação é qualquer relação estatística(causal ou não causal) entre um par de itens ou varíaveis dentro de uma ampla classe de relações estatísticas que envolva dependência entre esse par de itens ou variáveis. Existem diversas maneiras de definir correlação, sendo a <b>Correlação de Pearson</b> o mais clássico. Os valores de correlação podem variar de -1 a +1. Se os dois itens ou variáveis tendem a aumentar ou diminuir juntos, a correlação é positiva.

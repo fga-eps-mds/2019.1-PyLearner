@@ -96,15 +96,15 @@ Tendo em vista os riscos, foram tomadas medidas que mitigaram grande parte dos r
 Entretanto, indisposição ou falta de dedicação ou produtividade da equipe de gerência continua sendo, talvez o maior risco presente. Visto que os demais riscos do projeto dependem da gerência pra mitigação e na última semana a gerência, por mais que tivesse entrego grande parte de seus trabalhos e cumprido com suas responsabilidades, mesmo tendo 3 membros doentes durante a sprint, continua sendo o maior risco e qualquer atraso pode prejudicar a produtividade da equipe nesse início de projeto. Na próxima sprint, esse será o caso do devOps que atualmente encontra-se em viagem e ainda precisa disponibilizar os ambientes de desenvolvimento para a equipe, de forma que o desenvolvimento possa ser retomado.
 
 ## Equipe
-**Equipe de Gerência:** 
-* **Arquiteto:** [Davi Alves](https://github.com/davialvb)  
+**Equipe de Gerência:** <br>
+* **Arquiteto:** [Davi Alves](https://github.com/davialvb) <br> 
 * **DevOps:** [Gabriel Ziegler](https://github.com/gabrielziegler3) <br>
 * **Product Owner:** [Carlos Aragon](https://github.com/carlosaragon) <br>
 * **Tech Leader:** [Thiago Ferreira](https://github.com/thiagoiferreira)
 
-**Equipe de Desenvolvimento:** 
-- [Alex Porto](https://github.com/alexportof)
-- [Bruno Duarte](https://github.com/Mexazonic)
-- [Ernando Braga](https://github.com/ZarathosDeath)
-- [Eugenio Sales](https://github.com/Eugeniosales)
-- [João Victor](https://github.com/joao15victor08)
+**Equipe de Desenvolvimento:** <br>
+- [Alex Porto](https://github.com/alexportof)<br>
+- [Bruno Duarte](https://github.com/Mexazonic)<br>
+- [Ernando Braga](https://github.com/ZarathosDeath)<br>
+- [Eugenio Sales](https://github.com/Eugeniosales)<br>
+- [João Victor](https://github.com/joao15victor08)<br>

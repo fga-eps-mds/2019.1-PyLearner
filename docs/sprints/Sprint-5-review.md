@@ -82,15 +82,15 @@ Essa sprint, em contraponto as anteriores, tivemos um maior engajamento da equip
 Outro ponto a ser tocado é a questão de conseguimos entregar todas as issues de débito em documentação, essas que haviam sido negligênciadas por um tempo pela equipe e agora estão prontas.
 
 # Equipe
-**Equipe de Gerência:** 
-* **Arquiteto:** [Davi Alves](https://github.com/davialvb)  
+**Equipe de Gerência:** <br>
+* **Arquiteto:** [Davi Alves](https://github.com/davialvb) <br> 
 * **DevOps:** [Gabriel Ziegler](https://github.com/gabrielziegler3) <br>
 * **Product Owner:** [Carlos Aragon](https://github.com/carlosaragon) <br>
 * **Tech Leader:** [Thiago Ferreira](https://github.com/thiagoiferreira)
 
-**Equipe de Desenvolvimento:** 
-- [Alex Porto](https://github.com/alexportof)
-- [Bruno Duarte](https://github.com/Mexazonic)
-- [Ernando Braga](https://github.com/ZarathosDeath)
-- [Eugenio Sales](https://github.com/Eugeniosales)
-- [João Victor](https://github.com/joao15victor08)
+**Equipe de Desenvolvimento:** <br>
+- [Alex Porto](https://github.com/alexportof)<br>
+- [Bruno Duarte](https://github.com/Mexazonic)<br>
+- [Ernando Braga](https://github.com/ZarathosDeath)<br>
+- [Eugenio Sales](https://github.com/Eugeniosales)<br>
+- [João Victor](https://github.com/joao15victor08)<br>

@@ -57,3 +57,18 @@ O membro da equipe Alex Porto apresentou para terça-feira e quarta-feira um ate
 Tivemos uma sprint razoavelmente produtiva, entretanto a equipe acabou por não ser ágil, entregamos uma quantidade considerável de pontos mesmo assim. Na próxima sprint buscaremos atacar esse problema enfrentado com algumas táticas que serão implementadas e detalhadas durante a próxima sprint. Houve entretanto uma evolução considerável na comunicação e também outros tópicos por parte dos membros.
 
 Apesar da sprint produtiva, houve caso do PO Carlos Aragon que não entregou nenhuma issue/documento individual e que acaba por afetar o andamento do projeto em alguns casos. Para a próxima sprint, esse risco que já foi levantado na documentação de riscos, será acompanhado de perto e terá uma cobrança mais rígida em sentido da finalização das pendências e progressão das issues planejadas.
+
+## Equipe
+**Equipe de Gerência:** <br>
+* **Arquiteto:** [Davi Alves](https://github.com/davialvb) <br> 
+* **DevOps:** [Gabriel Ziegler](https://github.com/gabrielziegler3) <br>
+* **Product Owner:** [Carlos Aragon](https://github.com/carlosaragon) <br>
+* **Tech Leader:** [Thiago Ferreira](https://github.com/thiagoiferreira)
+
+
+**Equipe de Desenvolvimento:** <br>
+- [Alex Porto](https://github.com/alexportof)<br>
+- [Bruno Duarte](https://github.com/Mexazonic)<br>
+- [Ernando Braga](https://github.com/ZarathosDeath)<br>
+- [Eugenio Sales](https://github.com/Eugeniosales)<br>
+- [João Victor](https://github.com/joao15victor08)<br>

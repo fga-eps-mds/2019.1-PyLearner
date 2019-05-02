@@ -1,3 +1,4 @@
+# Documento de Estudo da US02
 # **Um Breve resumo sobre o JSON**
 ## O que é um arquivo JSON
 &nbsp;&nbsp;&nbsp;&nbsp; Basicamente é um subconjunto da Linguagem JavaScript, cujo acrônimo remete a **J** *ava* **S** *cript* **O** *bject* **N** *otation*. É um padrão simples de comunicação de dados que possui uma facilidade de compreensão e criação tanto para humanos quanto para as máquinas.

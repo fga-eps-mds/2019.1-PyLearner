@@ -1,4 +1,4 @@
-# Documento de estudo da US1
+# Documento de Estudo da US01
 ## O que é um CSV?
 Comma-separated values (ou CSV) é um formato de arquivo que armazena dados tabelados, cujo grande uso data da época dos mainframes.Por serem bastante simples, arquivos .csv são comuns em todas as plataformas de computador.
 ## Como é a estrutura de um arquivo .csv?
