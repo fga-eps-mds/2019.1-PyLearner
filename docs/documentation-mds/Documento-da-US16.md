@@ -29,6 +29,18 @@ E após isso,podemos utilizar a função **classification_report** que é como v
 classification_report(y_true, y_pred, labels=None, target_names=None, sample_weight=None, digits=2, output_dict=False)
 ```
 
-Dentre todos esse paramêtros,existem paramêtros obrigatórios e opcionais,os obrigatórios sao:
-**y_true** : 1d array-like ou matriz de indicador de rótulo / matriz esparsa
+Dentre todos esse paramêtros,existem paramêtros obrigatórios e opcionais::
+**y_true** : matriz de indicador de rótulo / matriz esparsa
 Realidade dos valores alvo.
+**y_pred** : matriz de indicador de rótulo / matriz esparsa
+Alvos estimados como retornados por um classificador.
+**labels** : array, tamahnho = [n_labels],lista opcional de índices de etiquetas para incluir no relatório.
+
+**target_names** : lista de strings,nomes de exibição opcionais correspondentes aos rótulos (mesma ordem).
+
+**sample_weight** : array de tamanho = [n_samples], opcional,pesos de amostra
+
+**dígitos**: int,número de dígitos para formatar valores de ponto flutuante de saída. Quando output_dict for True, isso será ignorado e os valores retornados não serão arredondados.
+
+**output_dict** : bool (padrão = False)
+Se for True, retorne a saída como dit
