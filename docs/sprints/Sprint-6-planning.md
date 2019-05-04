@@ -36,6 +36,8 @@ Essa sprint será focada na continuação do projeto, tentando apurar algo a mai
 |Issue|Pontos|Responsável|
 |:--:|:-------:|:--:|
 |Bug Docker do Jupyter|2|Davi e Carlos|
+|Refatoração de Intents, Acations e Stories|2||
+
 
 
 ## Issues Descontinuadas
