@@ -1,60 +1,55 @@
-## Version control
+## Controle de versão
 
-|Date|Version|Update|Author|
+|Data|Versão|Atualização|Autor|
 |:--:|:----:|:-------:|:---:|
-|26/04/2019|0.1|Planejamento da Sprint prévio|Thiago Ferreira|
-
+|04/05/2019|0.1|Criação do documento|Gabriel Ziegler|
+|05/05/2019|0.2|Adição de novas issues|Gabriel Ziegler|
 
 # Duração da Sprint
 
-* <b>Início:</b> 28/04/2019
-* <b>Encerramento:</b> 04/05/2019
+* <b>Início:</b> 05/04/2019
+* <b>Encerramento:</b> 11/05/2019
 
 # Objetivos da Sprint
 
-
-# Issues
 ## Novas Issues
+
 |Issue|Pontos|Responsável|
 |:--:|:-------:|:--:|
-|US11- Eu como usuário desejo saber como fazer um cluster KMeans|||
-|US07 - Eu como usuário desejo saber quais métricas usar para classificação para validar um modelo de classificação|||
+|US06 Eu como usuário desejo saber como fazer feature scaling | 3 | Eugênio |
+|US07 Eu como usuário desejo saber quais métricas usar para modelos de classificação | 5 | Bruno & Alex |
+|US09 Eu como usuário desejo saber quais métricas usar para modelos de regressão | 3 | Ernando & João |
+|US11 Eu como usuário desejo saber como fazer um cluster KMeans | 3 | João & Bruno |
+|Refatorar Roadmap DevOps | 1 | Thiago |
+|Refatorar Roadmap Arquiteto | 1 | Carlos |
+|Refatorar Roadmap Tech Lead| 1 | Ziegler |
+|Adicionar informações ao README| 1 | Davi |
+|Analisar quais testes devem ser integrados | 2 | Thiago |
+|Estudar como integrar APIs | 2 | Carlos |
+|Bug do jupyter não adiciona notebooks ao docker| 2 | Ziegler |
+|Análise de qualidade de código e documentação | 3 | Thiago |
 
-|US22 - Eu como usuário	desejo ter conteúdos sugeridos para maior aprendizado de ML para	conseguir aprender mais sobre ML de forma mais rápida|||
+icebox: plano de gerencia qualidade
+
 ## Débitos
 |Issue|Pontos|Responsável|
 |:--:|:-------:|:--:|
-|Protótipo de Alta Fidelidade|3|Ernando|
-|Criação de um Plano de medição|5|Carlos Aragon|
-<!-- 
-|US05 - Eu como usuário desejo saber como transformar dados categóricos|3|Bruno|
 |US08 - Eu como usuário desejo saber quais modelos usar para classificação|8|Eugenio e João|
-|US16 - Eu como usuário desejo saber como visualizar um relatório de classificação|2|Alex|
 |US17 - Eu como usuário desejo saber como visualizar uma matriz de confusão|3|Eugenio|
-|US21 - Tutorial de Machine Learning do Problema do Titanic|3|Ernando| -->
+|US21 - Tutorial de Machine Learning do Problema do Titanic|3|Ernando|
 
-## Issues Adicionadas Durante a Sprint
-|Issue|Pontos|Responsável|
-|:--:|:-------:|:--:|
-|Bug Docker do Jupyter|2|Davi e Carlos|
-
-
-## Issues Descontinuadas
-|Issue|Pontos|Responsável|
-|:--:|:-------:|:--:|
-| | | |
-
-**Pontos Planejados:** <br>
-**Pontos após alterações:**
+**Pontos Planejados:** 27 <br>
 
 ## Equipe
 **Equipe de Gerência:**
-* **Arquiteto:** [Davi Alves](https://github.com/davialvb)  
-* **Product Owner:** [Carlos Aragon](https://github.com/carlosaragon) <br>
-* **Tech Leader:** [Thiago Ferreira](https://github.com/thiagoiferreira)
-* **DevOps:** [Gabriel Ziegler](https://github.com/gabrielziegler3) <br>
 
-**Equipe de Desenvolvimento:** 
+* **Arquiteto:** [Carlos Aragon](https://github.com/carlosaragon)
+* **Product Owner:** [Davi Alves](https://github.com/davialvb) <br>
+* **Tech Leader:** [Gabriel Ziegler](https://github.com/gabrielziegler3)
+* **DevOps:** [Thiago Ferreira](https://github.com/thiagoiferreira) <br>
+
+**Equipe de Desenvolvimento:**
+
 - [Alex Porto](https://github.com/alexportof)
 - [Bruno Duarte](https://github.com/Mexazonic)
 - [Ernando Braga](https://github.com/ZarathosDeath)
