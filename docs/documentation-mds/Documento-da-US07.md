@@ -17,10 +17,12 @@ Na maioria das vezes,utilizamos a classificação Accuracy para medir a performa
 
 Classificação Accuracy é a classificação da precisão do algoritmo de Machine Learning e é calculada pelo número total de predições certas dividido pelo número total de predições feitas.Só funciona bem se tiver um número igual de amostras pertencentes a cada classe
 
-```
- Accuracy = Numero de predições certas/Numero total de prediçõesfeitas
-```
+`Accuracy = Numero de predições certas/Numero total de predições feitas`
 
 ## Classificação F1
 
-Classificação F1 é usada para media a precisão de um teste.F1 é a média harmônica entre a Precision e Recall.Ele fala o quão preciso é o seu classificador(quantas instâncias foram classificadas corretamente),assim como o quão robusto ele é(se não errou um número significativo de instâncias).Alta Pr
+Classificação F1 é usada para media a precisão de um teste.F1 é a média harmônica entre a Precision e Recall.Ele fala o quão preciso é o seu classificador(quantas instâncias foram classificadas corretamente),assim como o quão robusto ele é(se não errou um número significativo de instâncias).Alta Precison e baixo Recall,oferece uma Accurate precisa mas em seguida perde um grande número de instâncias que são difíceis de classificar.Quanto maior a F1,melhor o desempenho da Model e matematicamente,pode ser expresso por:
+
+`F1 = 2 * ( 1 / ( (1 / Precision) + (1/ Recall) ) )`
+
+A f1 tenta achar o balanço entre a Precision e o Recall.
