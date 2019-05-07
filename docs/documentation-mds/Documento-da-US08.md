@@ -66,7 +66,7 @@ array([[0, 1],
 
 ### 1.2 Classisficação Nearest Neighbors
 
-A classificação usando nearest neighbors é calculada a partir de uma simples votação por maioria dos nearest neighbors mais próximos de cada ponto: um ponto de consulta é atribuido à classe de dados que possui mais representantesdentro dos nearest neighbors mais próximos.
+A classificação usando nearest neighbors é calculada a partir de uma simples votação por maioria dos nearest neighbors mais próximos de cada ponto: um ponto de consulta é atribuido à classe de dados que possui mais representantes dentro dos nearest neighbors mais próximos.
 
 O scikit-learn implementa dois classificadores de nearest neighbors: <a href=https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html#sklearn.neighbors.KNeighborsClassifier>KNeighborsClassifier</a> implementa o aprendizado baseado no *k* nearest neighbors de cada ponto de consulta,onde *k* é um valor inteiro especificado pelo usuário. <a href=https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.RadiusNeighborsClassifier.html#sklearn.neighbors.RadiusNeighborsClassifier>RadiusNeighborsClassifier</a> implementa a aprendizagem com base no número de neighbors dentro de um raio fixo *r* de cada ponto de treinamento, onde *r* é um valor de ponto flutuante especificado pelo usuário.
 
@@ -129,3 +129,45 @@ for weights in ['uniform', 'distance']:
 
 plt.show()
  ```
+
+ ## 2. Naive Bayes
+
+<a href=https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.GaussianNB.html#sklearn.naive_bayes.GaussianNB>GaussianNB</a> implementa o algoritmo Gaussian Naive Bayes para classificação. A probabilidade das features assume ser gaussiana:
+
+![](img/gaussin-naive-bayes.png)
+
+Os parâmetros &sigma;<sub>y</sub> e &mu;<sub>y</sub> são estimados usando a maior probabilidade.
+
+```python
+from sklearn import datasets
+iris = datasets.load_iris()
+from sklearn.naive_bayes import GaussianNB
+gnb = GaussianNB()
+y_pred = gnb.fit(iris.data, iris.target).predict(iris.data)
+print("Number of mislabeled points out of a total %d points : %d"
+      % (iris.data.shape[0],(iris.target != y_pred).sum()))
+```
+
+## 3. Decision Trees
+
+<a href=https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html#sklearn.tree.DecisionTreeClassifier>DecisionTreeClassifier</a> e a classe capaz de realizar classificações de varias classes em um dataset.
+
+O parâmetro de entrada são dois arrays: um array X, esparso ou denso, de tamanho <code>[n_samples, n_features]</code> contendo os dados de treino; e um array Y de valores inteiros de tamanho <code>[n_samples]</code>, contendo as labels de classes para os dados de treino:
+
+```python
+from sklearn import tree
+X = [[0, 0], [1, 1]]
+Y = [0, 1]
+clf = tree.DecisionTreeClassifier()
+clf = clf.fit(X, Y)
+```
+
+Depois de ajustada, a model pode ser usada para prever os dados:
+
+```python
+clf.predict([[2., 2.]])
+
+Saida:
+array([1])
+```
+
