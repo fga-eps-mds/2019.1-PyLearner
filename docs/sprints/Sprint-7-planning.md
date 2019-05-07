@@ -5,14 +5,16 @@
 |04/05/2019|0.1|Criação do documento|Gabriel Ziegler|
 |05/05/2019|0.2|Adição de novas issues|Gabriel Ziegler|
 
-# Duração da Sprint
+## Duração da Sprint
 
 * <b>Início:</b> 05/04/2019
 * <b>Encerramento:</b> 11/05/2019
 
-# Objetivos da Sprint
+## Objetivos da Sprint
 
-## Novas Issues
+Essa sprint será focada na adaptação das novas atividades dos membros de EPS, mudando os papeis dos membros, e no nivelamento de conhecimento dentre os membros de MDS. Essa sprint terá uma quantidade de pontos planejados ligeiramente reduzida por ser uma sprint que requerirá estudo por parte dos membros que trocaram de papeis.
+
+## Sprint Backlog
 
 |Issue|Pontos|Responsável|
 |:--:|:-------:|:--:|
@@ -29,9 +31,14 @@
 |Bug do jupyter não adiciona notebooks ao docker| 2 | Ziegler |
 |Análise de qualidade de código e documentação | 3 | Thiago |
 
-icebox: plano de gerencia qualidade
+## Issues descontinuadas
+
+|Issue|Movida para|
+|:---:|:---------:|
+| Plano de gerência de qualidade| Icebox |
 
 ## Débitos
+
 |Issue|Pontos|Responsável|
 |:--:|:-------:|:--:|
 |US08 - Eu como usuário desejo saber quais modelos usar para classificação|8|Eugenio e João|
@@ -41,16 +48,17 @@ icebox: plano de gerencia qualidade
 **Pontos Planejados:** 27 <br>
 
 ## Equipe
+
 **Equipe de Gerência:**
 
 * **Arquiteto:** [Carlos Aragon](https://github.com/carlosaragon)
-* **Product Owner:** [Davi Alves](https://github.com/davialvb) <br>
+* **Product Owner:** [Davi Alves](https://github.com/davialvb)
 * **Tech Leader:** [Gabriel Ziegler](https://github.com/gabrielziegler3)
-* **DevOps:** [Thiago Ferreira](https://github.com/thiagoiferreira) <br>
+* **DevOps:** [Thiago Ferreira](https://github.com/thiagoiferreira)
 
 **Equipe de Desenvolvimento:**
 
-- [Alex Porto](https://github.com/alexportof)
+- [Álex Porto](https://github.com/alexportof)
 - [Bruno Duarte](https://github.com/Mexazonic)
 - [Ernando Braga](https://github.com/ZarathosDeath)
 - [Eugenio Sales](https://github.com/Eugeniosales)
