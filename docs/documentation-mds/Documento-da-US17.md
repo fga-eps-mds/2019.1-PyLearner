@@ -24,45 +24,11 @@ Consiste em uma tabela que mostra as frequências de classificação para cada c
 
 > False Negative (FN): ocorre quando no conjunto real, a classe que não estamos buscando prever foi prevista incorretamente.
 
-
-## Conceitos decorrentes da matriz
-
-### Acurácia
-Diz quanto o meu modelo acertou das previsões possíveis. Ou seja, é a razão entre o somatório das previsões corretas (TP + FP) sobre o somatório das previsões:
-
-```
-Acurácia = (TP+TN)/(TP+FP+TN+FN)
-```
-### Recall
-Consiste a proporção de positivos que foram identificados corretamente. É definido como a razão entre verdadeiros positivos sobre a soma de verdadeiros positivos com negativos falsos.
-
-```
-Recall = TP/(TP+FN)
-```
-
-### Precisão
-A precisão diz respeito a proporção de identificações positivas que foram corretas. Em outras palavras, o qual bem meu modelo trabalhou.
-
-```
-Precisão = TP/(TP+FP)
-```
-
-### F Score
-Já o f-score nos mostra o balanço entre a precisão e o recall do modelo de classificação. É representado por:
-
-```
-F-score = 2*(precision+)
-```
-
 ### Peguntas
 
 1) O que é matriz de confusão?
-2) Como saber se o modelo fez uma classificação correta?
-3) Como avaliar a classificação?
-4) Como é feita a avaliação do modelo?
-5) Quais são as métricas usadas para avaliar a classificação?
-6) O que é a acurácia?
-7) O que é o recall?
-8) O que é a precisão?
-9) O que é o f-score? 
+2) O que é verdadeiro positivo?
+3) O que é verdadeiro negativo?
+4) O que é falso positivo?
+5) O que é falso negativo?
 
