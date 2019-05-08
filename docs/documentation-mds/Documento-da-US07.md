@@ -113,3 +113,52 @@ A função tem como retorno um **float**.Exemplo:
 >>> f1_score(y_true, y_pred, average=None)
 array([0.8, 0. , 0. ])
 ```
+### Recall
+
+Utilizaremos a função **recall_score()**:
+
+```python
+recall_score(valores_reais, valores_preditos, labels=None, pos_label=1, average=’binary’)
+```
+
+Seus parâmetros obrigatórios são:
+
+**valores_reais**: 1d array-like ou matriz de indicador de rótulo / matriz esparsa,rótulos verdadeiros.
+
+**valores_preditos**: 1d array-like ou matriz de indicador de rótulo / matriz esparsa
+Rótulos previstos, conforme retornados por um classificador.
+
+**pos_label**: str ou int, 1 por padrão
+A classe irá relatar o recall do elemento pedido em seu argumento<br/>
+**average** : string, [None, 'binary' (padrão), 'micro', 'macro', 'samples', 'weighted']
+Este parâmetro é necessário para decidir qual tipo de operação será utilizada ao requisitar o recall. Dentre as possibilidades podemos destacar:
+
+_'binário'_ :
+Apenas relatar resultados para a classe especificada por pos*label. Isso é aplicável somente se os destinos (y* {true, pred}) forem binários.
+
+_'micro'_ :
+Calcule as métricas globalmente contando o total de verdadeiros positivos, falsos negativos e falsos positivos.
+
+_'macro'_ :
+Calcule métricas para cada etiqueta e encontre a média não ponderada. Isso não leva em conta o desequilíbrio do rótulo.
+
+_'weighted'_ :
+Calcule métricas para cada etiqueta e encontre sua média ponderada pelo suporte (o número de instâncias verdadeiras para cada rótulo). Isso altera "macro" para explicar o desequilíbrio do rótulo; pode resultar em um F-score que não está entre precisão e recall.
+
+A função tem como retorno um **float**. Exemplo:
+
+```python
+from sklearn.metrics import recall_score
+valores_reais    = [1, 0, 1, 0, 0, 0, 1, 0, 1, 0]
+valores_preditos = [1, 0, 0, 1, 0, 0, 1, 1, 1, 0]
+print(recall_score(valores_reais, valores_preditos, pos_label=1))
+```
+O argumento _pos_label=1_ indica que queremos o recall da característica que atende pela chave de valor 1. Caso _pos_label=0_ iremos ter por referência o recall da chave que atende pela codificação de valor zero, dependendo do contexto a ser empregado.<br/>
+Caso seja necessário podemos definir a média a ser utilizada para calcular o recall. Da seguinte forma:
+```python
+from sklearn.metrics import recall_score
+valores_reais    = [1, 0, 1, 0, 0, 0, 1, 0, 1, 0]
+valores_preditos = [1, 0, 0, 1, 0, 0, 1, 1, 1, 0]
+print(recall_score(valores_reais, valores_preditos, labels=[1], average='micro'))
+```
+
