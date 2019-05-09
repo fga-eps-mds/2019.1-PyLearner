@@ -140,16 +140,6 @@ Output:
 4
 ```
 
-### 2.1.2 Scores and probabilities
-
-The decision_function method of SVC and NuSVC gives per-class scores for each sample (or a single score per sample in the binary case). When the constructor option probability is set to True, class membership probability estimates (from the methods predict_proba and predict_log_proba) are enabled. In the binary case, the probabilities are calibrated using Platt scaling: logistic regression on the SVM’s scores, fit by an additional cross-validation on the training data.
-
-### 2.1.3 Unbalanced problems
-
-Nos problemas em que se deseja dar mais importância a certas classes ou a determinadas amostras individuais, é possível usar as palavras-chave class_weight e sample_weight.
-
-O SVC, o NuSVC, o SVR, o NuSVR e o OneClassSVM implementam também pesos para amostras individuais no ajuste do método através da palavra-chave sample_weight. Semelhante ao class_weight, eles definem o parâmetro C para o exemplo i-th como C * sample_weight [i].
-
 ## 3. Stochastic Gradient Descent
 
 O Descentramento Estocástico de Gradiente (SGD) é uma abordagem simples, mas muito eficiente, para a aprendizagem discriminativa de classificadores lineares sob funções de perda convexa, como Máquinas de Vetores de Suporte (lineares) e Regressão Logística. O SGD tem sido aplicado com sucesso em problemas de aprendizado de máquina em grande escala e esparsos, freqüentemente encontrados na classificação de textos e processamento de linguagem natural.
