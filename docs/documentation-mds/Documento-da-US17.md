@@ -58,7 +58,7 @@ Actual
 2          2  1  3
 ```
 
-### Peguntas
+### Perguntas
 
 1) O que é matriz de confusão?
 2) O que é verdadeiro positivo?
