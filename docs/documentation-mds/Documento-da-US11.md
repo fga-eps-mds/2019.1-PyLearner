@@ -52,7 +52,7 @@ valores_aleatorios = np.random.rand(100,2)
 ```python
     print (kmeans.labels_)
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;     Com isso teremos os dados agrupados e em que endereço se encontram. De certa forma os endereços, ou chaves de agrupamento, dos clusters são nomeados de acordo com o range de _0 à n-1_ onde n corresponde a quantidade de cluster definidos no parâmetro inicial (n_clusters=n). Neste caso, em específico, teremos um cluster que atende pela codificação 0 e o outro claster atenderá por 1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;     Com isso teremos os dados agrupados e em que endereço se encontram. De certa forma os endereços, ou chaves de agrupamento, dos clusters são nomeados de acordo com o range de _0 à n-1_ onde n corresponde a quantidade de cluster definidos no parâmetro inicial (n_clusters=n). Neste caso, em específico, teremos um cluster que atende pela codificação 0 e o outro cluster atenderá por 1<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Caso seja necessário podemos achar os pontos centrais de cada cluster com o comando:
 ```python
     kmeans.cluster_centers_
@@ -62,6 +62,8 @@ valores_aleatorios = np.random.rand(100,2)
 &nbsp;&nbsp;&nbsp;&nbsp;Para plotarmos o gráfico devemos iterar sobre cada par encontrado e plotar no gráfico, da seguinte forma
 
 ```python
+i = 0
+
 while(i < len(valores_aleatorios)):
 
     if (kmeans.labels_[i] == 0): plt.plot(valores_aleatorios[i][1],valores_aleatorios[i][0], 'go' ,color = 'green')
