@@ -20,12 +20,12 @@
 |Preparar apresentação Release 1|5|Equipe|Entregue|
 |Criação de um Plano de medição|5|Carlos Aragon|Não Entregue|
 |Bug Docker do Jupyter|2|Davi e Carlos|Não Entregue|
+|Refatoração de Intents, Acations e Stories|2|Bruno, Eugenio e Davi|Entregue|
 
 ### Débitos
 |Issue|Pontos|Responsável|Status|
 |:--:|:-------:|:--:|:---:|
 |Protótipo de Alta Fidelidade|3|Ernando e João Victor|Entregue|
-|Refatoração de Intents, Acations e Stories|2|Bruno, Eugenio e|
 
 
 ___
@@ -53,29 +53,32 @@ ___
 - [Alex Porto](https://github.com/alexportof)
 - [Ernando Braga](https://github.com/ZarathosDeath)
 - [Eugenio Sales](https://github.com/Eugeniosales)
-- [João Victor](https://github.com/joao15victor08)
+- [Bruno Duarte](https://github.com/Mexazonic)
+
 
 ### Observações
+O membro João Victor não compareceu a reunião, por motivos desconhecidos.
 
 
 ## Presença Dailies Presenciais
 
 | Nome    |Segunda Feira|Terça Feira|Quarta Feira| Quinta Feira| Sexta Feira|
 |:-----:  |:-----------------:|:----------------:|:----------------:|:-----------------:|:----------------:|
-|Alex     |✘|✔|✔|✔|✔|
-|Bruno    |✘|✔|✔|✔|✔|
-|Eugênio  |✘|✔|✔|✔|✔|
-|Ernando  |✘|✔|✔|✔|✔|
-|João Victor|✘|✔|✔|✔|✔|
-|Carlos   |✘|✔|✔|✔|✔|
-|Davi     |✘|✔|✔|✔|✔|
-|Ziegler  |✘|✔|✔|✔|✔|
-|Thiago   |✘|✔|✔|✔|✔|
+|Alex     |✔|✔|✘|✔|✘|
+|Bruno    |✘|✔|✔|✔|✘|
+|Eugênio  |✔|✔|✔|✔|✔|
+|Ernando  |✔|✔|✘|✔|✘|
+|João Victor|✘|✔|✘|✔|✘|
+|Carlos   |✔|✔|✘|✔|✔|
+|Davi     |✔|✔|✔|✔|✔|
+|Ziegler  |✘|✔|✘|✔|✘|
+|Thiago   |✘|✔|✘|✔|✘|
 
 
 
 ## Avaliação da Sprint
-
+Essa sprint coincidiu com a entrega da primeira release do projeto. A equipe ficou focalizada no andar da apresentação e talvez inevitavelmente veio a ter uma queda de produtividade, produzindo uma quantidade bem abaixo do planejado, exatos 50% dos pontos de história.
+Entretanto, essa foi uma sprint de redefinição de alguns casos, onde a equipe tomou o feedback dado pelos avaliadores da release 1 e tomou em consideração isso pra que nas próximas sprints, possa haver uma melhora no desenvolvimento de modo geral. 
 
 # Equipe
 **Equipe de Gerência:** 
