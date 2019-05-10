@@ -1,4 +1,4 @@
-# Documento de estudo da US1
+# Documento de estudo da US09
 
 ## Introdução
 
@@ -10,7 +10,7 @@ Tendo em vista que os dados passados para o treinamento do bot devem ser bem cla
 
 ## R<sup>2</sup> score
 
-A função r2_score calcula o coeficiente de determinação R<sup>2</sup>. Esse coeficiente fornece uma métrica de quão bem as amostras futuras provavelmente serão previstas pelo modelo. A melhor pontuação possível é 1.0 e pode ser negativa (porque o modelo pode ser arbitrariamente pior).
+A função r2_score calcula o coeficiente de determinação R<sup>2</sup>. Esse coeficiente fornece uma métrica de quão bem as amostras futuras provavelmente serão previstas pelo modelo. A melhor pontuação possível é 1.0 e pode ser negativa (porque o modelo pode ser arbitrariamente pior). Essa métrica não é bem definida para amostras únicas e retornará um valor NaN se o número de amostras(n_samples) for menor que dois.
 
 O valor R<sup>2</sup> estimado em n<sub>samples</sub> é definido como: 
 
