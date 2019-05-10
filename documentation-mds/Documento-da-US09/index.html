@@ -8,7 +8,7 @@
   
   
   <link rel="shortcut icon" href="../../img/favicon.ico">
-  <title>Documento de Estudo da US16 - Pylearner</title>
+  <title>Documento de estudo da US09 - Pylearner</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
@@ -18,8 +18,8 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Documento de Estudo da US16";
-    var mkdocs_page_input_path = "documentation-mds/Documento-da-US16.md";
+    var mkdocs_page_name = "Documento de estudo da US09";
+    var mkdocs_page_input_path = "documentation-mds/Documento-da-US09.md";
     var mkdocs_page_url = null;
   </script>
   
@@ -222,34 +222,9 @@
                     
     <a class="" href="../Documento-da-US15/">Documento de estudo da US15</a>
                 </li>
-                <li class=" current">
+                <li class="">
                     
-    <a class="current" href="./">Documento de Estudo da US16</a>
-    <ul class="subnav">
-            
-    <li class="toctree-l3"><a href="#documento-de-estudo-da-us16">Documento de Estudo da US16</a></li>
-    
-        <ul>
-        
-            <li><a class="toctree-l4" href="#introducao">Introdução</a></li>
-        
-            <li><a class="toctree-l4" href="#objetivo">Objetivo</a></li>
-        
-        </ul>
-    
-
-    <li class="toctree-l3"><a href="#relatorio-de-classificacao">Relatório de Classificação</a></li>
-    
-        <ul>
-        
-            <li><a class="toctree-l4" href="#como-funciona-o-relatorio-de-classificacao">Como funciona o Relatório de Classificação</a></li>
-        
-            <li><a class="toctree-l4" href="#como-checar-os-resultados-das-classificacoes">Como Checar os Resultados das Classificações</a></li>
-        
-        </ul>
-    
-
-    </ul>
+    <a class="" href="../Documento-da-US16/">Documento de Estudo da US16</a>
                 </li>
     </ul>
 	    </li>
@@ -275,12 +250,8 @@
     <li><a href="../..">Docs</a> &raquo;</li>
     
       
-        
-          <li>Documentação do Estudo &raquo;</li>
-        
-      
     
-    <li>Documento de Estudo da US16</li>
+    <li>Documento de estudo da US09</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -290,46 +261,40 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="documento-de-estudo-da-us16">Documento de Estudo da US16</h1>
+                <h1 id="documento-de-estudo-da-us09">Documento de estudo da US09</h1>
 <h2 id="introducao">Introdução</h2>
 <p>Antes da criação das intents, actions e stories de cada tema selecionado são gerados documentos pela equipe de desenvolvimento que possuem abrangentemente do que aquele ele se trata. Selecionamos um breve conhecimento do tema, possíveis bibliotecas e até mesmo a forma de implementação. </p>
 <h2 id="objetivo">Objetivo</h2>
 <p>Tendo em vista que os dados passados para o treinamento do bot devem ser bem claros e ter uma quantidade reduzida de informação para não poluir a caixa de mensagens do usuário, o desenvolvedor responsável pelo tema tem como objetivo extrair o máximo de informação e simplifica-la antes de passar para o usuário final. Isso torna a criação das intents, actions e stories mais rápidas e objetivas.</p>
-<h1 id="relatorio-de-classificacao">Relatório de Classificação</h1>
-<h3 id="como-funciona-o-relatorio-de-classificacao">Como funciona o Relatório de Classificação</h3>
-<p>Após definir o que deseja que a máquina reconheça e passar os tipos de classificação,é necessário gerar o relatório de classificação,ou seja,como foi o desempenho da máquina.Por exemplo <a href="https://scikit-learn.org/stable/auto_examples/classification/plot_digits_classification.html#sphx-glr-auto-examples-classification-plot-digits-classification-py">Reconhecimento de digitos escritos à mão</a>, <a href="https://scikit-learn.org/stable/auto_examples/applications/plot_face_recognition.html#sphx-glr-auto-examples-applications-plot-face-recognition-py">Reconhecimento de faces</a> e etc.
-Após fazer esses reconhecimento,é necessário ver o relatório de classificação da máquina</p>
-<h2 id="como-checar-os-resultados-das-classificacoes">Como Checar os Resultados das Classificações</h2>
-<p>É necessário instalarmos o <strong>sklearn</strong>, e importaremos a biblioteca <strong>classification_report</strong></p>
-<pre><code class="python"> from sklearn.metrics  import  classification_report
-</code></pre>
+<h2 id="r2-score">R<sup>2</sup> score</h2>
+<p>A função r2_score calcula o coeficiente de determinação R<sup>2</sup>. Esse coeficiente fornece uma métrica de quão bem as amostras futuras provavelmente serão previstas pelo modelo. A melhor pontuação possível é 1.0 e pode ser negativa (porque o modelo pode ser arbitrariamente pior). Essa métrica não é bem definida para amostras únicas e retornará um valor NaN se o número de amostras(n_samples) for menor que dois.</p>
+<p>O valor R<sup>2</sup> estimado em n<sub>samples</sub> é definido como: </p>
+<p><img alt="" src="https://i.imgur.com/PfmVLyM.png" /></p>
+<p>Exemplo de uso da função r2_score:</p>
+<pre><code class="python">from sklearn.metrics import r2_score
+y_true = [3, -0.5, 2, 7]
+y_pred = [2.5, 0.0, 2, 8]
+r2_score(y_true, y_pred)  
 
-<p>E após isso,podemos utilizar a função <strong>classification_report</strong> que é como visualizaremos as classificações</p>
-<pre><code class="python">classification_report(y_true, y_pred, labels=None, target_names=None, sample_weight=None, digits=2, output_dict=False)
-</code></pre>
+y_true = [[0.5, 1], [-1, 1], [7, -6]]
+y_pred = [[0, 2], [-1, 2], [8, -5]]
+r2_score(y_true, y_pred, multioutput='variance_weighted')
 
-<p>Dentre todos esse paramêtros,existem paramêtros obrigatórios e opcionais::
-<strong>y_true</strong> : matriz de indicador de rótulo / matriz esparsa
-Realidade dos valores alvo.
-<strong>y_pred</strong> : matriz de indicador de rótulo / matriz esparsa
-Alvos estimados como retornados por um classificador.
-<strong>labels</strong> : array, tamahnho = [n_labels],lista opcional de índices de etiquetas para incluir no relatório.</p>
-<p><strong>target_names</strong> : lista de strings,nomes de exibição opcionais correspondentes aos rótulos (mesma ordem).</p>
-<p><strong>sample_weight</strong> : array de tamanho = [n_samples], opcional,pesos de amostra</p>
-<p><strong>dígitos</strong>: int,número de dígitos para formatar valores de ponto flutuante de saída. Quando output_dict for True, isso será ignorado e os valores retornados não serão arredondados.</p>
-<p><strong>output_dict</strong> : bool (padrão = False)
-Se for True, retorne a saída como dit</p>
+
+y_true = [[0.5, 1], [-1, 1], [7, -6]]
+y_pred = [[0, 2], [-1, 2], [8, -5]]
+r2_score(y_true, y_pred, multioutput='uniform_average')
+
+
+r2_score(y_true, y_pred, multioutput='raw_values')
+
+
+r2_score(y_true, y_pred, multioutput=[0.3, 0.7])
+</code></pre>
               
             </div>
           </div>
           <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-      
-        <a href="../Documento-da-US15/" class="btn btn-neutral" title="Documento de estudo da US15"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-      
-    </div>
   
 
   <hr/>
@@ -352,8 +317,6 @@ Se for True, retorne a saída como dit</p>
   <div class="rst-versions" role="note" style="cursor: pointer">
     <span class="rst-current-version" data-toggle="rst-current-version">
       
-      
-        <span><a href="../Documento-da-US15/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
     </span>
