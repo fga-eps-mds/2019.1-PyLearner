@@ -1,10 +1,10 @@
-site_name: Pylearner 
+site_name: Pylearner
 nav:
     - Home: README.md
     - Políticas:
         - policies/Branches.md
         - policies/Commits.md
-        - policies/Definicao-Done.md
+        - Definição de Done: policies/Definicao-Done.md
         - policies/Git-Workflow.md
         - policies/Style-Guide.md
     - Documentação:
@@ -19,35 +19,35 @@ nav:
         - roadmap/Roadmap-DevOps.md
         - roadmap/Roadmap-Arquiteto.md
         - roadmap/Roadmap-Projeto.md
-    - Documentação das sprints: 
-        - sprints/Sprint-0-review.md
-        - sprints/Sprint-1-planning.md
-        - sprints/Sprint-1-Review.md  
-        - sprints/Sprint-2-planning.md
-        - sprints/Sprint-2-review.md
-        - sprints/Sprint-3-planning.md
-        - sprints/Sprint-3-review.md
-        - sprints/Sprint-4-planning.md
-        - sprints/Sprint-4-review.md
-        - sprints/Sprint-5-planning.md
-        - sprints/Sprint-5-review.md
-        - sprints/Sprint-6-planning.md
-        # - sprints/Sprint-6-review.md
-        # - sprints/Sprint-7-planning.md
-        # - sprints/Sprint-7-review.md
-        # - sprints/Sprint-8-planning.md
-        # - sprints/Sprint-8-review.md
-        # - sprints/Sprint-9-planning.md
-        # - sprints/Sprint-9-review.md
-        # - sprints/Sprint-10-planning.md
-        # - sprints/Sprint-10-review.md
-        # - sprints/Sprint-11-planning.md
-        # - sprints/Sprint-11-review.md
-        # - sprints/Sprint-12-planning.md
-        # - sprints/Sprint-12-review.md
-        # - sprints/Sprint-13-planning.md
-        # - sprints/Sprint-13-review.md
-    - Documentação do Estudo: 
+    - Documentação das sprints:
+        - Sprint 0 Review: sprints/Sprint-0-review.md
+        - Sprint 1 Planning: sprints/Sprint-1-planning.md
+        - Sprint 1 Review: sprints/Sprint-1-Review.md
+        - Sprint 2 Planning: sprints/Sprint-2-planning.md
+        - Sprint 2 Review: sprints/Sprint-2-review.md
+        - Sprint 3 Planning: sprints/Sprint-3-planning.md
+        - Sprint 3 Review: sprints/Sprint-3-review.md
+        - Sprint 4 Planning: sprints/Sprint-4-planning.md
+        - Sprint 4 Review: sprints/Sprint-4-review.md
+        - Sprint 5 Planning: sprints/Sprint-5-planning.md
+        - Sprint 5 Review: sprints/Sprint-5-review.md
+        - Sprint 6 Planning: sprints/Sprint-6-planning.md
+        - Sprint 6 Review: sprints/Sprint-6-review.md
+        - Sprint 7 Planning: sprints/Sprint-7-planning.md
+        - Sprint 7 Review: sprints/Sprint-7-review.md
+        - Sprint 8 Planning: sprints/Sprint-8-planning.md
+        # Sprint 8 Review: sprints/Sprint-8-review.md
+        # Sprint 9 Planning: sprints/Sprint-9-planning.md
+        # Sprint 9 Review: sprints/Sprint-9-review.md
+        # Sprint 10 Planning: sprints/Sprint-10-planning.md
+        # Sprint 10 Review: sprints/Sprint-10-review.md
+        # Sprint 11 Planning: sprints/Sprint-11-planning.md
+        # Sprint 11 Review: sprints/Sprint-11-review.md
+        # Sprint 12 Planning: sprints/Sprint-12-planning.md
+        # Sprint 12 Review: sprints/Sprint-12-review.md
+        # Sprint 13 Planning: sprints/Sprint-13-planning.md
+        # Sprint 13 Review: sprints/Sprint-13-review.md
+    - Documentação do Estudo:
         - documentation-mds/Documento-da-US01.md
         - documentation-mds/Documento-da-US02.md
         - documentation-mds/Documento-da-US03.md
@@ -56,7 +56,6 @@ nav:
         - documentation-mds/Documento-da-US14.md
         - documentation-mds/Documento-da-US15.md
         - documentation-mds/Documento-da-US16.md
-            
 theme:
   name: readthedocs
 extra_css:
