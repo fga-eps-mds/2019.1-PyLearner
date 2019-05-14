@@ -113,8 +113,10 @@ A função tem como retorno um **float**.Exemplo:
 >>> f1_score(y_true, y_pred, average=None)
 array([0.8, 0. , 0. ])
 ```
+
 ### Recall
-O _Recall_ é responsável por nos informar qual é proporção de valores que foram identificados corretamente. 
+
+O _Recall_ é responsável por nos informar qual é proporção de valores que foram identificados corretamente.
 
 Para isto, utilizaremos a função **recall_score()**:
 
@@ -154,9 +156,11 @@ valores_reais    = [1, 0, 1, 0, 0, 0, 1, 0, 1, 0]
 valores_preditos = [1, 0, 0, 1, 0, 0, 1, 1, 1, 0]
 recall_score(valores_reais, valores_preditos, pos_label=1)
 ```
+
 O argumento _pos_label=1_ indica que queremos o recall da característica que atende pela chave de valor 1. Caso _pos_label=0_ iremos ter por referência o recall da chave que atende pela codificação de valor zero, dependendo do contexto a ser empregado.<br/>
 Caso seja necessário podemos definir a média a ser utilizada para calcular o recall. Da seguinte forma:<br/>
 É de suma importância notar que a partir da argumentação da média na função a ser aplicada, substituiremos os parâmetros do _pos_label_ por _labels_ conforme o exemplo abaixo:
+
 ```python
 from sklearn.metrics import recall_score
 valores_reais    = [1, 0, 1, 0, 0, 0, 1, 0, 1, 0]
@@ -165,7 +169,8 @@ recall_score(valores_reais, valores_preditos, labels=[1], average='micro')
 ```
 
 ### Precision
-_Precision_ é responsável por nos informar Qual a proporção de identificações numéricas foi realmente correta. De certo modo o precision tenta descrever a eficiência do modelo treinado.  
+
+_Precision_ é responsável por nos informar Qual a proporção de identificações numéricas foi realmente correta. De certo modo o precision tenta descrever a eficiência do modelo treinado.
 
 Para isto, utilizaremos a função **precision_score()**:
 
@@ -205,17 +210,21 @@ valores_reais    = [1, 0, 1, 0, 0, 0, 1, 0, 1, 0]
 valores_preditos = [1, 0, 0, 1, 0, 0, 1, 1, 1, 0]
 precision_score(valores_reais, valores_preditos, pos_label=1)
 ```
+
 O argumento _pos_label=1_ indica que queremos o recall da característica que atende pela chave de valor 1. Caso _pos_label=0_ iremos ter por referência o recall da chave que atende pela codificação de valor zero, dependendo do contexto a ser empregado.<br/>
 Caso seja necessário podemos definir a média a ser utilizada para calcular o precision. Da seguinte forma:
 <br/>
 É de suma importância notar que a partir da argumentação da média na função a ser aplicada, substituiremos os parâmetros do _pos_label_ por _labels_ conforme o exemplo abaixo:
+
 ```python
 from sklearn.metrics import precision_score
 valores_reais    = [1, 0, 1, 0, 0, 0, 1, 0, 1, 0]
 valores_preditos = [1, 0, 0, 1, 0, 0, 1, 1, 1, 0]
 precision_score(valores_reais, valores_preditos, labels=[1], average='macro')
 ```
+
 ### Bônus
+
 Caso você queira tabelar todos os dados em conjunto de forma a expressar diversas métricas de informações no que se refere ao modelo treinado, é possível utilizarmos a função _classification_report()_
 
 ### Classification Report
@@ -223,6 +232,7 @@ Caso você queira tabelar todos os dados em conjunto de forma a expressar divers
 ```python
 classification_report(valores_reais, valores_preditos, labels=None, target_names=None, sample_weight=None, digits=2, output_dict=False)
 ```
+
 Dentre os parâmetros mais relevantes:<br/>
 **valores_reais**: 1d array-like ou matriz de indicador de rótulo / matriz esparsa,rótulos verdadeiros.
 
@@ -238,6 +248,7 @@ valores_preditos = [1, 0, 0, 1, 0, 0, 1, 1, 1, 0]
 target_names = (['Objeto 0', 'Objeto 1'])
 print(classification_report(valores_reais, valores_preditos, target_names=target_names))
 ```
+
 O resultado do print será:
 
 ```python
@@ -250,4 +261,5 @@ O resultado do print será:
    macro avg       0.70      0.71      0.70        10
 weighted avg       0.72      0.70      0.70        10
 ```
+
 Como podemos notar as médias ponderadas foram todas apresentadas de forma tabelada conforme o exemplo acima. É possível notar também que ambas as chaves presentes nos vetores comparativos foram estruturadas e apresentadas com suas respectivas informações.
