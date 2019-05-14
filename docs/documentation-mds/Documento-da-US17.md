@@ -24,11 +24,47 @@ Consiste em uma tabela que mostra as frequências de classificação para cada c
 
 > False Negative (FN): ocorre quando no conjunto real, a classe que não estamos buscando prever foi prevista incorretamente.
 
-### Peguntas
+## Implementação da matriz de confusão
+
+O Scikit-Learn fornece uma função confusion_matrix:
+
+```python
+from sklearn.metrics import confusion_matrix
+y_actu = [2, 0, 2, 2, 0, 1, 1, 2, 2, 0, 1, 2]
+y_pred = [0, 0, 2, 1, 0, 2, 1, 0, 2, 0, 2, 2]
+confusion_matrix(y_actu, y_pred)
+
+Output:
+
+array([[3, 0, 0],
+       [0, 1, 2],
+       [2, 1, 3]])
+```
+
+Mas  também pode ser criado uma matriz de confusão usando Pandas:
+
+```python
+import pandas as pd
+y_actu = pd.Series([2, 0, 2, 2, 0, 1, 1, 2, 2, 0, 1, 2], name='Actual')
+y_pred = pd.Series([0, 0, 2, 1, 0, 2, 1, 0, 2, 0, 2, 2], name='Predicted')
+df_confusion = pd.crosstab(y_actu, y_pred)
+
+Output:
+
+Predicted  0  1  2
+Actual
+0          3  0  0
+1          0  1  2
+2          2  1  3
+```
+
+### Perguntas
 
 1) O que é matriz de confusão?
 2) O que é verdadeiro positivo?
 3) O que é verdadeiro negativo?
 4) O que é falso positivo?
 5) O que é falso negativo?
+6) Como implementar a matriz de confusão?
+7) Quais bibliotecas são usadas para gerar a matriz de confusão?
 
