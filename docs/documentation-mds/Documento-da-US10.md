@@ -108,8 +108,8 @@ Isso é feito ao introduzir uma distribuição, chamada de distribuição a prio
 
 ## Regressão de Ridge Bayesiana
 
-BayesianRdge estima um modelo de probabilidade do problema de regressão. O coeficiente &alpha; e &lambda; são escolhidos para serem distribuições gamma, o conjugado para a precisão Gaussiana. O resultado do modelo é chamado de Bayesian Ridge Regression.
-Os parâmetros &omega;, &alpha; e &lambda; sao estimados durante o ajuste do modelo.
+BayesianRidge estima um modelo de probabilidade do problema de regressão. O coeficiente &alpha; e &lambda; são escolhidos para serem distribuições gamma, o conjugado para a precisão Gaussiana. O resultado do modelo é chamado de Bayesian Ridge Regression.
+Os parâmetros &omega;, &alpha; e &lambda; sao estimados durante o ajuste do modelo. Os parâmetros de reularização &alpha; e &lambda; são estimados maximizando a probabilidade marginal do log.
 
 ```python
 >>> from sklearn import linear_model
