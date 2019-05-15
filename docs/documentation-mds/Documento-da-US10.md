@@ -100,3 +100,37 @@ array([0, 1, 1, 0])
 >>> clf.score(X, y)
 1.0
 ```
+
+# Regressão Bayesiana
+
+Tecnicas de regressão bayesianas podem ser usadas para incluir parâmetros regulares no processo de estimativa.
+Isso é feito ao introduzir uma distribuição, chamada de distribuição a priori, ao conjunto de parâmetros desconhecidos quantificando a sua crença sobre esse conjunto e a estimação dos parâmetros é dada através da distribuição à posteriori, que é proporcional ao produto da função de verossimilhança com a distribuição a priori.
+
+## Regressão de Ridge Bayesiana
+
+BayesianRdge estima um modelo de probabilidade do problema de regressão. O coeficiente &alpha; e &lambda; são escolhidos para serem distribuições gamma, o conjugado para a precisão Gaussiana. O resultado do modelo é chamado de Bayesian Ridge Regression.
+Os parâmetros &omega;, &alpha; e &lambda; sao estimados durante o ajuste do modelo.
+
+```python
+>>> from sklearn import linear_model
+>>> X = [[0., 0.], [1., 1.], [2., 2.], [3., 3.]]
+>>> Y = [0., 1., 2., 3.]
+>>> reg = linear_model.BayesianRidge()
+>>> reg.fit(X, Y)  
+BayesianRidge(alpha_1=1e-06, alpha_2=1e-06, compute_score=False, copy_X=True,
+       fit_intercept=True, lambda_1=1e-06, lambda_2=1e-06, n_iter=300,
+       normalize=False, tol=0.001, verbose=False)
+```
+
+Depois de ajustado, o modelo pode ser usado para prever novos valores:
+
+```python
+>>> reg.predict([[1, 0.]])
+array([0.50000013])
+```
+Para acessar o coeficiente &omega;:
+
+```python
+>>> reg.coef_
+array([0.49999993, 0.49999993])
+```
