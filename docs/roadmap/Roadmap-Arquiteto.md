@@ -3,6 +3,7 @@
 |    Data    | Versão |                             Alteração                             |                    Autor                    |
 |:----------:|:------:|:-----------------------------------------------------------------:|:-------------------------------------------:|
 | 08/04/2019 |   0.1  | Criação do documento  | Davi Alves |
+| 10/05/2019 |   0.2  | Atualização do documento | Carlos Aragon |
 
 ---
 
@@ -17,6 +18,9 @@
 ### Treinamento de arquitetura de componentes
 
 - Com o objetivo de mitigar um risco de nível técnico, será feito um treinamento para o time de desenvolvimento sobre a arquitetura utilizada pelo rasa para construção do chatbot.
+
+### Adição de serviço de gerência de requisições(API Gateway)
+- Responsável por gerenciar as requisições e a comunicação entre o pylearner e os serviços externos aos quais ele se conecta.
 
 ### Adição de serviços externos como microserviços
 
