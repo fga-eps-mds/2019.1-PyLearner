@@ -8,7 +8,7 @@
   
   
   <link rel="shortcut icon" href="../../img/favicon.ico">
-  <title>Documento de estudo da US08 - Pylearner</title>
+  <title>Documento de Estudo da US10 - Pylearner</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
@@ -18,8 +18,8 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Documento de estudo da US08";
-    var mkdocs_page_input_path = "documentation-mds/Documento-da-US11.md";
+    var mkdocs_page_name = "Documento de Estudo da US10";
+    var mkdocs_page_input_path = "documentation-mds/Documento-da-US10.md";
     var mkdocs_page_url = null;
   </script>
   
@@ -246,16 +246,12 @@
                     
     <a class="" href="../Documento-da-US09/">Documento de estudo da US09</a>
                 </li>
-                <li class="">
-                    
-    <a class="" href="../Documento-da-US10/">Documento de Estudo da US10</a>
-                </li>
                 <li class=" current">
                     
-    <a class="current" href="./">Documento de estudo da US08</a>
+    <a class="current" href="./">Documento de Estudo da US10</a>
     <ul class="subnav">
             
-    <li class="toctree-l3"><a href="#documento-de-estudo-da-us08">Documento de estudo da US08</a></li>
+    <li class="toctree-l3"><a href="#documento-de-estudo-da-us10">Documento de Estudo da US10</a></li>
     
         <ul>
         
@@ -263,14 +259,32 @@
         
             <li><a class="toctree-l4" href="#objetivo">Objetivo</a></li>
         
-            <li><a class="toctree-l4" href="#k-means">K-means</a></li>
+        </ul>
+    
+
+    <li class="toctree-l3"><a href="#regressao-polinomial">Regressão Polinomial</a></li>
+    
+        <ul>
         
-            <li><a class="toctree-l4" href="#implementacao">Implementação</a></li>
+            <li><a class="toctree-l4" href="#regrassao-polinomial-em-python">Regrassão Polinomial em Python</a></li>
+        
+        </ul>
+    
+
+    <li class="toctree-l3"><a href="#regressao-bayesiana">Regressão Bayesiana</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#regressao-de-ridge-bayesiana">Regressão de Ridge Bayesiana</a></li>
         
         </ul>
     
 
     </ul>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../Documento-da-US11/">Documento de estudo da US08</a>
                 </li>
                 <li class="">
                     
@@ -317,7 +331,7 @@
         
       
     
-    <li>Documento de estudo da US08</li>
+    <li>Documento de Estudo da US10</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -327,79 +341,106 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="documento-de-estudo-da-us08">Documento de estudo da US08</h1>
+                <h1 id="documento-de-estudo-da-us10">Documento de Estudo da US10</h1>
 <h2 id="introducao">Introdução</h2>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Antes da criação das intents, actions e stories de cada tema selecionado são gerados documentos pela equipe de desenvolvimento que possuem abrangentemente do que aquele ele se trata. Selecionamos um breve conhecimento do tema, possíveis bibliotecas e até mesmo a forma de implementação. </p>
+<p>Antes da criação das intents, actions e stories de cada tema selecionado são gerados documentos pela equipe de desenvolvimento que possuem abrangentemente do que aquele ele se trata. Selecionamos um breve conhecimento do tema, possíveis bibliotecas e até mesmo a forma de implementação.</p>
 <h2 id="objetivo">Objetivo</h2>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Tendo em vista que os dados passados para o treinamento do bot devem ser bem claros e ter uma quantidade reduzida de informação para não poluir a caixa de mensagens do usuário, o desenvolvedor responsável pelo tema tem como objetivo extrair o máximo de informação e simplifica-la antes de passar para o usuário final. Isso torna a criação das intents, actions e stories mais rápidas e objetivas.</p>
-<h2 id="k-means">K-means</h2>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;K-means possui por finalidade agrupar um conjunto de dados semelhantes ou que não apresentam grande discrepância entre si descobrindo assim padrões subjacentes.</p>
-<pre><code class="python">KMeans(n_clusters=8, init=’k-means++’, n_init=10, max_iter=300, tol=0.0001, precompute_distances=’auto’, verbose=0, random_state=None, copy_x=True, n_jobs=None, algorithm=’auto’)
+<p>Tendo em vista que os dados passados para o treinamento do bot devem ser bem claros e ter uma quantidade reduzida de informação para não poluir a caixa de mensagens do usuário, o desenvolvedor responsável pelo tema tem como objetivo extrair o máximo de informação e simplifica-la antes de passar para o usuário final. Isso torna a criação das intents, actions e stories mais rápidas e objetivas.</p>
+<h1 id="regressao-polinomial">Regressão Polinomial</h1>
+<p>Um padrão comum em machine learning é usar modelos lineares treinados em funções não-lineares dos dados. Essa abordagem mantém o desempenho geralmente rápido de métodos lineares, permitindo que eles se ajustem a uma faixa muito maior de dados.</p>
+<p>Por exemplo, uma regressão linear simples pode ser estendida construindo recursos polinomiais a partir dos coeficientes. No caso de regressão linear padrão, você pode ter um modelo assim para dados bidimensionais:</p>
+<p><code>ŷ(W, X) = W0 + W1 * X1 + W2 * X2</code></p>
+<p>Se quisermos ajustar um parabolóide aos dados em vez de um plano, podemos combinar os recursos em polinômios de segunda ordem, para que o modelo se pareça com isso:</p>
+<p><code>ŷ(W, X) = W0 + W1 * X1 + W2 * X2 + W3 * X1 * X2 + W4 * X1 * x1 + W5 * X2 * X2</code></p>
+<p>A observação (às vezes surpreendente) é que este ainda é um modelo linear: para ver isso, imagine criar um novo conjunto de recursos</p>
+<p><code>z = [X1,X2,X1 * X2,X1 * X1,X2 * X2]</code></p>
+<p>Com esta nova rotulagem dos dados, nosso problema pode ser escrito</p>
+<p><code>ŷ(W, Z) = W0 + W1 * Z1 + W2 * Z2 + W3 * Z3 + W4 * Z4 + W5 * Z5</code></p>
+<p>Vemos que a regressão polinomial resultante está na mesma classe de modelos lineares que consideramos acima (ou seja, o modelo é linear em) e pode ser resolvida pelas mesmas técnicas. Considerando-se os ajustes lineares dentro de um espaço de dimensões superiores construído com essas funções de base, o modelo tem a flexibilidade de ajustar um intervalo de dados muito mais amplo.</p>
+<h2 id="regrassao-polinomial-em-python">Regrassão Polinomial em Python</h2>
+<p>Utilizamos o transformador <strong>PolynomialFeatures</strong>, que transforma uma matriz de dados de entrada em uma nova matriz de dados de um determinado grau. Pode ser usado da seguinte forma:</p>
+<pre><code class="python">&gt;&gt;&gt; from sklearn.preprocessing import PolynomialFeatures
+&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; X = np.arange(6).reshape(3, 2)
+&gt;&gt;&gt; X
+array([[0, 1],
+       [2, 3],
+       [4, 5]])
+&gt;&gt;&gt; poly = PolynomialFeatures(degree=2)
+&gt;&gt;&gt; poly.fit_transform(X)
+array([[ 1.,  0.,  1.,  0.,  0.,  1.],
+       [ 1.,  2.,  3.,  4.,  6.,  9.],
+       [ 1.,  4.,  5., 16., 20., 25.]])
 </code></pre>
 
-<h3 id="parametros-relevantes">Parâmetros relevantes:</h3>
-<p><strong>n_clusters</strong>: Refere-se ao número de clusters(agrupamentos) em que serão alocados os dados, o número 8 é o padrão da função caso não seja especificado no parâmetro.</p>
-<p><strong>init</strong>: Refere-se ao modo como o algoritmo será inicializado. 'k-means++' é o método padrão para criação dos clusters.</p>
-<p><strong>random</strong>: Se refere ao modo de inicialização de forma aleatória, ou seja, os centróides iniciais serão gerados de forma totalmente aleatória sem um critério para seleção.</p>
-<p><strong>max_iter</strong>: A quantidade de vezes em que o algoritmo irá ser executado.</p>
-<p><strong>n_jobs</strong>: Podemos especificar a quantidade de CPU´s ou optar por não utilizar computação paralela.</p>
-<p><strong>algorithm</strong>:  A versão do algoritmo K-Means a ser utilizada.</p>
-<h2 id="implementacao">Implementação</h2>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Para entender melhor o conceito iremos ter por base uma matriz de valores aleatórios de apenas duas dimensões.</p>
-<pre><code class="python">import numpy as np
-import matplotlib.pyplot as plt
-
-valores_aleatorios = np.random.rand(100,2)
+<p>Os recursos do X foram transformados de <code>[X1,X2]</code> para <code>[1,X1,X2,X1*X1,X1*X2,X2*X2]</code> e agora podem ser usados ​​em qualquer modelo linear.</p>
+<p>Esse tipo de pré-processamento pode ser otimizado com as ferramentas do <strong>Pipeline</strong>. Um único objeto representando uma regressão polinomial simples pode ser criado e usado da seguinte maneira:</p>
+<pre><code class="python">&gt;&gt;&gt; from sklearn.preprocessing import PolynomialFeatures
+&gt;&gt;&gt; from sklearn.linear_model import LinearRegression
+&gt;&gt;&gt; from sklearn.pipeline import Pipeline
+&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; model = Pipeline([('poly', PolynomialFeatures(degree=3)),
+...                   ('linear', LinearRegression(fit_intercept=False))])
+&gt;&gt;&gt; # fit to an order-3 polynomial data
+&gt;&gt;&gt; x = np.arange(5)
+&gt;&gt;&gt; y = 3 - 2 * x + x ** 2 - x ** 3
+&gt;&gt;&gt; model = model.fit(x[:, np.newaxis], y)
+&gt;&gt;&gt; model.named_steps['linear'].coef_
+array([ 3., -2.,  1., -1.])
 </code></pre>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Esta função irá gerar 100 valores aleatores para cada dimensão (x,y) setada. Importante ressaltar as quantidades podem ser expandidas de acordo com a necessidade da situação.</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;A Clusterização dos dados necessita da biblioteca do KMeans. A importação desta biblioteca é feita da seguinte forma:</p>
-<pre><code class="python">    from sklearn.cluster import KMeans
+<p>O modelo linear treinado em características polinomiais é capaz de recuperar exatamente os coeficientes polinomiais de entrada.</p>
+<p>Em alguns casos, não é necessário incluir poderes superiores de qualquer recurso único, mas apenas os chamados recursos de interação que se multiplicam no máximo em recursos distintos. Estes podem ser obtidos em <strong>PolynomialFeatures</strong> com a configuração <code>interaction_only = True</code>.</p>
+<p>Por exemplo, ao lidar com recursos booleanos,<code>(Xi ** n) = Xi</code> para todos <code>n</code> e, portanto, é inútil; mas <code>XiXj</code> representa a conjunção de dois booleanos. Desta forma, podemos resolver o problema XOR com um classificador linear:</p>
+<pre><code class="python">&gt;&gt;&gt; from sklearn.linear_model import Perceptron
+&gt;&gt;&gt; from sklearn.preprocessing import PolynomialFeatures
+&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; X = np.array([[0, 0], [0, 1], [1, 0], [1, 1]])
+&gt;&gt;&gt; y = X[:, 0] ^ X[:, 1]
+&gt;&gt;&gt; y
+array([0, 1, 1, 0])
+&gt;&gt;&gt; X = PolynomialFeatures(interaction_only=True).fit_transform(X).astype(int)
+&gt;&gt;&gt; X
+array([[1, 0, 0, 0],
+       [1, 0, 1, 0],
+       [1, 1, 0, 0],
+       [1, 1, 1, 1]])
+&gt;&gt;&gt; clf = Perceptron(fit_intercept=False, max_iter=10, tol=None,
+...                  shuffle=False).fit(X, y)
 </code></pre>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Agora iremos setar os dados e agrupa-los utilizando KMeans</p>
-<pre><code class="python">    kmeans = KMeans(n_clusters=2).fit(valores_aleatorios)
+<p>E as "previsões" do classificador são perfeitas:</p>
+<pre><code class="python">&gt;&gt;&gt; clf.predict(X)
+array([0, 1, 1, 0])
+&gt;&gt;&gt; clf.score(X, y)
+1.0
 </code></pre>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Agora os dados e suas particularidades encontradas no processo de KMeans estão setados na variável kmeans! Note que temos dois clusters, ou seja, teremos dois agrupamentos de dados.
-&nbsp;&nbsp;&nbsp;&nbsp;Podemos utilizar agora uma função que ira mostrar a que cluster cada par, ou conjunto, de dados se encontra. Resumindo é onde cada dado está situado, qual o endereço do agrupamento em que foi armazenado.</p>
-<pre><code class="python">    print (kmeans.labels_)
+<h1 id="regressao-bayesiana">Regressão Bayesiana</h1>
+<p>Tecnicas de regressão bayesianas podem ser usadas para incluir parâmetros regulares no processo de estimativa.
+Isso é feito ao introduzir uma distribuição, chamada de distribuição a priori, ao conjunto de parâmetros desconhecidos quantificando a sua crença sobre esse conjunto e a estimação dos parâmetros é dada através da distribuição à posteriori, que é proporcional ao produto da função de verossimilhança com a distribuição a priori.</p>
+<h2 id="regressao-de-ridge-bayesiana">Regressão de Ridge Bayesiana</h2>
+<p>BayesianRidge estima um modelo de probabilidade do problema de regressão. O coeficiente &alpha; e &lambda; são escolhidos para serem distribuições gamma, o conjugado para a precisão Gaussiana. O resultado do modelo é chamado de Bayesian Ridge Regression.
+Os parâmetros &omega;, &alpha; e &lambda; sao estimados durante o ajuste do modelo. Os parâmetros de regularização &alpha; e &lambda; são estimados maximizando a probabilidade marginal do log.</p>
+<pre><code class="python">&gt;&gt;&gt; from sklearn import linear_model
+&gt;&gt;&gt; X = [[0., 0.], [1., 1.], [2., 2.], [3., 3.]]
+&gt;&gt;&gt; Y = [0., 1., 2., 3.]
+&gt;&gt;&gt; reg = linear_model.BayesianRidge()
+&gt;&gt;&gt; reg.fit(X, Y)  
+BayesianRidge(alpha_1=1e-06, alpha_2=1e-06, compute_score=False, copy_X=True,
+       fit_intercept=True, lambda_1=1e-06, lambda_2=1e-06, n_iter=300,
+       normalize=False, tol=0.001, verbose=False)
 </code></pre>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;     Com isso teremos os dados agrupados e em que endereço se encontram. De certa forma os endereços, ou chaves de agrupamento, dos clusters são nomeados de acordo com o range de <em>0 à n-1</em> onde n corresponde a quantidade de cluster definidos no parâmetro inicial (n_clusters=n). Neste caso, em específico, teremos um cluster que atende pela codificação 0 e o outro cluster atenderá por 1<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;Caso seja necessário podemos achar os pontos centrais de cada cluster com o comando:</p>
-<pre><code class="python">    kmeans.cluster_centers_
+<p>Depois de ajustado, o modelo pode ser usado para prever novos valores:</p>
+<pre><code class="python">&gt;&gt;&gt; reg.predict([[1, 0.]])
+array([0.50000013])
 </code></pre>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Que irá retornar a posição do ponto central de cada cluster. </p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Para plotarmos o gráfico devemos iterar sobre cada par encontrado e plotar no gráfico, da seguinte forma</p>
-<pre><code class="python">i = 0
-
-while(i &lt; len(valores_aleatorios)):
-
-    if (kmeans.labels_[i] == 0): plt.plot(valores_aleatorios[i][1],valores_aleatorios[i][0], 'go' ,color = 'green')
-
-    else: plt.plot(valores_aleatorios[i][1],valores_aleatorios[i][0], 'go' ,color = 'orange')
-
-    i+=1
-
-    # Mapeando ponto a ponto no gráfico 
-
-plt.plot(kmeans.cluster_centers_[0][1], kmeans.cluster_centers_[0][0], 'go', color = 'black')
-
-plt.plot(kmeans.cluster_centers_[1][1], kmeans.cluster_centers_[1][0], 'go', color = 'black')
-
-# Mapeando o centróide de cada cluster
-
-plt.title('Exemplo K-Means - Pyter')
-
-plt.show()
-
-
+<p>Para acessar o coeficiente &omega;:</p>
+<pre><code class="python">&gt;&gt;&gt; reg.coef_
+array([0.49999993, 0.49999993])
 </code></pre>
-
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Cada Cluster foi mapeado com cores distintas e seu centróides são pontos negros em seus respectivos endereços. Por serem valores aleatórios gerados em cada execução do código teremos, na maioria das vezes, gráficos e pontos distintos. Entretanto para exemplificar esses conjuntos de códigos em funcionamento deixo esta exemplificação: <br/></p>
-<p><img alt="Exemplo" src="https://i.imgur.com/c3GFjeD.png" /></p>
               
             </div>
           </div>
@@ -407,10 +448,10 @@ plt.show()
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../Documento-da-US14/" class="btn btn-neutral float-right" title="Documento de Estudo da US14">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../Documento-da-US11/" class="btn btn-neutral float-right" title="Documento de estudo da US08">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../Documento-da-US10/" class="btn btn-neutral" title="Documento de Estudo da US10"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../Documento-da-US09/" class="btn btn-neutral" title="Documento de estudo da US09"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -436,10 +477,10 @@ plt.show()
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../Documento-da-US10/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../Documento-da-US09/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../Documento-da-US14/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../Documento-da-US11/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>

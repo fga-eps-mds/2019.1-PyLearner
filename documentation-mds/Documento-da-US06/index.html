@@ -8,7 +8,7 @@
   
   
   <link rel="shortcut icon" href="../../img/favicon.ico">
-  <title>Documento de estudo da US08 - Pylearner</title>
+  <title>Documento de estudo da US06 - Pylearner</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
@@ -18,8 +18,8 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Documento de estudo da US08";
-    var mkdocs_page_input_path = "documentation-mds/Documento-da-US11.md";
+    var mkdocs_page_name = "Documento de estudo da US06";
+    var mkdocs_page_input_path = "documentation-mds/Documento-da-US06.md";
     var mkdocs_page_url = null;
   </script>
   
@@ -230,9 +230,34 @@
                     
     <a class="" href="../Documento-da-US05/">Documento de Estudo da US05</a>
                 </li>
-                <li class="">
+                <li class=" current">
                     
-    <a class="" href="../Documento-da-US06/">Documento de estudo da US06</a>
+    <a class="current" href="./">Documento de estudo da US06</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#documento-de-estudo-da-us06">Documento de estudo da US06</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#introducao">Introdução</a></li>
+        
+            <li><a class="toctree-l4" href="#objetivo">Objetivo</a></li>
+        
+        </ul>
+    
+
+    <li class="toctree-l3"><a href="#feature-scaling">Feature Scaling</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#o-que-e-feature-scaling">O que é Feature Scaling?</a></li>
+        
+            <li><a class="toctree-l4" href="#tecnicas-para-execucao-do-feature-scaling">Técnicas para execução do Feature Scaling</a></li>
+        
+        </ul>
+    
+
+    </ul>
                 </li>
                 <li class="">
                     
@@ -250,27 +275,9 @@
                     
     <a class="" href="../Documento-da-US10/">Documento de Estudo da US10</a>
                 </li>
-                <li class=" current">
+                <li class="">
                     
-    <a class="current" href="./">Documento de estudo da US08</a>
-    <ul class="subnav">
-            
-    <li class="toctree-l3"><a href="#documento-de-estudo-da-us08">Documento de estudo da US08</a></li>
-    
-        <ul>
-        
-            <li><a class="toctree-l4" href="#introducao">Introdução</a></li>
-        
-            <li><a class="toctree-l4" href="#objetivo">Objetivo</a></li>
-        
-            <li><a class="toctree-l4" href="#k-means">K-means</a></li>
-        
-            <li><a class="toctree-l4" href="#implementacao">Implementação</a></li>
-        
-        </ul>
-    
-
-    </ul>
+    <a class="" href="../Documento-da-US11/">Documento de estudo da US08</a>
                 </li>
                 <li class="">
                     
@@ -317,7 +324,7 @@
         
       
     
-    <li>Documento de estudo da US08</li>
+    <li>Documento de estudo da US06</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -327,79 +334,45 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="documento-de-estudo-da-us08">Documento de estudo da US08</h1>
+                <h1 id="documento-de-estudo-da-us06">Documento de estudo da US06</h1>
 <h2 id="introducao">Introdução</h2>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Antes da criação das intents, actions e stories de cada tema selecionado são gerados documentos pela equipe de desenvolvimento que possuem abrangentemente do que aquele ele se trata. Selecionamos um breve conhecimento do tema, possíveis bibliotecas e até mesmo a forma de implementação. </p>
+<p>Antes da criação das intents, actions e stories de cada tema selecionado são gerados documentos pela equipe de desenvolvimento que possuem abrangentemente do que aquele ele se trata. Selecionamos um breve conhecimento do tema, possíveis bibliotecas e até mesmo a forma de implementação. </p>
 <h2 id="objetivo">Objetivo</h2>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Tendo em vista que os dados passados para o treinamento do bot devem ser bem claros e ter uma quantidade reduzida de informação para não poluir a caixa de mensagens do usuário, o desenvolvedor responsável pelo tema tem como objetivo extrair o máximo de informação e simplifica-la antes de passar para o usuário final. Isso torna a criação das intents, actions e stories mais rápidas e objetivas.</p>
-<h2 id="k-means">K-means</h2>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;K-means possui por finalidade agrupar um conjunto de dados semelhantes ou que não apresentam grande discrepância entre si descobrindo assim padrões subjacentes.</p>
-<pre><code class="python">KMeans(n_clusters=8, init=’k-means++’, n_init=10, max_iter=300, tol=0.0001, precompute_distances=’auto’, verbose=0, random_state=None, copy_x=True, n_jobs=None, algorithm=’auto’)
+<p>Tendo em vista que os dados passados para o treinamento do bot devem ser bem claros e ter uma quantidade reduzida de informação para não poluir a caixa de mensagens do usuário, o desenvolvedor responsável pelo tema tem como objetivo extrair o máximo de informação e simplifica-la antes de passar para o usuário final. Isso torna a criação das intents, actions e stories mais rápidas e objetivas.</p>
+<h1 id="feature-scaling">Feature Scaling</h1>
+<h2 id="o-que-e-feature-scaling">O que é Feature Scaling?</h2>
+<p>O Feature Scaling é uma técnica para padronizar os recursos independentes presentes nos dados em um intervalo fixo. Ele é executado durante o pré-processamento de dados para lidar com magnitudes, valores ou unidades altamente variáveis. Se o dimensionamento de recurso não for feito, um algoritmo de aprendizado de máquina tende a pesar valores maiores, maiores e considera valores menores como os valores mais baixos, independentemente da unidade dos valores.</p>
+<h2 id="tecnicas-para-execucao-do-feature-scaling">Técnicas para execução do Feature Scaling</h2>
+<p>Min-Max Normalização: Esta técnica redimensiona um recurso ou valor de observação com valor de distribuição entre 0 e 1.</p>
+<pre><code>X = (Xi - min(x)) / (max(x) - min(x))
 </code></pre>
 
-<h3 id="parametros-relevantes">Parâmetros relevantes:</h3>
-<p><strong>n_clusters</strong>: Refere-se ao número de clusters(agrupamentos) em que serão alocados os dados, o número 8 é o padrão da função caso não seja especificado no parâmetro.</p>
-<p><strong>init</strong>: Refere-se ao modo como o algoritmo será inicializado. 'k-means++' é o método padrão para criação dos clusters.</p>
-<p><strong>random</strong>: Se refere ao modo de inicialização de forma aleatória, ou seja, os centróides iniciais serão gerados de forma totalmente aleatória sem um critério para seleção.</p>
-<p><strong>max_iter</strong>: A quantidade de vezes em que o algoritmo irá ser executado.</p>
-<p><strong>n_jobs</strong>: Podemos especificar a quantidade de CPU´s ou optar por não utilizar computação paralela.</p>
-<p><strong>algorithm</strong>:  A versão do algoritmo K-Means a ser utilizada.</p>
-<h2 id="implementacao">Implementação</h2>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Para entender melhor o conceito iremos ter por base uma matriz de valores aleatórios de apenas duas dimensões.</p>
-<pre><code class="python">import numpy as np
-import matplotlib.pyplot as plt
-
-valores_aleatorios = np.random.rand(100,2)
+<p>Padronização: É uma técnica muito eficaz que reescala um valor de recurso para que ele tenha distribuição com valor médio 0 e variância igual a 1.</p>
+<pre><code>X = (Xi - média) / desvio padrão 
 </code></pre>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Esta função irá gerar 100 valores aleatores para cada dimensão (x,y) setada. Importante ressaltar as quantidades podem ser expandidas de acordo com a necessidade da situação.</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;A Clusterização dos dados necessita da biblioteca do KMeans. A importação desta biblioteca é feita da seguinte forma:</p>
-<pre><code class="python">    from sklearn.cluster import KMeans
+<h3 id="implementacao-da-normalizacao">Implementação da normalização</h3>
+<pre><code class="python">from sklearn import preprocessing
+min_max_scaler = preprocessing.MinMaxScaler(feature_range =(0, 1))
+x_after_min_max_scaler = min_max_scaler.fit_transform(dataSet) 
+print (&quot;\nAfter min max Scaling : \n&quot;, x_after_min_max_scaler)
 </code></pre>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Agora iremos setar os dados e agrupa-los utilizando KMeans</p>
-<pre><code class="python">    kmeans = KMeans(n_clusters=2).fit(valores_aleatorios)
+<h3 id="implementacao-da-padronizacao">Implementação da padronização</h3>
+<pre><code class="python">from sklearn import preprocessing
+Standardisation = preprocessing.StandardScaler() 
+x_after_Standardisation = Standardisation.fit_transform(x) 
+print (&quot;\nAfter Standardisation : \n&quot;, x_after_Standardisation) 
 </code></pre>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Agora os dados e suas particularidades encontradas no processo de KMeans estão setados na variável kmeans! Note que temos dois clusters, ou seja, teremos dois agrupamentos de dados.
-&nbsp;&nbsp;&nbsp;&nbsp;Podemos utilizar agora uma função que ira mostrar a que cluster cada par, ou conjunto, de dados se encontra. Resumindo é onde cada dado está situado, qual o endereço do agrupamento em que foi armazenado.</p>
-<pre><code class="python">    print (kmeans.labels_)
-</code></pre>
-
-<p>&nbsp;&nbsp;&nbsp;&nbsp;     Com isso teremos os dados agrupados e em que endereço se encontram. De certa forma os endereços, ou chaves de agrupamento, dos clusters são nomeados de acordo com o range de <em>0 à n-1</em> onde n corresponde a quantidade de cluster definidos no parâmetro inicial (n_clusters=n). Neste caso, em específico, teremos um cluster que atende pela codificação 0 e o outro cluster atenderá por 1<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;Caso seja necessário podemos achar os pontos centrais de cada cluster com o comando:</p>
-<pre><code class="python">    kmeans.cluster_centers_
-</code></pre>
-
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Que irá retornar a posição do ponto central de cada cluster. </p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Para plotarmos o gráfico devemos iterar sobre cada par encontrado e plotar no gráfico, da seguinte forma</p>
-<pre><code class="python">i = 0
-
-while(i &lt; len(valores_aleatorios)):
-
-    if (kmeans.labels_[i] == 0): plt.plot(valores_aleatorios[i][1],valores_aleatorios[i][0], 'go' ,color = 'green')
-
-    else: plt.plot(valores_aleatorios[i][1],valores_aleatorios[i][0], 'go' ,color = 'orange')
-
-    i+=1
-
-    # Mapeando ponto a ponto no gráfico 
-
-plt.plot(kmeans.cluster_centers_[0][1], kmeans.cluster_centers_[0][0], 'go', color = 'black')
-
-plt.plot(kmeans.cluster_centers_[1][1], kmeans.cluster_centers_[1][0], 'go', color = 'black')
-
-# Mapeando o centróide de cada cluster
-
-plt.title('Exemplo K-Means - Pyter')
-
-plt.show()
-
-
-</code></pre>
-
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Cada Cluster foi mapeado com cores distintas e seu centróides são pontos negros em seus respectivos endereços. Por serem valores aleatórios gerados em cada execução do código teremos, na maioria das vezes, gráficos e pontos distintos. Entretanto para exemplificar esses conjuntos de códigos em funcionamento deixo esta exemplificação: <br/></p>
-<p><img alt="Exemplo" src="https://i.imgur.com/c3GFjeD.png" /></p>
+<p>Perguntas:</p>
+<p>1) O que é Feature Scaling?
+2) Para que serve Feature Scaling?
+3) O que ocorre caso não seja feito Feature Scaling?
+4) O que é Min-Max Normalisation?
+5) O que é Standardisation?
+6) Quais são as técnicas utilizadas para Feature Scaling?
+7) Qual a biblioteca mais comum para Feature Scaling?</p>
               
             </div>
           </div>
@@ -407,10 +380,10 @@ plt.show()
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../Documento-da-US14/" class="btn btn-neutral float-right" title="Documento de Estudo da US14">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../Documento-da-US07/" class="btn btn-neutral float-right" title="Documento de estudo da US7">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../Documento-da-US10/" class="btn btn-neutral" title="Documento de Estudo da US10"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../Documento-da-US05/" class="btn btn-neutral" title="Documento de Estudo da US05"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -436,10 +409,10 @@ plt.show()
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../Documento-da-US10/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../Documento-da-US05/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../Documento-da-US14/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../Documento-da-US07/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
