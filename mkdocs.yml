@@ -53,9 +53,16 @@ nav:
         - documentation-mds/Documento-da-US03.md
         - documentation-mds/Documento-da-US04.md
         - documentation-mds/Documento-da-US05.md
+        - documentation-mds/Documento-da-US06.md
+        - documentation-mds/Documento-da-US07.md
+        - documentation-mds/Documento-da-US08.md
+        - documentation-mds/Documento-da-US09.md
+        - documentation-mds/Documento-da-US10.md
+        - documentation-mds/Documento-da-US11.md
         - documentation-mds/Documento-da-US14.md
         - documentation-mds/Documento-da-US15.md
         - documentation-mds/Documento-da-US16.md
+        - documentation-mds/Documento-da-US17.md
 theme:
   name: readthedocs
 extra_css:
