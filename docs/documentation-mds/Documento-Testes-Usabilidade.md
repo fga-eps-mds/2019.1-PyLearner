@@ -15,6 +15,12 @@ notebook apenas pelo periodo do teste.
 - Precisão: Quantos e quais foram os erros que o usuario teve dentro da aplicação, Divididos os graus em 3 leve, medio, pesado. Como o usuario conseguiu se recuperar após os erros.
 
 ### 4.0 Lista de tarefas
+- Aplicação de questionário para identificação do perfil do participante
+- Apresentar tutorial MNIST para o participante
+- Orientação para execução do tutorial para formentação de dúvidas
+- Orientação para que dúvidas sejam, exclusivamente, esclarecidas pelo bot
+- Medição de performance pelo orientador durante a execução
+- Aplicação de questionário de avaliação pelo participante
 
 ### Envolvidos 
 - Participante
@@ -22,6 +28,7 @@ notebook apenas pelo periodo do teste.
 - Observador
 
 ### 5.0 Papel do Avaliador
+Medir a anotar a performance do participante conforme descrito na sessão 3.0
 
 ### 6.0 Artefatos necessarios
 * Questionário para Identificação do Perfil do Participante
@@ -30,13 +37,17 @@ notebook apenas pelo periodo do teste.
 * Questionário de Avaliação do Sistema pelo Participante
 
 ### 7.0 Preparação
-#### 7.1 Definição do perfil do usuario 
+#### 7.1 Definição do perfil do usuario
 O usuario que temos como foco é uma pessoa com vontade de aprendizado na area de machine learning. Seus conhecimentos podem ir de basico até o mais avançado.
 
 #### 7.2 Realização do recrutamento
 Serão selecionados alunos de graduação que se disponibilizarem a participar de nossos testes e aceitarem os termos de uso para a melhoria de nossa aplicação.
 
 #### 7.3 Definição do que deve ser testado:
+- Quantidade de dúvidas respondidas adequadamente pelo chatbot
+- Quantidade de dúvidas respondidas incorretamente
+- Quantidade de dúvidas não entendidas
+- Eficiência da jornada do usuário pré-determinada
 
 #### 7.4 Preparação dos roteiros de teste
 A preparação dos roteiros de teste vão ser feitas e documentadas para um melhor fluxo de testes e para que seja aplicado objetivamente.
