@@ -11,10 +11,10 @@
 ### Issues da Sprint 9
 |Issue|Pontos|Responsável|Status|
 |:---:|:----:|:---------:|:--------:|
-| Criação de Plano de gerência de qualidade | 5 | Thiago Ferreira e Gabriel Ziegler |Não Entregue|
+| Criação de Plano de gerência de qualidade | 5 | Thiago Ferreira e Gabriel Ziegler |Icebox|
 | US22 - Integração ao Kaggle| 5 | Ernando e Bruno|Não Entregue|
 | US22 - Integração ao TowardsDataScience/Medium | 5 | Carlos e Alex |Não Entregue|
-| US23 - Cross Valited |5|João Victor e Bruno|
+| US23 - Cross Valited |5|João Victor e Bruno|Entregue|
 |Análise e adições ao backlog|3|Davi Alves|Icebox|
 |Testes de Usabilidade e UX na aplicação|5|Davi e Eugenio|Não Entregue|
 |Analisar os testes no bot para levantamento de qualidade|2|Entregue|
@@ -28,21 +28,21 @@
 ### Issues da Sprint 10
 |Issue|Pontos|Responsável|Status|
 |:---:|:----:|:---------:|:--------:|
-|Realização de testes em fluxos de conversa #1|1|Bruno||
-|Realização de testes em fluxos de conversa #2|1|Bruno||
-|Realização de testes em fluxos de conversa #3|1|Ernando||
-|Realização de testes em fluxos de conversa #4|1|Eugenio e Bruno||
-|Realização de testes em fluxos de conversa #5|1|Ernando||
-|Atualizar documento de processo de software com mudanças|0|Ziegler||
-|Refatoração e aperfeiçoamento dos fluxos de conversa #1|1|Bruno||
-|Refatoração e aperfeiçoamento dos fluxos de conversa #2|1|Bruno||
-|Refatoração e aperfeiçoamento dos fluxos de conversa #3|1|Ernando||
-|Refatoração e aperfeiçoamento dos fluxos de conversa #4|1|Bruno e Eugenio||
-|Refatoração e aperfeiçoamento dos fluxos de conversa #5|1|Ernando||
+|Realização de testes em fluxos de conversa #1|1|Bruno|Entregue|
+|Realização de testes em fluxos de conversa #2|1|Bruno|Entregue|
+|Realização de testes em fluxos de conversa #3|1|Ernando|Entregue|
+|Realização de testes em fluxos de conversa #4|1|Eugenio e Bruno|Entregue|
+|Realização de testes em fluxos de conversa #5|1|Ernando|Entregue|
+|Atualizar documento de processo de software com mudanças|0|Ziegler|Icebox|
+|Refatoração e aperfeiçoamento dos fluxos de conversa #1|1|Bruno|Entregue|
+|Refatoração e aperfeiçoamento dos fluxos de conversa #2|1|Bruno|Entregue|
+|Refatoração e aperfeiçoamento dos fluxos de conversa #3|1|Ernando|Entregue|
+|Refatoração e aperfeiçoamento dos fluxos de conversa #4|1|Bruno e Eugenio|Entregue|
+|Refatoração e aperfeiçoamento dos fluxos de conversa #5|1|Ernando|Entregue|
 
-**Pontos Planejados:**  <br>
-**Pontos Concluídos:**  <br>
-**Pontos Concluidos com debito:** 
+**Pontos Planejados:**  57<br>
+**Pontos Concluídos:**  21<br>
+**Pontos Concluidos com debito: 21** 
 
 ### Legenda
 

@@ -11,7 +11,7 @@
 
 ## Objetivos da Sprint
 
-Essa sprint será focada em lançar release do produto e deploy na nuvem. Além disso, essa sprint também conta com maior interação entre MDS e EPS pois estes irão parear em suas tarefas com o objetivo de troca de conhecimento mútua. 
+Essa sprint será focada em lançar release do produto e deploy na nuvem. Além disso, essa sprint também conta com maior interação entre MDS e EPS pois estes irão parear em suas tarefas com o objetivo de troca de conhecimento mútua.
 
 ## Sprint Backlog
 

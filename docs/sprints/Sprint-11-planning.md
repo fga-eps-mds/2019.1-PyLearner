@@ -27,7 +27,8 @@ Nessa sprint, a equipe estará focada no suprimento dos débitos acumulados pela
 | DEB -Testes de Usabilidade e UX na aplicação|5|Davi e Eugenio|
 | DEB - US22 - Integração ao Kaggle| 5 | Ernando e Bruno|
 | DEB - US22 - Integração ao TowardsDataScience/Medium | 5 | Carlos e Alex |
-**Pontos Planejados:**  <br>
+
+**Pontos Planejados:** 38 <br>
 
 ### Legenda
 

@@ -2,36 +2,34 @@
 
 |Data|Versão|Atualização|Autor|
 |:--:|:----:|:---------:|:---:|
-|22/05/2019|0.|Criação Documento|Thiago Ferreira|
+|22/05/2019|0.1|Criação Documento|Thiago Ferreira|
 
 ## Duração da Sprint
 
-* <b>Início: 09/06/2019</b> 
-* <b>Encerramento: 15/06/2019</b> 
+* <b>Início: 16/06/2019</b> 
+* <b>Encerramento: 25/06/2019</b> 
 
 ## Objetivos da Sprint
 
-Nesta sprint serão atacados problemas referentes a qualidade de código, débitos das sprints passadas e será feita refatoração e correção de bugs de modo geral.
-
+A Sprint 13 é a última sprint efetiva do projeto, visto isso, essa sprint será focada na conclusão dos débitos e finalização do projeto em geral, atacando as necessidades para a apresentação do projeto e o post-mortem.
 ## Sprint Backlog
 
 |Issue|Pontos|Responsável|
 |:---:|:----:|:---------:|
-| DEB - US22 - Integração ao Kaggle| 5 | Ernando e Bruno|
-| DEB - US22 - Integração ao TowardsDataScience/Medium | 5 |Bruno e Carlos|
+
+|Aumentar qualidade de código|Eugênio e João|3|
+|Montar apresentação para R2|Equipe|0|
+|Fazer post-mortem|Davi|0|
+|Atualizar documento de testes com experimentos|Bruno e Ziegler|0|
+|Lançar Release 2|Indefinido|1|
 | DEB - Deploy dos micro serviços em AWS | 8 | Ziegler |
-| DEB - Integrar API StackOverflow | 5 | Carlos Aragon & Ernando |
-| DEB - Testes de Usabilidade e UX na aplicação|5|Davi e Eugenio|
+| DEB - Adicionar dependências dos tutoriais|Gabriel Ziegler|1|
+| DEB - Implementar scroll automático nas respostas do bot|Ernando|2|
+| DEB - US22 - Integração ao Kaggle| 5 | Ernando e Bruno|
 | DEB - Arrumar front-end de maneira responsiva|0|Thiago e Ernando|
 | DEB - Arrumar gráficos de burndown|0|Carlos Aragon|
-|Adicionar dependências dos tutoriais|Gabriel Ziegler|1|
-|Implementar scroll automático nas respostas do bot|Ernando|2|
-|Refatorar intent matplotlib|João|0|
-|Adicionar fluxo de guia para um iniciante|Eugenio Sales|2|
-|Refatorar intent de despedida do bot|Bruno|2|
-|Refatorar maneira que bot responde suas ações|Bruno|1|
 
-**Pontos Planejados:** 36 <br>
+**Pontos Planejados:** 20 <br>
 
 ### Legenda
 
@@ -46,9 +44,6 @@ Nesta sprint serão atacados problemas referentes a qualidade de código, débit
 
 |Issue|Autor|Motivo|Movida para|
 |:---:|:---:|:----:|:---------:|
-
-## Nota do TechLead
-
 
 ## Equipe
 
