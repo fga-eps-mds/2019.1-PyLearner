@@ -99,6 +99,8 @@ Nós adotamos um [Código de Conduta](https://github.com/pylearner-bot/pylearner
 
 Este projeto está licenciado sob a [Licença](https://github.com/pylearner-bot/pylearner-rasa/blob/master/LICENSE) MIT. 
 
+### Veja o [post mortem](https://github.com/fga-eps-mds/2019.1-PyLearner/blob/master/docs/post_mortem.md) do projeto
+
 Os direitos autorais nos arquivos de definição são respectivos de cada colaborador listado no início de cada arquivo de definição
 
 ### Veja o [post mortem](https://github.com/fga-eps-mds/2019.1-PyLearner/blob/master/docs/post_mortem.md) do projeto
