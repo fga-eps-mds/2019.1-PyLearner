@@ -48,19 +48,19 @@ As principais habilidades do _Pyter_ são:
     - [x] Tratamento de dados [(Pandas)](https://pandas.pydata.org/), [(SciKit Learn)](https://scikit-learn.org/stable/modules/preprocessing.html)
 * Modelagem.
     - [x] Aprendizado supervisionado [(SciKit Learn)](https://scikit-learn.org/stable/modules/preprocessing.html)
-        - Generalized Linear Models
-            - Logistic regression
-        - Support Vector Machines
-            - Classification
-        - Stochastic Gradient Descent
-            - Classification
-        - Nearest Neighbors
-            - Nearest Neighbors Classification
-        - Naive Bayes
-            - Gaussian Naive Bayes
-        - Decision Trees
-            - Classification
-    - [ ] Aprendizado não-supervisionado [(SciKit Learn)](https://scikit-learn.org/stable/modules/preprocessing.html)
+        - [x] Generalized Linear Models
+            - [x] Logistic regression
+        - [x] Support Vector Machines
+            - [x] Classification
+        - [x] Stochastic Gradient Descent
+            - [x] Classification
+        - [x] Nearest Neighbors
+            - [x] Nearest Neighbors Classification
+        - [x] Naive Bayes
+            - [x] Gaussian Naive Bayes
+        - [x] Decision Trees
+            - [x] Classification
+    - [x] Aprendizado não-supervisionado [(SciKit Learn)](https://scikit-learn.org/stable/modules/preprocessing.html)
 * Visualização.
     - [x] Visualização de dados [(Matplotlib)](https://matplotlib.org/), [(Seaborn)](https://seaborn.pydata.org/)
     - [x] Visualização de resultados [(SciKit Learn)](https://scikit-learn.org/stable/modules/preprocessing.html)
@@ -69,8 +69,8 @@ As principais habilidades do _Pyter_ são:
     - [x] MNIST [(SciKit Learn)](https://scikit-learn.org/stable/modules/preprocessing.html)
     - [x] Titanic [(SciKit Learn)](https://scikit-learn.org/stable/modules/preprocessing.html)
 * Sugestões de conteúdo.
-    - [ ] Espaços de conteúdos [(Medium)](https://medium.com/), [(TowardsDataScience)](https://towardsdatascience.com/), [(Kaggle)](https://kaggle.com)
-    - [ ] Fórum [(Cross Validated)](https://stats.stackexchange.com/), [(Artificial Intelligence StackExchange)](https://ai.stackexchange.com/)
+    - [x] Espaços de conteúdos [(Medium)](https://medium.com/), [(TowardsDataScience)](https://towardsdatascience.com/), [(Kaggle)](https://kaggle.com)
+    - [x] Fórum [(Cross Validated)](https://stats.stackexchange.com/), [(Artificial Intelligence StackExchange)](https://ai.stackexchange.com/)
 
 ## Como usar
 
@@ -100,6 +100,8 @@ Nós adotamos um [Código de Conduta](https://github.com/pylearner-bot/pylearner
 Este projeto está licenciado sob a [Licença](https://github.com/pylearner-bot/pylearner-rasa/blob/master/LICENSE) MIT. 
 
 Os direitos autorais nos arquivos de definição são respectivos de cada colaborador listado no início de cada arquivo de definição
+
+### Veja o [post mortem](https://github.com/fga-eps-mds/2019.1-PyLearner/blob/master/docs/post_mortem.md) do projeto
 
 ## Ferramentas utilizadas em desenvolvimento
 
@@ -145,7 +147,7 @@ Os direitos autorais nos arquivos de definição são respectivos de cada colabo
   <img src="https://cdn-images-1.medium.com/max/1600/1*emiGsBgJu2KHWyjluhKXQw.png" width="60"/>
   <img src="https://cdn-images-1.medium.com/max/1200/1*F0LADxTtsKOgmPa-_7iUEQ.jpeg" width="60"/>
   <img src="https://cdn.sstatic.net/Sites/stats/img/apple-touch-icon@2.png?v=344f57aa10cc" width="60"/>
-  <img src="https://storage.googleapis.com/kaggle-organizations/4/thumbnail.png" width="60"/>
+  <img src="https://yt3.ggpht.com/a/AGF-l7-g-0qRAiR9KtPx199kFrUwG6rDuaWIs6AkmQ=s900-mo-c-c0xffffffff-rj-k-no" width="60"/>
   <img src="https://cdn.sstatic.net/Sites/ai/img/logo.svg?v=99838c31f823" width="60"/>
 </p>
 
