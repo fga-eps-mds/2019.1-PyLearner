@@ -70,6 +70,9 @@ ___
 ## Observações
 * O membro Gabriel Ziegler tinha viagem marcada, esta que havia sido avisada com antecedência e não pode comparecer a reunião.
 
+## Sprint Burndown
+![](../img/burndownSprint2_2.png)
+
 ## Presença Dailies Presenciais
 
 | Nome    |Segunda Feira      | Terça Feira      | Quarta Feira     | Quinta Feira      | Sexta Feira      |     
