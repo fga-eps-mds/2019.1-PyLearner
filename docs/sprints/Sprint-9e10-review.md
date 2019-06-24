@@ -70,11 +70,11 @@
 
 # Burndown
 ## Sprint 9
-![](../img/burndownsprint9)
+![](../img/burndownsprint9_2.png)
 ## Sprint 10
-![](../img/burndownsprint10)
+![](../img/burndownsprint10_2.png)
 # Velocity
-![](../img/velocitysprint10)
+![](../img/velocitysprint10.png)
 
 - Análise: 
 # Retrospectiva

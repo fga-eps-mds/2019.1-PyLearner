@@ -75,10 +75,8 @@ ___
   </tr>
 </table>
 
-## Burndown
-![image.png](https://images.zenhubusercontent.com/59d66de5b0222d5de47a6fd4/b2d77030-6b46-41b5-8f47-e2b0e41ed46a)
-
-- Análise: o Burndown ficou sem valor nenhum a partir do momento que além dos membros demorarem para fechar suas issues durante a semana, os PRs demoraram para ser avaliados. Dessa maneira há a necessidade de se atentar em terminar as issues mais cedo e avaliar os PRs assim que abertos.
+## Sprint Burndown
+![](../img/burndownsprint7.png)
 
 ## Velocity
 ![image.png](https://images.zenhubusercontent.com/59d66de5b0222d5de47a6fd4/717fb3bb-7c70-459a-a2a0-fc6f9f0fe0a3)

@@ -53,8 +53,9 @@
   
 </table>
 
-# Burndown
-![image](https://user-images.githubusercontent.com/34287081/58287127-ccc14100-7d9f-11e9-9aa9-adda757cd902.png)
+## Sprint Burndown
+![](../img/burndownsprint8.png)
+
 
 - Análise: O burndown não ficou em seu estado ideal pois tivemos algumas issues de grande pontuação que não foram fechadas nessa sprint.
 # Velocity

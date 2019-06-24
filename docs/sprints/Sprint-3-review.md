@@ -35,7 +35,7 @@ ___
 ___
 
 # Burndown
-![](../img/burndownSprint3.png)
+![](../img/burndownSprint3_2.png)
 
 # Velocity
 ![](../img/velocitySprint3.png)

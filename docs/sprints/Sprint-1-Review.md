@@ -31,7 +31,7 @@
 ___
 
 # Burndown
-![](../img/BurndownSprint1.png)
+![](../img/BurndownSprint1_2.png)
 # Velocity
 ![](../img/velocitySprint1.png)
 # Retrospectiva

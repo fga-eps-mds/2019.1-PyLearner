@@ -5,6 +5,7 @@
 | 24/05/2019 |  0.1   |       Criação do documento        | Bruno Henrique  |
 | 24/05/2019 |  0.2   | Geração dos resultados dos testes | Bruno Henrique  |
 | 26/05/2019 |  0.3   |      Análise dos resultados       | Gabriel Ziegler |
+| 23/06/2019 |  0.4   |  Análises e Conclusões            | Bruno Henrique  |
 
 ## Métricas
 
@@ -38,6 +39,24 @@ O objetivo dos testes será manter a cobertura de testes das intents do chatbot 
 ## Análise
 
 As métricas do desempenhos não são ruins, porém a amostragem ainda está muito desbalanceada e precisa aumentar para que possamos ter resultados de testes mais confiáveis.
+
+## Conclusões e Análises
+
+Os Testes fornecidos pelo RASA resultaram em Matrizes de Confusão nos temas abordados pelo ChatBot. Estes mesmos resultados foram usados como base para refatoração de intents e actions, visando assim, um aperfeiçoamento no fluxo de conversação do bot.
+Como exemplificação da utilidade dos testes, temos que essa matriz foi gerada como resultado inicial
+
+![Alt Text](https://imgur.com/J6ghvVF.png)
+
+Como podemos observar este tópico necessitava de ajustes em seu fluxo, visto que não atendia as respostas esperadas. Portanto após alguns ajustes e refatorações, este mesmo teste foi realizado para comparação de melhoria e o resultado foi
+
+![Alt Text](https://imgur.com/TJvhvXO.png)
+
+Importante ressaltar que este teste é limitado a um input específico e generalizado, a partir destes inputs observamos que caracteres acentuados necessitam estar declarados em intenções de usuário para captação de mensagens também torna-se necessário adicionar as palavras chaves de cada tópico em suas intents.
+
+Algumas mesclas de conversas mostraram-se bastante satifatórias cobrindo uma margem considerável de acertos, como por exemplo:
+![Alt Text](https://imgur.com/xwORnWX.png)
+
+Estes Testes forneceram um recurso relevante para detecção de falhas no bot, servindo como parâmetro de checagem do desempenho geral do projeto.
 
 ## Referencial
 
