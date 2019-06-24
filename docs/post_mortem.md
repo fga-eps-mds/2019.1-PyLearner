@@ -1,6 +1,7 @@
  Data | Versão | Descrição | Autor(es) |
 | :---: | :---: | --- | :---: |
 | 21/06/2019 | 1.0 | Criação do documento| Davi Alves |
+| 23/06/2019 | 1.1 | Adição do topico de relatos |Carlos Aragon |
 
 # 1. Introdução
 
@@ -57,6 +58,7 @@
 - Aprendizado de Trabalho em Equipe;
 - Crescimento pessoal dos Membros;
 - Entendimento da Metodologia;
+- Pareamentos;
 
 ## 7.1.1 Práticas Ágeis
   - Comprometimento do time;
@@ -89,10 +91,15 @@
   - _Velocity_
   - Planejamento da Release para entrega de produtos
   - Ritmo sustentável de trabalho
-  - Programação pareada
+  - Programação pareadaa comunicação
 
 # 8. Lições Aprendidas
 
-<p align="justify"> &emsp;&emsp; A equipe de MDS teve um ótimo aprendizado com ferramentas open source para desenvolvimento de chatbot, uso da ferramenta git e até mesmo integrações com APIs. Durante o tempo que estivemos juntos notamos sérios problemas com a comunicação,alunos desmotivados por algum motivo pessoal ou em relação a matéria, grande carga de trabalho somando outras matérias do mesmo semestre e membros ausentes. O acompanhamento desses problemas é de grande importância, pois eles são responsáveis pelo atraso do desenvolvimento. Também tivemos problemas sérios com as daily e a partir disso procuramos algumas formas de diminuir as faltas. Apesar dos contra tempos enfrentados durante o semestre o time se mostrou resiliente e capaz de aprender com grande potencial. Vivenciamos uma rotina de gestão em EPS enfrentando desafio como liderar uma equipe por um curto e corrido período de tempo.</p>
+<p align="justify"> &emsp;&emsp; A equipe de MDS teve um ótimo aprendizado com ferramentas open source para desenvolvimento de chatbot, uso da ferramenta git e até mesmo integrações com APIs. Durante o tempo que estivemos juntos notamos sérios problemas com a comunicação,alunos desmotivados por algum motivo pessoal ou em relação a matéria, grande carga de trabalho somando outras matérias do mesmo semestre e membros ausentes. O acompanhamento desses problemas é de grande importância, pois eles são responsáveis pelo atraso do desenvolvimento. Também tivemos problemas sérios com as daily e a partir disso procuramos algumas formas de diminuir as faltas. Apesar dos contra tempos enfrentados durante o semestre o time se mostrou resiliente e capaz de aprender com grande potencial. Vivenciamos uma rotina de gestão em EPS enfrentando desafio como liderar uma equipe por um curto período de tempo.</p>
 
+## 8.1 Relato dos Membros
+### 8.1.1 Carlos Aragon(PO/Arquiteto)
+<p align="justify"> &emsp;&emsp; Após a conclusão do projeto posso fazer uma análise das várias experiências e conhecimento adquirido ao longo do processo, principalmente a respeito dos papéis que exerce. Do início até a r1 fui o PO do projeto onde tive a possibilidade de guiar a direção em que o produto deveria ir, definindo juntamente com o grupo as funções mais importantes para  o bot e seu público alvo, durante esse processo aprendi muito sobre o contexto de bots educacionais, mas falhei na definição mais explícita de uma visão de produto para o bot. Da r1 até a r2 pude ter a experiência de arquiteto do software, onde percebi que o papel desse membro era o de dar suporte técnico a equipe, principalmente a mds, nas partes mais críticas do sistema, pude apoiar na definição de viabilidade de funcionalidades do software, como por exemplo a integração com a api de reconhecimento de voz do google, na implementação dos microservices, como a busca de questões no stackoverflow e na correção de bugs, além do suporte ao devops no tópico relacionado ao deploy, buscando sempre ser o suporte técnico da equipe para qualquer problema enfrentado.
+Após essas experiências ao longo do projeto pude entender melhor os papéis dentro da equipe e perceber as falhas de planejamento e engajamento que ocorreram dentro do percurso, principalmente no engajamento do time, refletida na presença nas dailies e no engajamento nas reuniões do grupo, contudo faço fica a sensação de um projeto que funcionou em função dos resultados obtidos mesmo com todos os problemas no percurso.
+ </p>
 
