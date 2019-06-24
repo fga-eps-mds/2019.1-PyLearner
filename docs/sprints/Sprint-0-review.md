@@ -25,7 +25,7 @@ ___
 ___
 
 ## Sprint Burndown
-![](../img/burndownSprint0_2.png)
+![](../img/burndownSprint0.png)
 
 ## Sprint Velocity
 ![](../img/velocitysprint0.png)
