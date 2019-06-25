@@ -2,6 +2,7 @@
 | :---: | :---: | --- | :---: |
 | 21/06/2019 | 1.0 | Criação do documento| Davi Alves |
 | 23/06/2019 | 1.1 | Adição do topico de relatos |Carlos Aragon |
+|24/06/2019| 1.2| Adição do meu relato|João Victor|
 
 # 1. Introdução
 
@@ -103,3 +104,6 @@
 Após essas experiências ao longo do projeto pude entender melhor os papéis dentro da equipe e perceber as falhas de planejamento e engajamento que ocorreram dentro do percurso, principalmente no engajamento do time, refletida na presença nas dailies e no engajamento nas reuniões do grupo, contudo faço fica a sensação de um projeto que funcionou em função dos resultados obtidos mesmo com todos os problemas no percurso.
  </p>
 
+### 8.1.2 João Victor (Desenvolvedor)
+
+<p align="justify">&emsp;&emsp;Analisando minha experiencia no decorrer do projeto, percebi que aprendi o básico sobre machine learning enquanto estudava para criar o bot, que poderá me ajudar quando eu quiser me aprofundar no assunto. Notei tambem como a comunicação entre o time é importante, em casos que erros poderiam ser evitados se rolasse comunicação. Um ponto negativo que achei da disciplina foi que consome muito tempo e energia, e isso acaba desmotivando um pouco a equipe.</p>
